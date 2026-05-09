@@ -12,14 +12,12 @@ export default function Wedding({ params }: { params: { lang: string } }) {
       <p className="section-subtitle">{tr.wedding.subtitle}</p>
 
       {settings.photos.church && (
-        <div className="mt-10 rounded-lg overflow-hidden shadow-sm border border-sage/30 bg-white">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={settings.photos.church}
-            alt={settings.wedding.venueName}
-            className="w-full h-auto block"
-          />
-        </div>
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={settings.photos.church}
+          alt={settings.wedding.venueName}
+          className="block w-full max-w-2xl mx-auto mt-10 h-auto"
+        />
       )}
 
       <div className="grid md:grid-cols-2 gap-8 mt-10">
