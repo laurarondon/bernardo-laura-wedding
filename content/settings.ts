@@ -41,7 +41,7 @@ export const settings = {
   photos: {
     banner: "/images/photo-banner.jpg", // horizontal photo used as the full-width banner at the top
     portrait: "/images/photo-portrait.jpg", // vertical photo shown alongside the "our story" section
-    church: "", // image of the venue/church shown on the wedding details page
+    church: "/images/church.jpg", // image of the venue/church shown on the wedding details page
   },
 
   // ─────────── PAYMENT METHODS ───────────

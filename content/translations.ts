@@ -29,6 +29,9 @@ export const translations = {
       whereLabel: "Onde",
       dressCodeLabel: "Traje",
       mapButton: "Ver no mapa",
+      weatherLabel: "Clima em junho",
+      weatherBody:
+        "Junho em Valência costuma ser quente e ensolarado: temperaturas entre 20°C e 28°C e o sol se pondo por volta das 21h30. Recomendamos tecidos leves e respiráveis — algodão ou linho — e sapatos confortáveis. Chuva é rara nessa época do ano.",
       faqTitle: "Perguntas frequentes",
       faq: [
         {
@@ -140,6 +143,9 @@ export const translations = {
       whereLabel: "Dónde",
       dressCodeLabel: "Vestimenta",
       mapButton: "Ver en el mapa",
+      weatherLabel: "Clima en junio",
+      weatherBody:
+        "Junio en Valencia suele ser cálido y soleado: temperaturas entre 20°C y 28°C y el sol se pone hacia las 21:30. Recomendamos tejidos ligeros y transpirables — algodón o lino — y calzado cómodo. La lluvia es poco frecuente en esta época del año.",
       faqTitle: "Preguntas frecuentes",
       faq: [
         {
@@ -251,6 +257,9 @@ export const translations = {
       whereLabel: "Where",
       dressCodeLabel: "Dress code",
       mapButton: "Open in maps",
+      weatherLabel: "Weather in June",
+      weatherBody:
+        "June in Valencia is typically warm and sunny: temperatures range from 20°C to 28°C (68–82°F), and the sun sets around 9:30 pm. We suggest light, breathable fabrics — cotton or linen — and comfortable shoes. Rain is rare at this time of year.",
       faqTitle: "Frequently asked",
       faq: [
         {

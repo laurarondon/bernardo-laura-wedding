@@ -11,7 +11,18 @@ export default function Wedding({ params }: { params: { lang: string } }) {
       <h1 className="section-title">{tr.wedding.title}</h1>
       <p className="section-subtitle">{tr.wedding.subtitle}</p>
 
-      <div className="grid md:grid-cols-2 gap-8 mt-12">
+      {settings.photos.church && (
+        <div className="mt-10 rounded-lg overflow-hidden shadow-sm border border-sage/30 bg-white">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={settings.photos.church}
+            alt={settings.wedding.venueName}
+            className="w-full h-auto block"
+          />
+        </div>
+      )}
+
+      <div className="grid md:grid-cols-2 gap-8 mt-10">
         <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
           <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
             {tr.wedding.whenLabel}
@@ -24,16 +35,7 @@ export default function Wedding({ params }: { params: { lang: string } }) {
           </p>
         </div>
 
-        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm overflow-hidden">
-          {settings.photos.church && (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={settings.photos.church}
-              alt={settings.wedding.venueName}
-              className="w-full h-44 object-cover -mx-6 -mt-6 mb-5 max-w-none"
-              style={{ width: "calc(100% + 3rem)" }}
-            />
-          )}
+        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
           <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
             {tr.wedding.whereLabel}
           </p>
@@ -64,6 +66,15 @@ export default function Wedding({ params }: { params: { lang: string } }) {
           </p>
           <p className="font-serif text-2xl text-ink">
             {settings.wedding.dressCode[lang]}
+          </p>
+        </div>
+
+        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm md:col-span-2">
+          <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
+            ☀ {tr.wedding.weatherLabel}
+          </p>
+          <p className="text-ink/80 leading-relaxed">
+            {tr.wedding.weatherBody}
           </p>
         </div>
       </div>
