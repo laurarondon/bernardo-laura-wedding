@@ -83,10 +83,11 @@ export const settings = {
   adminEmail: "",
 
   // ─────────── RSVP ───────────
-  // After following the steps in README §4 (Google Sheet + Apps Script),
-  // paste the deployment URL here. Until set, the RSVP page redirects home.
+  // After getting your Formsubmit hash URL (see https://formsubmit.co),
+  // paste it here. Until set, the RSVP page shows a "Coming soon" placeholder.
+  // Each submission becomes an email in the inbox you registered with Formsubmit.
   rsvp: {
-    endpoint: "", // Google Apps Script Web App URL
+    endpoint: "", // e.g. "https://formsubmit.co/abc123def456..."
     // ISO date — guests see "please RSVP by …". Leave empty to hide the deadline.
     deadline: "2027-04-15",
   },

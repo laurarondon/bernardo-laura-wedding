@@ -20,26 +20,50 @@ export function RsvpForm({
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("submitting");
+
     const form = e.currentTarget;
-    const data = {
-      name: (form.elements.namedItem("name") as HTMLInputElement).value,
-      email: (form.elements.namedItem("email") as HTMLInputElement).value,
-      attending: (form.elements.namedItem("attending") as HTMLInputElement)
-        ?.value,
-      partySize:
-        (form.elements.namedItem("partySize") as HTMLInputElement)?.value || "1",
-      dietary: (form.elements.namedItem("dietary") as HTMLTextAreaElement).value,
-      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
-      lang,
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const attendingValue = (
+      form.elements.namedItem("attending") as HTMLInputElement
+    )?.value;
+    const partySize =
+      (form.elements.namedItem("partySize") as HTMLInputElement)?.value || "1";
+    const dietary = (form.elements.namedItem("dietary") as HTMLTextAreaElement)
+      .value;
+    const message = (form.elements.namedItem("message") as HTMLTextAreaElement)
+      .value;
+
+    const subject =
+      attendingValue === "yes"
+        ? `RSVP – ${name} – Yes (${partySize})`
+        : `RSVP – ${name} – No`;
+
+    // Formsubmit AJAX endpoint expects JSON; "_" prefixed fields are special.
+    const payload: Record<string, string> = {
+      Name: name,
+      Email: email || "(not provided)",
+      Attending: attendingValue === "yes" ? "Yes" : "No",
+      "Party size": attendingValue === "yes" ? partySize : "—",
+      "Dietary / allergies": dietary || "—",
+      Message: message || "—",
+      Language: lang.toUpperCase(),
+      _subject: subject,
+      _template: "table",
+      _captcha: "false",
     };
+    if (email) payload._replyto = email;
 
     try {
-      // text/plain avoids CORS preflight; Apps Script reads e.postData.contents
-      await fetch(endpoint, {
+      const res = await fetch(endpoint, {
         method: "POST",
-        headers: { "Content-Type": "text/plain;charset=utf-8" },
-        body: JSON.stringify(data),
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payload),
       });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       setStatus("success");
     } catch {
       setStatus("error");
