@@ -39,8 +39,8 @@ export const settings = {
   // Photos shown on the home page. Drop image files into public/images/
   // and reference them here. Leave as "" to hide a slot.
   photos: {
-    hero: "/images/photo-hero.jpg", // vertical photo shown next to the names
-    story: "/images/photo-story.jpg", // horizontal photo shown above the story
+    hero: "", // vertical photo shown next to the names
+    story: "", // horizontal photo shown above the story
   },
 
   // ─────────── PAYMENT METHODS ───────────
