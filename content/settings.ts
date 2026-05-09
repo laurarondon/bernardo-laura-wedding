@@ -41,6 +41,7 @@ export const settings = {
   photos: {
     banner: "/images/photo-banner.jpg", // horizontal photo used as the full-width banner at the top
     portrait: "/images/photo-portrait.jpg", // vertical photo shown alongside the "our story" section
+    church: "", // image of the venue/church shown on the wedding details page
   },
 
   // ─────────── PAYMENT METHODS ───────────
@@ -53,10 +54,12 @@ export const settings = {
     key: "REPLACE_WITH_LAURA_PIX_KEY",
     // Type shown to the guest so they pick the right field in their banking app
     keyType: "CPF" as "CPF" | "Email" | "Telefone" | "Aleatória",
-    // Name shown to confirm the recipient before paying
-    recipientName: "Laura Rondon",
-    // Bank name (optional, for clarity)
-    bank: "",
+    // Name shown to confirm the recipient before paying — uppercase ASCII works best
+    recipientName: "LAURA RONDON",
+    // City of the recipient (used in the QR code metadata; max 15 chars, no accents)
+    recipientCity: "VALENCIA",
+    // Bank name (optional, for clarity — e.g. "Nubank")
+    bank: "Nubank",
   },
 
   bizum: {

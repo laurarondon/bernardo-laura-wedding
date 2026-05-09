@@ -3,16 +3,21 @@ import { t } from "@/content/translations";
 import { settings } from "@/content/settings";
 import type { Currency } from "@/content/gifts";
 import { CopyButton } from "./CopyButton";
+import { PixPayment } from "./PixPayment";
 
 export function PaymentInstructions({
   lang,
   currency,
+  giftId,
   giftLabel,
+  brlAmount,
   stripePaymentLink,
 }: {
   lang: Lang;
   currency: Currency;
+  giftId: string;
   giftLabel: string;
+  brlAmount: number;
   stripePaymentLink?: string;
 }) {
   const tr = t(lang).gifts;
@@ -57,41 +62,12 @@ export function PaymentInstructions({
         )}
 
         {showPix && (
-          <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
-            <div className="flex items-baseline justify-between gap-4 flex-wrap">
-              <h3 className="font-serif text-xl text-ink">{tr.pix.title}</h3>
-              <span className="text-xs uppercase tracking-widest text-sageDark">
-                🇧🇷 Brasil
-              </span>
-            </div>
-            <p className="text-ink/70 text-sm mt-2">{tr.pix.instructions}</p>
-            <div className="mt-4 grid sm:grid-cols-2 gap-3 text-sm">
-              <Field
-                label={tr.pix.keyTypeLabel}
-                value={settings.pix.keyType}
-              />
-              <Field
-                label={tr.pix.recipientLabel}
-                value={settings.pix.recipientName}
-              />
-            </div>
-            <div className="mt-4 bg-ivory border border-sage/30 rounded p-3 flex items-center justify-between gap-3">
-              <div className="min-w-0">
-                <p className="text-xs uppercase tracking-widest text-sageDark mb-1">
-                  {tr.pix.keyLabel}
-                </p>
-                <p className="font-mono text-sm text-ink break-all">
-                  {settings.pix.key}
-                </p>
-              </div>
-              <CopyButton
-                value={settings.pix.key}
-                labelIdle={tr.pix.copyButton}
-                labelDone={tr.pix.copiedButton}
-              />
-            </div>
-            <Reminder lang={lang} giftLabel={giftLabel} />
-          </div>
+          <PixPayment
+            lang={lang}
+            amount={brlAmount}
+            giftId={giftId}
+            giftLabel={giftLabel}
+          />
         )}
 
         {showBizum && (

@@ -76,7 +76,9 @@ export default function GiftDetail({
       <PaymentInstructions
         lang={lang}
         currency={currency}
+        giftId={gift.id}
         giftLabel={gift.title[lang]}
+        brlAmount={gift.brlAmount}
         stripePaymentLink={gift.stripePaymentLink}
       />
 

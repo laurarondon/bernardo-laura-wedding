@@ -68,12 +68,20 @@ export const translations = {
       pix: {
         title: "PIX (Brasil)",
         instructions:
-          "Abra o app do seu banco, escolha PIX, e use a chave abaixo. No campo de mensagem, escreva o nome do presente para sabermos a quem agradecer.",
+          "Abra o app do seu banco, escaneie o QR code abaixo, ou copie e cole o código PIX. O valor e a descrição do presente já vêm preenchidos.",
+        qrTitle: "Escaneie com seu banco",
+        copyPasteTitle: "Ou copie e cole o código PIX",
+        copyPasteCopy: "Copiar código",
+        copyPasteCopied: "Copiado!",
+        manualTitle: "Ou pague manualmente com a chave PIX",
         keyLabel: "Chave PIX",
         keyTypeLabel: "Tipo",
         recipientLabel: "Recebedor",
+        bankLabel: "Banco",
         copyButton: "Copiar chave",
         copiedButton: "Copiado!",
+        unconfigured:
+          "A chave PIX ainda não foi configurada. Por favor, contate os noivos.",
       },
       bizum: {
         title: "Bizum (España)",
@@ -171,12 +179,20 @@ export const translations = {
       pix: {
         title: "PIX (Brasil)",
         instructions:
-          "Abre la app de tu banco brasileño, elige PIX, y usa la clave de abajo. En el mensaje, escribe el nombre del regalo para que sepamos a quién agradecer.",
+          "Abre la app de tu banco brasileño, escanea el QR de abajo, o copia y pega el código PIX. El importe y la descripción del regalo ya vienen rellenados.",
+        qrTitle: "Escanea con tu banco",
+        copyPasteTitle: "O copia y pega el código PIX",
+        copyPasteCopy: "Copiar código",
+        copyPasteCopied: "¡Copiado!",
+        manualTitle: "O paga manualmente con la clave PIX",
         keyLabel: "Clave PIX",
         keyTypeLabel: "Tipo",
         recipientLabel: "Destinatario",
+        bankLabel: "Banco",
         copyButton: "Copiar clave",
         copiedButton: "¡Copiado!",
+        unconfigured:
+          "La clave PIX aún no está configurada. Por favor, contacta a los novios.",
       },
       bizum: {
         title: "Bizum (España)",
@@ -274,12 +290,20 @@ export const translations = {
       pix: {
         title: "PIX (Brazil)",
         instructions:
-          "Open your Brazilian banking app, choose PIX, and use the key below. In the message field, write the gift name so we know who to thank.",
+          "Open your Brazilian banking app, scan the QR code below, or copy and paste the PIX code. The amount and gift description are pre-filled.",
+        qrTitle: "Scan with your bank app",
+        copyPasteTitle: "Or copy and paste the PIX code",
+        copyPasteCopy: "Copy code",
+        copyPasteCopied: "Copied!",
+        manualTitle: "Or pay manually with the PIX key",
         keyLabel: "PIX key",
         keyTypeLabel: "Type",
         recipientLabel: "Recipient",
+        bankLabel: "Bank",
         copyButton: "Copy key",
         copiedButton: "Copied!",
+        unconfigured:
+          "The PIX key has not been configured yet. Please contact the couple.",
       },
       bizum: {
         title: "Bizum (Spain)",

@@ -24,7 +24,16 @@ export default function Wedding({ params }: { params: { lang: string } }) {
           </p>
         </div>
 
-        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
+        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm overflow-hidden">
+          {settings.photos.church && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={settings.photos.church}
+              alt={settings.wedding.venueName}
+              className="w-full h-44 object-cover -mx-6 -mt-6 mb-5 max-w-none"
+              style={{ width: "calc(100% + 3rem)" }}
+            />
+          )}
           <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
             {tr.wedding.whereLabel}
           </p>
