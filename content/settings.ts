@@ -20,19 +20,28 @@ export const settings = {
     country: {
       pt: "Espanha",
       es: "España",
+      en: "Spain",
     },
-    // Fill in once you have the venue confirmed
-    venueName: "A confirmar / Por confirmar",
-    venueAddress: "",
-    googleMapsUrl: "", // paste a Google Maps share link
+    venueName: "Iglesia San Juan del Hospital",
+    venueAddress: "Calle del Trinquete de Caballeros, 5 · 46003 Valencia",
+    googleMapsUrl:
+      "https://www.google.com/maps/search/?api=1&query=Iglesia+San+Juan+del+Hospital+Valencia",
     dressCode: {
       pt: "Traje esporte fino",
       es: "Cóctel / Semi-formal",
+      en: "Cocktail / Semi-formal",
     },
   },
 
   // Contact email shown in the footer / for guest questions
   contactEmail: "",
+
+  // Photos shown on the home page. Drop image files into public/images/
+  // and reference them here. Leave as "" to hide a slot.
+  photos: {
+    hero: "/images/photo-hero.jpg", // vertical photo shown next to the names
+    story: "/images/photo-story.jpg", // horizontal photo shown above the story
+  },
 
   // ─────────── PAYMENT METHODS ───────────
   // These are shown to guests on the gift page. Fill in real values.

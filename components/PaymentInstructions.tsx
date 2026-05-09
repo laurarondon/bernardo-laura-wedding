@@ -180,11 +180,10 @@ function Field({ label, value }: { label: string; value: string }) {
 }
 
 function Reminder({ lang, giftLabel }: { lang: Lang; giftLabel: string }) {
-  const text =
-    lang === "pt"
-      ? `Não esqueça de escrever "${giftLabel}" na mensagem do pagamento.`
-      : `No olvides escribir "${giftLabel}" en el concepto del pago.`;
-  return (
-    <p className="mt-3 text-xs text-ink/60 italic">{text}</p>
-  );
+  const messages: Record<Lang, string> = {
+    pt: `Não esqueça de escrever "${giftLabel}" na mensagem do pagamento.`,
+    es: `No olvides escribir "${giftLabel}" en el concepto del pago.`,
+    en: `Don't forget to write "${giftLabel}" in the payment message.`,
+  };
+  return <p className="mt-3 text-xs text-ink/60 italic">{messages[lang]}</p>;
 }

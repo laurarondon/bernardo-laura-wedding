@@ -1,17 +1,21 @@
 import { notFound } from "next/navigation";
 import type { Lang } from "@/content/translations";
 
-export const SUPPORTED_LANGS = ["pt", "es"] as const;
+export const SUPPORTED_LANGS = ["pt", "es", "en"] as const;
 
 export function assertLang(value: string): Lang {
   if (!SUPPORTED_LANGS.includes(value as Lang)) notFound();
   return value as Lang;
 }
 
+const LOCALES: Record<Lang, string> = {
+  pt: "pt-BR",
+  es: "es-ES",
+  en: "en-GB",
+};
+
 export function formatDate(iso: string, lang: Lang) {
-  const d = new Date(iso);
-  const locale = lang === "pt" ? "pt-BR" : "es-ES";
-  return d.toLocaleDateString(locale, {
+  return new Date(iso).toLocaleDateString(LOCALES[lang], {
     weekday: "long",
     day: "numeric",
     month: "long",
@@ -20,9 +24,7 @@ export function formatDate(iso: string, lang: Lang) {
 }
 
 export function formatTime(iso: string, lang: Lang) {
-  const d = new Date(iso);
-  const locale = lang === "pt" ? "pt-BR" : "es-ES";
-  return d.toLocaleTimeString(locale, {
+  return new Date(iso).toLocaleTimeString(LOCALES[lang], {
     hour: "2-digit",
     minute: "2-digit",
   });

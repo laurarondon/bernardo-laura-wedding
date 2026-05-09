@@ -1,4 +1,4 @@
-export type Lang = "pt" | "es";
+export type Lang = "pt" | "es" | "en";
 
 export const translations = {
   pt: {
@@ -201,6 +201,107 @@ export const translations = {
     },
     footer: {
       madeWith: "Con amor,",
+    },
+  },
+  en: {
+    nav: {
+      home: "Home",
+      wedding: "The wedding",
+      gifts: "Gift list",
+    },
+    home: {
+      saveTheDate: "Save the Date",
+      tagline: "We're getting married!",
+      countdown: {
+        days: "days",
+        hours: "hours",
+        minutes: "min",
+        seconds: "sec",
+      },
+      ourStory: "Our story",
+      ourStoryBody:
+        "A little about how it all began. (Edit this text in content/translations.ts)",
+      seeDetails: "Wedding details",
+      seeGifts: "Gift list",
+    },
+    wedding: {
+      title: "The wedding",
+      subtitle: "Everything you need to know",
+      whenLabel: "When",
+      whereLabel: "Where",
+      dressCodeLabel: "Dress code",
+      mapButton: "Open in maps",
+      faqTitle: "Frequently asked",
+      faq: [
+        {
+          q: "May I bring a plus one?",
+          a: "Please confirm with us — your invitation lists how many seats are reserved for you.",
+        },
+        {
+          q: "Are children welcome?",
+          a: "Yes, but please let us know in advance so we can prepare.",
+        },
+        {
+          q: "Will there be transport?",
+          a: "We're organising it and will update this page soon.",
+        },
+      ],
+    },
+    gifts: {
+      title: "Gift list",
+      subtitle:
+        "Your presence is already the greatest gift. But if you'd like to contribute, here are some ideas.",
+      contributeButton: "Contribute",
+      currency: "€",
+      suggestedAmount: "Suggested amount",
+      anyAmount: "Any amount",
+      paymentTitle: "How to contribute",
+      paymentSubtitle:
+        "Choose one of the options below. Everything is processed securely — we never ask for your card details directly.",
+      stripe: {
+        title: "Apple Pay · Google Pay · Card",
+        instructions:
+          "Quick and secure payment processed by Stripe. Works from anywhere in the world.",
+        button: "Pay with Apple Pay or card",
+        recommended: "Fastest",
+      },
+      pix: {
+        title: "PIX (Brazil)",
+        instructions:
+          "Open your Brazilian banking app, choose PIX, and use the key below. In the message field, write the gift name so we know who to thank.",
+        keyLabel: "PIX key",
+        keyTypeLabel: "Type",
+        recipientLabel: "Recipient",
+        copyButton: "Copy key",
+        copiedButton: "Copied!",
+      },
+      bizum: {
+        title: "Bizum (Spain)",
+        instructions:
+          "Open your bank app, choose Bizum, and send to the number below. In the concept/message, write the gift name.",
+        phoneLabel: "Phone",
+        recipientLabel: "Recipient",
+        copyButton: "Copy phone",
+        copiedButton: "Copied!",
+      },
+      bankTransfer: {
+        title: "Bank transfer",
+        instructions:
+          "For other countries: make an international transfer to the IBAN below. Include the gift name in the reference.",
+        ibanLabel: "IBAN",
+        bicLabel: "BIC/SWIFT",
+        bankLabel: "Bank",
+        recipientLabel: "Recipient",
+        copyButton: "Copy IBAN",
+        copiedButton: "Copied!",
+      },
+      thanksTitle: "Thank you!",
+      thanksBody:
+        "After sending, please drop us a message so we can confirm receipt. Every contribution will be celebrated with so much love.",
+      back: "← Back to the list",
+    },
+    footer: {
+      madeWith: "With love,",
     },
   },
 } as const;

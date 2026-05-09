@@ -5,7 +5,7 @@ export default function NotFound() {
     <div className="min-h-[70vh] flex flex-col items-center justify-center px-4 text-center">
       <p className="font-serif text-7xl text-sageDark">404</p>
       <p className="mt-4 text-ink/70">
-        Página não encontrada · Página no encontrada
+        Página não encontrada · Página no encontrada · Page not found
       </p>
       <div className="mt-8 flex gap-4">
         <Link href="/pt" className="btn-ghost">
@@ -13,6 +13,9 @@ export default function NotFound() {
         </Link>
         <Link href="/es" className="btn-ghost">
           Inicio
+        </Link>
+        <Link href="/en" className="btn-ghost">
+          Home
         </Link>
       </div>
     </div>
