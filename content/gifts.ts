@@ -4,25 +4,29 @@
  *
  * Each gift has:
  *   - id: a unique short identifier (lowercase letters, numbers, hyphens — no spaces)
- *   - title / description: text in both Portuguese and Spanish
- *   - amount: target value in EUR (just a suggestion shown to guests)
- *   - image: optional URL to a photo (leave "" to use a placeholder)
- *   - allowMultiple: true = many guests can chip in; false = single gift, first to claim wins
- *   - stripePaymentLink: optional URL from a Stripe Payment Link.
- *       When set, an "Apple Pay / Card" button appears on the gift page.
- *       Leave as "" to hide that option for this gift.
- *       See README section 3b for how Bernardo creates these links.
+ *   - title / description: text in Portuguese, Spanish, English
+ *   - eurAmount: suggested amount in EUR (use 0 for "any amount")
+ *   - brlAmount: suggested amount in BRL (use 0 for "any amount")
+ *   - currencies: which currency lists the gift appears in. Use ["eur", "brl"]
+ *       to show in both. Use ["eur"] to hide it from Brazilian guests, or
+ *       ["brl"] to hide it from European guests.
+ *   - image: optional URL to a photo (leave "" for the default heart icon)
+ *   - stripePaymentLink: Stripe Payment Link URL (EUR only, "" to hide)
+ *       See README §3b for how Bernardo creates these.
  *
  * Tip: copy an existing entry and modify it to add a new gift.
  */
+
+export type Currency = "eur" | "brl";
 
 export type Gift = {
   id: string;
   title: { pt: string; es: string; en: string };
   description: { pt: string; es: string; en: string };
-  amount: number; // EUR
+  eurAmount: number;
+  brlAmount: number;
+  currencies: Currency[];
   image: string;
-  allowMultiple: boolean;
   stripePaymentLink: string;
 };
 
@@ -39,9 +43,10 @@ export const gifts: Gift[] = [
       es: "Ayúdanos a vivir días inolvidables después de la boda. Cualquier cantidad es bienvenida.",
       en: "Help us enjoy unforgettable days after the wedding. Any amount is welcome.",
     },
-    amount: 100,
+    eurAmount: 100,
+    brlAmount: 550,
+    currencies: ["eur", "brl"],
     image: "",
-    allowMultiple: true,
     stripePaymentLink: "",
   },
   {
@@ -56,9 +61,10 @@ export const gifts: Gift[] = [
       es: "Una cena especial para celebrar juntos después del gran día.",
       en: "A special dinner for us to celebrate together after the big day.",
     },
-    amount: 80,
+    eurAmount: 80,
+    brlAmount: 440,
+    currencies: ["eur", "brl"],
     image: "",
-    allowMultiple: true,
     stripePaymentLink: "",
   },
   {
@@ -73,9 +79,10 @@ export const gifts: Gift[] = [
       es: "Ayuda a Laura a celebrar con sus amigas antes del gran día.",
       en: "Help Laura celebrate with her friends before the big day.",
     },
-    amount: 50,
+    eurAmount: 50,
+    brlAmount: 280,
+    currencies: ["eur", "brl"],
     image: "",
-    allowMultiple: true,
     stripePaymentLink: "",
   },
   {
@@ -90,9 +97,10 @@ export const gifts: Gift[] = [
       es: "Ayuda a Bernardo a celebrar con sus amigos antes del gran día.",
       en: "Help Bernardo celebrate with his friends before the big day.",
     },
-    amount: 50,
+    eurAmount: 50,
+    brlAmount: 280,
+    currencies: ["eur", "brl"],
     image: "",
-    allowMultiple: true,
     stripePaymentLink: "",
   },
   {
@@ -107,9 +115,20 @@ export const gifts: Gift[] = [
       es: "¿No encontraste lo que buscabas? Contribuye con la cantidad que quieras y la usaremos con cariño.",
       en: "Didn't find what you were looking for? Contribute any amount you'd like — we'll put it to lovely use.",
     },
-    amount: 0,
+    eurAmount: 0,
+    brlAmount: 0,
+    currencies: ["eur", "brl"],
     image: "",
-    allowMultiple: true,
     stripePaymentLink: "",
   },
 ];
+
+export function formatAmount(currency: Currency, amount: number): string {
+  if (amount === 0) return "";
+  if (currency === "eur") return `€${amount}`;
+  return `R$ ${amount}`;
+}
+
+export function defaultCurrencyForLang(lang: string): Currency {
+  return lang === "pt" ? "brl" : "eur";
+}

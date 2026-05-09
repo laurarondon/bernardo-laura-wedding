@@ -1,18 +1,27 @@
 import type { Lang } from "@/content/translations";
 import { t } from "@/content/translations";
 import { settings } from "@/content/settings";
+import type { Currency } from "@/content/gifts";
 import { CopyButton } from "./CopyButton";
 
 export function PaymentInstructions({
   lang,
+  currency,
   giftLabel,
   stripePaymentLink,
 }: {
   lang: Lang;
+  currency: Currency;
   giftLabel: string;
   stripePaymentLink?: string;
 }) {
   const tr = t(lang).gifts;
+
+  // BRL guests pay via PIX. EUR guests pay via Stripe / Bizum / IBAN.
+  const showPix = currency === "brl" && settings.pix.enabled;
+  const showStripe = currency === "eur" && Boolean(stripePaymentLink);
+  const showBizum = currency === "eur" && settings.bizum.enabled;
+  const showIban = currency === "eur" && settings.bankTransfer.enabled;
 
   return (
     <div className="mt-12">
@@ -24,7 +33,7 @@ export function PaymentInstructions({
       </p>
 
       <div className="mt-8 space-y-6">
-        {stripePaymentLink && (
+        {showStripe && (
           <div className="bg-white border-2 border-sageDark rounded-lg p-6 shadow-md relative">
             <span className="absolute -top-3 left-6 bg-sageDark text-white text-xs uppercase tracking-widest px-3 py-1 rounded">
               {tr.stripe.recommended}
@@ -47,7 +56,7 @@ export function PaymentInstructions({
           </div>
         )}
 
-        {settings.pix.enabled && (
+        {showPix && (
           <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
             <div className="flex items-baseline justify-between gap-4 flex-wrap">
               <h3 className="font-serif text-xl text-ink">{tr.pix.title}</h3>
@@ -85,7 +94,7 @@ export function PaymentInstructions({
           </div>
         )}
 
-        {settings.bizum.enabled && (
+        {showBizum && (
           <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
             <div className="flex items-baseline justify-between gap-4 flex-wrap">
               <h3 className="font-serif text-xl text-ink">{tr.bizum.title}</h3>
@@ -119,7 +128,7 @@ export function PaymentInstructions({
           </div>
         )}
 
-        {settings.bankTransfer.enabled && (
+        {showIban && (
           <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
             <h3 className="font-serif text-xl text-ink">
               {tr.bankTransfer.title}

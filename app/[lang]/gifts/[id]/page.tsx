@@ -2,23 +2,44 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { assertLang } from "@/lib/i18n";
 import { t } from "@/content/translations";
-import { gifts } from "@/content/gifts";
+import {
+  gifts,
+  formatAmount,
+  defaultCurrencyForLang,
+  type Currency,
+} from "@/content/gifts";
 import { PaymentInstructions } from "@/components/PaymentInstructions";
 
 export default function GiftDetail({
   params,
+  searchParams,
 }: {
   params: { lang: string; id: string };
+  searchParams: { c?: string };
 }) {
   const lang = assertLang(params.lang);
   const tr = t(lang);
   const gift = gifts.find((g) => g.id === params.id);
   if (!gift) notFound();
 
+  const requested: Currency =
+    searchParams.c === "brl"
+      ? "brl"
+      : searchParams.c === "eur"
+        ? "eur"
+        : defaultCurrencyForLang(lang);
+
+  // If guest somehow lands with a currency the gift doesn't support, fall back.
+  const currency: Currency = gift.currencies.includes(requested)
+    ? requested
+    : gift.currencies[0];
+
+  const amount = currency === "eur" ? gift.eurAmount : gift.brlAmount;
+
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
       <Link
-        href={`/${lang}/gifts`}
+        href={`/${lang}/gifts?c=${currency}`}
         className="text-sageDark hover:underline text-sm"
       >
         {tr.gifts.back}
@@ -45,8 +66,8 @@ export default function GiftDetail({
             {gift.description[lang]}
           </p>
           <p className="mt-6 text-sageDark text-lg">
-            {gift.amount > 0
-              ? `${tr.gifts.suggestedAmount}: ${tr.gifts.currency}${gift.amount}`
+            {amount > 0
+              ? `${tr.gifts.suggestedAmount}: ${formatAmount(currency, amount)}`
               : tr.gifts.anyAmount}
           </p>
         </div>
@@ -54,6 +75,7 @@ export default function GiftDetail({
 
       <PaymentInstructions
         lang={lang}
+        currency={currency}
         giftLabel={gift.title[lang]}
         stripePaymentLink={gift.stripePaymentLink}
       />
@@ -69,7 +91,7 @@ export default function GiftDetail({
 }
 
 export function generateStaticParams() {
-  const langs = ["pt", "es"] as const;
+  const langs = ["pt", "es", "en"] as const;
   return langs.flatMap((lang) =>
     gifts.map((g) => ({ lang, id: g.id })),
   );

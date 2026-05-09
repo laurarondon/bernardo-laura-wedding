@@ -50,9 +50,11 @@ export const translations = {
       subtitle:
         "A vossa presença já é o melhor presente. Mas se quiserem contribuir com algo a mais, deixamos algumas ideias abaixo.",
       contributeButton: "Contribuir",
-      currency: "€",
       suggestedAmount: "Valor sugerido",
       anyAmount: "Qualquer valor",
+      currencyToggleLabel: "Em qual moeda você quer contribuir?",
+      eurFull: "Euros (Espanha · Europa)",
+      brlFull: "Reais (Brasil)",
       paymentTitle: "Como contribuir",
       paymentSubtitle:
         "Escolha uma das opções abaixo. Tudo é processado de forma segura — nunca pedimos os seus dados de cartão diretamente.",
@@ -151,9 +153,11 @@ export const translations = {
       subtitle:
         "Vuestra presencia ya es el mejor regalo. Pero si queréis contribuir con algo más, aquí dejamos algunas ideas.",
       contributeButton: "Contribuir",
-      currency: "€",
       suggestedAmount: "Importe sugerido",
       anyAmount: "Cualquier importe",
+      currencyToggleLabel: "¿En qué moneda quieres contribuir?",
+      eurFull: "Euros (España · Europa)",
+      brlFull: "Reales (Brasil)",
       paymentTitle: "Cómo contribuir",
       paymentSubtitle:
         "Elige una de las opciones de abajo. Todo se procesa de forma segura — nunca pedimos tus datos de tarjeta directamente.",
@@ -252,9 +256,11 @@ export const translations = {
       subtitle:
         "Your presence is already the greatest gift. But if you'd like to contribute, here are some ideas.",
       contributeButton: "Contribute",
-      currency: "€",
       suggestedAmount: "Suggested amount",
       anyAmount: "Any amount",
+      currencyToggleLabel: "Which currency would you like to contribute in?",
+      eurFull: "Euros (Spain · Europe)",
+      brlFull: "Brazilian reais",
       paymentTitle: "How to contribute",
       paymentSubtitle:
         "Choose one of the options below. Everything is processed securely — we never ask for your card details directly.",
