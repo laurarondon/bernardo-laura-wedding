@@ -81,4 +81,13 @@ export const settings = {
   // ─────────── ADMIN ───────────
   // Email shown to guests if they want to confirm a gift was received
   adminEmail: "",
+
+  // ─────────── RSVP ───────────
+  // After following the steps in README §4 (Google Sheet + Apps Script),
+  // paste the deployment URL here. Until set, the RSVP page redirects home.
+  rsvp: {
+    endpoint: "", // Google Apps Script Web App URL
+    // ISO date — guests see "please RSVP by …". Leave empty to hide the deadline.
+    deadline: "2027-04-15",
+  },
 };

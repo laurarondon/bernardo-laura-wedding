@@ -39,6 +39,12 @@ export function Header({ lang }: { lang: Lang }) {
           >
             {tr.nav.gifts}
           </Link>
+          <Link
+            href={`/${lang}/rsvp`}
+            className="hover:text-sageDark text-ink/70 transition whitespace-nowrap font-medium"
+          >
+            {tr.nav.rsvp}
+          </Link>
           <LangSwitcher current={lang} />
         </nav>
       </div>

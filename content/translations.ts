@@ -6,6 +6,7 @@ export const translations = {
       home: "Início",
       wedding: "O casamento",
       gifts: "Lista de presentes",
+      rsvp: "Confirmar presença",
     },
     home: {
       saveTheDate: "Save the Date",
@@ -29,9 +30,9 @@ export const translations = {
       whereLabel: "Onde",
       dressCodeLabel: "Traje",
       mapButton: "Ver no mapa",
-      weatherLabel: "Clima em junho",
+      weatherLabel: "Junho à beira do Mediterrâneo",
       weatherBody:
-        "Junho em Valência costuma ser quente e ensolarado: temperaturas entre 20°C e 28°C e o sol se pondo por volta das 21h30. Recomendamos tecidos leves e respiráveis — algodão ou linho — e sapatos confortáveis. Chuva é rara nessa época do ano.",
+        "Em junho, Valência se entrega ao Mediterrâneo: dias longos e ensolarados, brisas mornas vindas do mar, e um céu quase sempre azul. As temperaturas passeiam entre 20°C ao amanhecer e 28°C à tarde, e o sol se demora no horizonte até umas 21h30. Tragam tecidos leves — algodão, linho — e sapatos confortáveis para celebrar conosco até a noite cair.",
       faqTitle: "Perguntas frequentes",
       faq: [
         {
@@ -111,6 +112,35 @@ export const translations = {
         "Após enviar, mande-nos uma mensagem para confirmarmos o recebimento. Cada contribuição será celebrada com muito carinho.",
       back: "← Voltar à lista",
     },
+    rsvp: {
+      title: "Confirmar presença",
+      subtitle: "Mal podemos esperar para celebrar com você.",
+      deadlinePrefix: "Por favor, confirme até",
+      nameLabel: "Nome completo",
+      namePlaceholder: "Como deseja que apareça na lista",
+      emailLabel: "E-mail",
+      emailPlaceholder: "Para enviarmos novidades (opcional)",
+      attendingLabel: "Você poderá vir?",
+      attendingYes: "Sim, mal posso esperar 💕",
+      attendingNo: "Infelizmente não poderei",
+      partySizeLabel: "Quantas pessoas no total (incluindo você)?",
+      dietaryLabel: "Alguma restrição alimentar ou alergia?",
+      dietaryPlaceholder: "Vegetariano, sem glúten, alergia a frutos do mar...",
+      messageLabel: "Mensagem para os noivos",
+      messagePlaceholder: "Algumas palavras com carinho (opcional)",
+      submitButton: "Enviar confirmação",
+      submitting: "Enviando…",
+      successTitle: "Confirmação recebida 💕",
+      successBody:
+        "Obrigada! Recebemos a sua resposta. Se precisar mudar algo depois, é só nos avisar.",
+      errorTitle: "Algo deu errado",
+      errorBody:
+        "Não conseguimos enviar a sua confirmação. Por favor tente novamente em instantes ou nos avise diretamente.",
+      requiredHint: "*Campos obrigatórios",
+      notConfiguredTitle: "Em breve",
+      notConfiguredBody:
+        "O formulário de confirmação ainda não está pronto. Volte em breve!",
+    },
     footer: {
       madeWith: "Com amor,",
     },
@@ -120,6 +150,7 @@ export const translations = {
       home: "Inicio",
       wedding: "La boda",
       gifts: "Lista de regalos",
+      rsvp: "Confirmar asistencia",
     },
     home: {
       saveTheDate: "Save the Date",
@@ -143,9 +174,9 @@ export const translations = {
       whereLabel: "Dónde",
       dressCodeLabel: "Vestimenta",
       mapButton: "Ver en el mapa",
-      weatherLabel: "Clima en junio",
+      weatherLabel: "Junio a la orilla del Mediterráneo",
       weatherBody:
-        "Junio en Valencia suele ser cálido y soleado: temperaturas entre 20°C y 28°C y el sol se pone hacia las 21:30. Recomendamos tejidos ligeros y transpirables — algodón o lino — y calzado cómodo. La lluvia es poco frecuente en esta época del año.",
+        "En junio, Valencia se entrega al Mediterráneo: días largos y soleados, brisas templadas que llegan del mar, y un cielo casi siempre azul. Las temperaturas pasean entre los 20°C del amanecer y los 28°C de la tarde, y el sol se queda en el horizonte hasta las 21:30. Traed tejidos ligeros — algodón, lino — y zapatos cómodos para celebrar con nosotros hasta que caiga la noche.",
       faqTitle: "Preguntas frecuentes",
       faq: [
         {
@@ -225,6 +256,35 @@ export const translations = {
         "Después de enviar, escríbenos para confirmar la recepción. Cada contribución la celebraremos con mucho cariño.",
       back: "← Volver a la lista",
     },
+    rsvp: {
+      title: "Confirmar asistencia",
+      subtitle: "No vemos la hora de celebrar contigo.",
+      deadlinePrefix: "Por favor, confirma antes del",
+      nameLabel: "Nombre completo",
+      namePlaceholder: "Cómo quieres aparecer en la lista",
+      emailLabel: "Email",
+      emailPlaceholder: "Para enviarte novedades (opcional)",
+      attendingLabel: "¿Podrás venir?",
+      attendingYes: "Sí, no me lo pierdo 💕",
+      attendingNo: "Lamentablemente no podré asistir",
+      partySizeLabel: "¿Cuántas personas en total (contigo incluido/a)?",
+      dietaryLabel: "¿Alguna restricción alimentaria o alergia?",
+      dietaryPlaceholder: "Vegetariano, sin gluten, alergia al marisco…",
+      messageLabel: "Un mensaje para los novios",
+      messagePlaceholder: "Unas palabras con cariño (opcional)",
+      submitButton: "Enviar confirmación",
+      submitting: "Enviando…",
+      successTitle: "¡Confirmación recibida! 💕",
+      successBody:
+        "¡Gracias! Hemos recibido tu respuesta. Si necesitas cambiar algo después, sólo avísanos.",
+      errorTitle: "Algo ha ido mal",
+      errorBody:
+        "No hemos podido enviar tu confirmación. Inténtalo de nuevo en un momento o avísanos directamente.",
+      requiredHint: "*Campos obligatorios",
+      notConfiguredTitle: "Muy pronto",
+      notConfiguredBody:
+        "El formulario de confirmación aún no está listo. ¡Vuelve pronto!",
+    },
     footer: {
       madeWith: "Con amor,",
     },
@@ -234,6 +294,7 @@ export const translations = {
       home: "Home",
       wedding: "The wedding",
       gifts: "Gift list",
+      rsvp: "RSVP",
     },
     home: {
       saveTheDate: "Save the Date",
@@ -257,9 +318,9 @@ export const translations = {
       whereLabel: "Where",
       dressCodeLabel: "Dress code",
       mapButton: "Open in maps",
-      weatherLabel: "Weather in June",
+      weatherLabel: "June by the Mediterranean",
       weatherBody:
-        "June in Valencia is typically warm and sunny: temperatures range from 20°C to 28°C (68–82°F), and the sun sets around 9:30 pm. We suggest light, breathable fabrics — cotton or linen — and comfortable shoes. Rain is rare at this time of year.",
+        "In June, Valencia gives itself over to the Mediterranean: long sun-soaked days, warm sea breezes, and a sky almost always blue. Temperatures wander from 20°C at dawn to 28°C in the afternoon (68–82°F), and the sun lingers on the horizon until around 9:30 pm. Bring light fabrics — cotton, linen — and comfortable shoes to celebrate with us until the evening sets in.",
       faqTitle: "Frequently asked",
       faq: [
         {
@@ -338,6 +399,35 @@ export const translations = {
       thanksBody:
         "After sending, please drop us a message so we can confirm receipt. Every contribution will be celebrated with so much love.",
       back: "← Back to the list",
+    },
+    rsvp: {
+      title: "RSVP",
+      subtitle: "We can't wait to celebrate with you.",
+      deadlinePrefix: "Please reply by",
+      nameLabel: "Full name",
+      namePlaceholder: "How you'd like to appear on the guest list",
+      emailLabel: "Email",
+      emailPlaceholder: "So we can send you updates (optional)",
+      attendingLabel: "Will you be able to come?",
+      attendingYes: "Yes, can't wait 💕",
+      attendingNo: "Sadly I won't be able to make it",
+      partySizeLabel: "How many people total (including yourself)?",
+      dietaryLabel: "Any dietary restrictions or allergies?",
+      dietaryPlaceholder: "Vegetarian, gluten-free, shellfish allergy…",
+      messageLabel: "A message for the couple",
+      messagePlaceholder: "A few words from the heart (optional)",
+      submitButton: "Send RSVP",
+      submitting: "Sending…",
+      successTitle: "RSVP received 💕",
+      successBody:
+        "Thank you! We've got your reply. If you need to change anything later, just let us know.",
+      errorTitle: "Something went wrong",
+      errorBody:
+        "We couldn't send your reply. Please try again in a moment or message us directly.",
+      requiredHint: "*Required fields",
+      notConfiguredTitle: "Coming soon",
+      notConfiguredBody:
+        "The RSVP form isn't ready yet. Please check back soon!",
     },
     footer: {
       madeWith: "With love,",
