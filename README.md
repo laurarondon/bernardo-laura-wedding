@@ -63,6 +63,32 @@ After every save on GitHub, Vercel automatically rebuilds and updates the live s
 
 > **The `id` must be unique** and use only lowercase letters, numbers, and hyphens. No spaces, no accents.
 
+### 3b · Adding Apple Pay / Card payments via Stripe (when Bernardo is ready)
+
+The site already has the "Apple Pay / Card" button built in — it just stays hidden until each gift has a Stripe Payment Link URL.
+
+**One-time Stripe setup (Bernardo, ~20 min):**
+
+1. Go to https://stripe.com and click **Start now**. Sign up with email.
+2. Activate the account: provide NIE/DNI, address, and Spanish IBAN. Stripe will email when verification is approved (usually same day).
+3. Once approved, in the dashboard go to **Payment Links → New**.
+4. For each gift, create one Payment Link:
+   - **Product name**: the gift name (e.g. "Lua de mel / Luna de miel")
+   - **Price**: set the suggested amount in EUR — OR for "any amount" gifts (like *Presente com o coração*), choose **"Customer chooses price"**
+   - Click **Create link** and copy the URL (looks like `https://buy.stripe.com/xxxxx`)
+5. In the dashboard, **Settings → Payment methods**: make sure **Apple Pay**, **Google Pay**, and **Cards** are enabled (they are by default).
+
+**Adding the URLs to the site:**
+
+1. On GitHub, open `content/gifts.ts` and click the pencil icon
+2. For each gift, paste the Stripe URL inside the quotes after `stripePaymentLink:`
+   ```ts
+   stripePaymentLink: "https://buy.stripe.com/xxxxx",
+   ```
+3. **Commit changes**. The "Apple Pay / Card" button will appear on that gift's page within ~1 minute.
+
+**Fees:** Stripe takes ~1.5% + €0.25 per card payment in the EU (deducted from each gift). PIX, Bizum, and IBAN remain 0% — those don't go through Stripe.
+
 ### Edit text on the home page or wedding page
 
 Open `content/translations.ts` and edit the strings under `pt` (Portuguese) or `es` (Spanish). Same commit flow.

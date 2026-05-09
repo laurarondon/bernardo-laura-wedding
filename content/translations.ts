@@ -55,7 +55,14 @@ export const translations = {
       anyAmount: "Qualquer valor",
       paymentTitle: "Como contribuir",
       paymentSubtitle:
-        "Escolha uma das opções abaixo. Não há cobrança automática — o pagamento é feito pelo seu próprio banco ou app.",
+        "Escolha uma das opções abaixo. Tudo é processado de forma segura — nunca pedimos os seus dados de cartão diretamente.",
+      stripe: {
+        title: "Apple Pay · Google Pay · Cartão",
+        instructions:
+          "Pagamento rápido e seguro processado pela Stripe. Funciona em qualquer país.",
+        button: "Pagar com Apple Pay ou cartão",
+        recommended: "Mais rápido",
+      },
       pix: {
         title: "PIX (Brasil)",
         instructions:
@@ -149,7 +156,14 @@ export const translations = {
       anyAmount: "Cualquier importe",
       paymentTitle: "Cómo contribuir",
       paymentSubtitle:
-        "Elige una de las opciones de abajo. No hay cobro automático — el pago se hace desde tu propio banco o app.",
+        "Elige una de las opciones de abajo. Todo se procesa de forma segura — nunca pedimos tus datos de tarjeta directamente.",
+      stripe: {
+        title: "Apple Pay · Google Pay · Tarjeta",
+        instructions:
+          "Pago rápido y seguro procesado por Stripe. Funciona desde cualquier país.",
+        button: "Pagar con Apple Pay o tarjeta",
+        recommended: "Más rápido",
+      },
       pix: {
         title: "PIX (Brasil)",
         instructions:

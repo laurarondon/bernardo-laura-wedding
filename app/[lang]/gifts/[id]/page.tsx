@@ -52,7 +52,11 @@ export default function GiftDetail({
         </div>
       </div>
 
-      <PaymentInstructions lang={lang} giftLabel={gift.title[lang]} />
+      <PaymentInstructions
+        lang={lang}
+        giftLabel={gift.title[lang]}
+        stripePaymentLink={gift.stripePaymentLink}
+      />
 
       <div className="mt-12 bg-sage/10 border border-sage/30 rounded-lg p-6 text-center">
         <p className="font-serif text-xl text-sageDark">

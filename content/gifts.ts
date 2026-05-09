@@ -8,6 +8,10 @@
  *   - amount: target value in EUR (just a suggestion shown to guests)
  *   - image: optional URL to a photo (leave "" to use a placeholder)
  *   - allowMultiple: true = many guests can chip in; false = single gift, first to claim wins
+ *   - stripePaymentLink: optional URL from a Stripe Payment Link.
+ *       When set, an "Apple Pay / Card" button appears on the gift page.
+ *       Leave as "" to hide that option for this gift.
+ *       See README section 3b for how Bernardo creates these links.
  *
  * Tip: copy an existing entry and modify it to add a new gift.
  */
@@ -19,6 +23,7 @@ export type Gift = {
   amount: number; // EUR
   image: string;
   allowMultiple: boolean;
+  stripePaymentLink: string;
 };
 
 export const gifts: Gift[] = [
@@ -35,6 +40,7 @@ export const gifts: Gift[] = [
     amount: 100,
     image: "",
     allowMultiple: true,
+    stripePaymentLink: "",
   },
   {
     id: "jantar-romantico",
@@ -49,6 +55,7 @@ export const gifts: Gift[] = [
     amount: 80,
     image: "",
     allowMultiple: true,
+    stripePaymentLink: "",
   },
   {
     id: "despedida-da-noiva",
@@ -63,6 +70,7 @@ export const gifts: Gift[] = [
     amount: 50,
     image: "",
     allowMultiple: true,
+    stripePaymentLink: "",
   },
   {
     id: "despedida-do-noivo",
@@ -77,6 +85,7 @@ export const gifts: Gift[] = [
     amount: 50,
     image: "",
     allowMultiple: true,
+    stripePaymentLink: "",
   },
   {
     id: "presente-livre",
@@ -91,5 +100,6 @@ export const gifts: Gift[] = [
     amount: 0,
     image: "",
     allowMultiple: true,
+    stripePaymentLink: "",
   },
 ];
