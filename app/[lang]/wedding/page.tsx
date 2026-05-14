@@ -105,12 +105,11 @@ export default function Wedding({ params }: { params: { lang: string } }) {
             </a>
           )}
         </div>
-        {settings.photos.olives && (
+        {settings.photos.tower && (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src={settings.photos.olives}
-            alt=""
-            aria-hidden
+            src={settings.photos.tower}
+            alt={reception.venueName}
             className="md:order-2 block w-full max-w-md mx-auto h-auto"
           />
         )}
@@ -126,17 +125,8 @@ export default function Wedding({ params }: { params: { lang: string } }) {
         </p>
       </div>
 
-      {/* About Valencia in June — with tower as visual */}
+      {/* About Valencia in June */}
       <section className="mt-24 max-w-2xl mx-auto text-center">
-        {settings.photos.tower && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={settings.photos.tower}
-            alt=""
-            aria-hidden
-            className="block w-40 sm:w-48 h-auto mx-auto mb-8"
-          />
-        )}
         <h2 className="font-serif text-3xl md:text-4xl text-sageDark">
           {tr.wedding.weatherLabel}
         </h2>

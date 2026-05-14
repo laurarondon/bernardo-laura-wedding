@@ -31,13 +31,13 @@ export const settings = {
       googleMapsUrl:
         "https://www.google.com/maps/search/?api=1&query=Iglesia+San+Juan+del+Hospital+Valencia",
     },
-    // The reception — Cartuja Ara Christi
+    // The reception — Jardines de la Cartuja
     reception: {
       time: "14:00",
-      venueName: "Cartuja Ara Christi",
+      venueName: "Jardines de la Cartuja",
       venueAddress: "El Puig de Santa María · 46540 Valencia",
       googleMapsUrl:
-        "https://www.google.com/maps/search/?api=1&query=Cartuja+Ara+Christi+El+Puig",
+        "https://www.google.com/maps/search/?api=1&query=Jardines+de+la+Cartuja+El+Puig+Valencia",
     },
     dressCode: {
       pt: "Traje esporte fino",
