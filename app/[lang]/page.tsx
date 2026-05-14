@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { assertLang } from "@/lib/i18n";
 import { t } from "@/content/translations";
 import { settings } from "@/content/settings";
@@ -61,24 +60,16 @@ export default function Home({ params }: { params: { lang: string } }) {
           </>
         )}
         <p
-          className={`font-serif italic text-xl text-ink/70 ${
+          className={`font-serif text-2xl md:text-3xl text-ink capitalize ${
             settings.photos.banner ? "" : "mt-8"
           }`}
         >
           {formatDate(settings.wedding.date, lang)}
         </p>
-        <p className="font-serif italic text-lg text-ink/60">
+        <p className="font-serif text-lg md:text-xl text-ink/70 mt-1">
           {settings.wedding.city}, {settings.wedding.country[lang]}
         </p>
         <Countdown targetIso={settings.wedding.date} lang={lang} />
-        <div className="mt-2 flex flex-wrap justify-center gap-3">
-          <Link href={`/${lang}/wedding`} className="btn-ghost">
-            {tr.home.seeDetails}
-          </Link>
-          <Link href={`/${lang}/gifts`} className="btn-primary">
-            {tr.home.seeGifts}
-          </Link>
-        </div>
       </section>
 
       {/* Our story */}
