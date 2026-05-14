@@ -59,6 +59,13 @@ export const settings = {
     tower: "/images/tower.png", // illustration shown in the wedding details page
   },
 
+  // The little family — pets shown in the "Our little family" section.
+  // To add another animal: copy a line and change the name + image path.
+  pets: [
+    { name: "Grilo", image: "/images/dog.png" },
+    { name: "Formiga", image: "/images/cockatiel.png" },
+  ],
+
   // ─────────── GIFT LIST ───────────
   gifts: {
     // When true, the /gifts page shows a "Coming soon" placeholder instead of
