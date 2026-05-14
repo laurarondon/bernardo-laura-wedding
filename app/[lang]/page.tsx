@@ -109,16 +109,16 @@ export default function Home({ params }: { params: { lang: string } }) {
 
         {/* Pets — little portraits */}
         {settings.pets.length > 0 && (
-          <div className="mt-16 flex justify-center items-end gap-10 sm:gap-16 flex-wrap">
+          <div className="mt-16 flex justify-center items-end gap-8 sm:gap-14 flex-wrap">
             {settings.pets.map((pet) => (
               <div key={pet.name} className="text-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={pet.image}
                   alt={pet.name}
-                  className="block w-28 sm:w-36 h-auto mx-auto"
+                  className="block w-40 sm:w-52 md:w-60 h-auto mx-auto"
                 />
-                <p className="font-serif italic text-lg text-sageDark mt-3">
+                <p className="font-serif italic text-xl text-sageDark mt-4">
                   {pet.name}
                 </p>
               </div>
