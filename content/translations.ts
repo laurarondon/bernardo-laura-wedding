@@ -31,9 +31,11 @@ export const translations = {
       receptionLabel: "Recepção",
       dressCodeLabel: "Traje",
       mapButton: "Ver no mapa",
+      ceremonyBody:
+        "A Igreja de San Juan del Hospital, fundada no século XIII pelos Cavaleiros do Hospital de São João, é um dos templos mais antigos de Valência. Suas pedras antigas, arcos góticos e pátio silencioso guardam séculos de história — parece-nos o lugar perfeito para começar a nossa vida juntos.",
       receptionBody:
         "A recepção será na Cartuja Ara Christi, um antigo mosteiro cartuxo do século XVII em El Puig, a uns 20 minutos do centro de Valência. Entre olivais centenários, fontes de pedra e arcos, vamos almoçar, brindar e dançar até o sol se pôr.",
-      weatherLabel: "Sobre Valência e o Mediterrâneo",
+      weatherLabel: "Sobre Valência em junho",
       weatherBody:
         "Valência fica na costa leste da Espanha, banhada pelo mar Mediterrâneo. Em junho, as temperaturas costumam variar entre 20°C e 28°C, com céu ensolarado e brisa suave do mar. O sol se põe por volta das 21h30, então a celebração se estende com calma sob o longo céu de verão. Recomendamos tecidos leves — algodão, linho — e sapatos confortáveis, sobretudo porque os jardins da Cartuja têm caminhos de pedra.",
       faqTitle: "Perguntas frequentes",
@@ -56,6 +58,9 @@ export const translations = {
       title: "Lista de presentes",
       subtitle:
         "A vossa presença já é o melhor presente. Mas se quiserem contribuir com algo a mais, deixamos algumas ideias abaixo.",
+      comingSoonTitle: "Em breve",
+      comingSoonBody:
+        "Estamos preparando a lista de presentes com muito carinho. Volte em breve!",
       contributeButton: "Contribuir",
       suggestedAmount: "Valor sugerido",
       anyAmount: "Qualquer valor",
@@ -178,9 +183,11 @@ export const translations = {
       receptionLabel: "Recepción",
       dressCodeLabel: "Vestimenta",
       mapButton: "Ver en el mapa",
+      ceremonyBody:
+        "La iglesia de San Juan del Hospital, fundada en el siglo XIII por los Caballeros Hospitalarios de San Juan, es uno de los templos más antiguos de Valencia. Sus piedras viejas, arcos góticos y patio silencioso guardan siglos de historia — nos parece el lugar perfecto para comenzar nuestra vida juntos.",
       receptionBody:
         "La recepción será en la Cartuja Ara Christi, un antiguo monasterio cartujo del siglo XVII en El Puig, a unos 20 minutos del centro de Valencia. Entre olivos centenarios, fuentes de piedra y arcos, vamos a almorzar, brindar y bailar hasta que se ponga el sol.",
-      weatherLabel: "Sobre Valencia y el Mediterráneo",
+      weatherLabel: "Sobre Valencia en junio",
       weatherBody:
         "Valencia está en la costa este de España, bañada por el mar Mediterráneo. En junio, las temperaturas suelen oscilar entre los 20°C y los 28°C, con cielos soleados y una suave brisa del mar. El sol se pone hacia las 21:30, así que la celebración se alarga con calma bajo el largo cielo de verano. Recomendamos tejidos ligeros — algodón, lino — y calzado cómodo, sobre todo porque los jardines de la Cartuja tienen caminos de piedra.",
       faqTitle: "Preguntas frecuentes",
@@ -203,6 +210,9 @@ export const translations = {
       title: "Lista de regalos",
       subtitle:
         "Vuestra presencia ya es el mejor regalo. Pero si queréis contribuir con algo más, aquí dejamos algunas ideas.",
+      comingSoonTitle: "Muy pronto",
+      comingSoonBody:
+        "Estamos preparando la lista de regalos con mucho cariño. ¡Vuelve pronto!",
       contributeButton: "Contribuir",
       suggestedAmount: "Importe sugerido",
       anyAmount: "Cualquier importe",
@@ -325,9 +335,11 @@ export const translations = {
       receptionLabel: "Reception",
       dressCodeLabel: "Dress code",
       mapButton: "Open in maps",
+      ceremonyBody:
+        "The Church of San Juan del Hospital, founded in the 13th century by the Knights Hospitaller of Saint John, is one of the oldest churches in Valencia. Its old stones, Gothic arches, and quiet inner courtyard hold centuries of history — and feel like the perfect place to begin our life together.",
       receptionBody:
         "The reception will be at Cartuja Ara Christi, a 17th-century former Carthusian monastery in El Puig, about 20 minutes from central Valencia. Among centuries-old olive trees, stone fountains, and cloister arches, we'll lunch, toast, and dance until sundown.",
-      weatherLabel: "About Valencia and the Mediterranean",
+      weatherLabel: "About Valencia in June",
       weatherBody:
         "Valencia sits on Spain's east coast, on the Mediterranean. In June, temperatures usually range from 20°C to 28°C (68–82°F), with sunny skies and a gentle sea breeze. Sunset comes around 9:30 pm, so the celebration unfolds at a leisurely pace under the long summer sky. We suggest light fabrics — cotton, linen — and comfortable shoes, especially since the gardens at la Cartuja have stone paths.",
       faqTitle: "Frequently asked",
@@ -350,6 +362,9 @@ export const translations = {
       title: "Gift list",
       subtitle:
         "Your presence is already the greatest gift. But if you'd like to contribute, here are some ideas.",
+      comingSoonTitle: "Coming soon",
+      comingSoonBody:
+        "We're putting the gift list together with a lot of care. Please check back soon!",
       contributeButton: "Contribute",
       suggestedAmount: "Suggested amount",
       anyAmount: "Any amount",

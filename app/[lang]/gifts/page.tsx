@@ -7,6 +7,7 @@ import {
   defaultCurrencyForLang,
   type Currency,
 } from "@/content/gifts";
+import { settings } from "@/content/settings";
 import { CurrencyToggle } from "@/components/CurrencyToggle";
 
 export default function Gifts({
@@ -18,6 +19,32 @@ export default function Gifts({
 }) {
   const lang = assertLang(params.lang);
   const tr = t(lang);
+
+  // While the gift list is being prepared, show a "Coming soon" placeholder.
+  if (settings.gifts.comingSoon) {
+    return (
+      <div className="max-w-xl mx-auto px-4 py-20 text-center">
+        <h1 className="section-title">{tr.gifts.title}</h1>
+        <div className="mt-10 bg-sage/10 border border-sage/40 rounded-lg p-10">
+          {settings.photos.olives && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={settings.photos.olives}
+              alt=""
+              aria-hidden
+              className="block w-40 sm:w-48 h-auto mx-auto mb-6 opacity-90"
+            />
+          )}
+          <p className="font-serif text-3xl text-sageDark">
+            {tr.gifts.comingSoonTitle}
+          </p>
+          <p className="mt-3 text-ink/70 font-serif text-lg italic">
+            {tr.gifts.comingSoonBody}
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   const currency: Currency =
     searchParams.c === "brl"

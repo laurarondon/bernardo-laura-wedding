@@ -17,7 +17,7 @@ export default function Wedding({ params }: { params: { lang: string } }) {
         <img
           src={settings.photos.church}
           alt={ceremony.venueName}
-          className="block w-full max-w-2xl mx-auto mt-10 h-auto"
+          className="block w-full max-w-3xl mx-auto mt-8 h-auto"
         />
       )}
 
@@ -41,6 +41,9 @@ export default function Wedding({ params }: { params: { lang: string } }) {
           {ceremony.venueAddress && (
             <p className="text-ink/70 mt-1 text-sm">{ceremony.venueAddress}</p>
           )}
+          <p className="text-ink/80 mt-3 text-sm leading-relaxed">
+            {tr.wedding.ceremonyBody}
+          </p>
           {ceremony.googleMapsUrl && (
             <a
               href={ceremony.googleMapsUrl}
@@ -93,11 +96,12 @@ export default function Wedding({ params }: { params: { lang: string } }) {
         <img
           src={settings.photos.tower}
           alt=""
-          className="block w-full max-w-sm mx-auto mt-16 h-auto"
+          aria-hidden
+          className="block w-full max-w-md mx-auto mt-16 h-auto"
         />
       )}
 
-      {/* About Valencia + Mediterranean */}
+      {/* About Valencia in June */}
       <section className="mt-12 max-w-2xl mx-auto text-center">
         <h2 className="font-serif text-3xl text-sageDark">
           {tr.wedding.weatherLabel}
@@ -107,8 +111,19 @@ export default function Wedding({ params }: { params: { lang: string } }) {
         </p>
       </section>
 
+      {/* Olive divider before FAQ */}
+      {settings.photos.olives && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={settings.photos.olives}
+          alt=""
+          aria-hidden
+          className="block w-32 sm:w-40 h-auto mx-auto mt-20 opacity-90"
+        />
+      )}
+
       {/* FAQ */}
-      <section className="mt-20">
+      <section className="mt-8">
         <h2 className="section-title">{tr.wedding.faqTitle}</h2>
         <div className="mt-8 space-y-6">
           {tr.wedding.faq.map((item, i) => (

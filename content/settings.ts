@@ -55,8 +55,15 @@ export const settings = {
     banner: "/images/photo-banner.jpg", // horizontal photo used as the full-width banner at the top
     portrait: "/images/photo-portrait.jpg", // vertical photo shown alongside the "our story" section
     olives: "/images/olives.png", // olive trees — visual brand mark of the wedding
-    church: "/images/church1.png", // illustration of the ceremony church
-    tower: "/images/towerr.png", // illustration shown in the wedding details page
+    church: "/images/church.png", // illustration of the ceremony church
+    tower: "/images/tower.png", // illustration shown in the wedding details page
+  },
+
+  // ─────────── GIFT LIST ───────────
+  gifts: {
+    // When true, the /gifts page shows a "Coming soon" placeholder instead of
+    // the gift list. Switch to false when you're ready to share the gift list.
+    comingSoon: true,
   },
 
   // ─────────── PAYMENT METHODS ───────────
