@@ -37,8 +37,19 @@ export default function Home({ params }: { params: { lang: string } }) {
         </section>
       )}
 
+      {/* Olive trees — brand mark of the wedding */}
+      {settings.photos.olives && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={settings.photos.olives}
+          alt=""
+          aria-hidden
+          className="block w-full max-w-md mx-auto -mt-6 md:-mt-12 relative z-10 h-auto px-4"
+        />
+      )}
+
       {/* Names + date (shown when there is no banner photo, or as a sub-header) */}
-      <section className="text-center px-4 pt-12 md:pt-16">
+      <section className="text-center px-4 pt-6 md:pt-8">
         {!settings.photos.banner && (
           <>
             <p className="uppercase tracking-[0.3em] text-sm text-sageDark mb-6">

@@ -14,18 +14,31 @@ export const settings = {
   },
 
   wedding: {
-    // ISO date of the ceremony (year-month-day, 24h time)
-    date: "2027-06-05T17:00:00",
+    // ISO datetime of the CEREMONY (year-month-dayThh:mm:ss). Used for countdown.
+    date: "2027-06-05T12:00:00",
     city: "Valencia",
     country: {
       pt: "Espanha",
       es: "España",
       en: "Spain",
     },
-    venueName: "Iglesia San Juan del Hospital",
-    venueAddress: "Calle del Trinquete de Caballeros, 5 · 46003 Valencia",
-    googleMapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Iglesia+San+Juan+del+Hospital+Valencia",
+    // The ceremony — church
+    ceremony: {
+      time: "12:00",
+      venueName: "Iglesia San Juan del Hospital",
+      venueAddress:
+        "Calle del Trinquete de Caballeros, 5 · 46003 Valencia",
+      googleMapsUrl:
+        "https://www.google.com/maps/search/?api=1&query=Iglesia+San+Juan+del+Hospital+Valencia",
+    },
+    // The reception — Cartuja Ara Christi
+    reception: {
+      time: "14:00",
+      venueName: "Cartuja Ara Christi",
+      venueAddress: "El Puig de Santa María · 46540 Valencia",
+      googleMapsUrl:
+        "https://www.google.com/maps/search/?api=1&query=Cartuja+Ara+Christi+El+Puig",
+    },
     dressCode: {
       pt: "Traje esporte fino",
       es: "Cóctel / Semi-formal",
@@ -36,12 +49,14 @@ export const settings = {
   // Contact email shown in the footer / for guest questions
   contactEmail: "",
 
-  // Photos shown on the home page. Drop image files into public/images/
+  // Photos shown across the site. Drop image files into public/images/
   // and reference them here. Leave as "" to hide a slot.
   photos: {
     banner: "/images/photo-banner.jpg", // horizontal photo used as the full-width banner at the top
     portrait: "/images/photo-portrait.jpg", // vertical photo shown alongside the "our story" section
-    church: "/images/church.png", // image of the venue/church shown on the wedding details page
+    olives: "/images/olives.png", // olive trees — visual brand mark of the wedding
+    church: "/images/church1.png", // illustration of the ceremony church
+    tower: "/images/towerr.png", // illustration shown in the wedding details page
   },
 
   // ─────────── PAYMENT METHODS ───────────

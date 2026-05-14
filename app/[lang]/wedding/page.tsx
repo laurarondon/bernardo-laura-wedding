@@ -1,10 +1,11 @@
-import { assertLang, formatDate, formatTime } from "@/lib/i18n";
+import { assertLang, formatDate } from "@/lib/i18n";
 import { t } from "@/content/translations";
 import { settings } from "@/content/settings";
 
 export default function Wedding({ params }: { params: { lang: string } }) {
   const lang = assertLang(params.lang);
   const tr = t(lang);
+  const { ceremony, reception } = settings.wedding;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
@@ -15,40 +16,34 @@ export default function Wedding({ params }: { params: { lang: string } }) {
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={settings.photos.church}
-          alt={settings.wedding.venueName}
+          alt={ceremony.venueName}
           className="block w-full max-w-2xl mx-auto mt-10 h-auto"
         />
       )}
 
-      <div className="grid md:grid-cols-2 gap-8 mt-10">
-        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
-          <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
-            {tr.wedding.whenLabel}
-          </p>
-          <p className="font-serif text-2xl text-ink capitalize">
-            {formatDate(settings.wedding.date, lang)}
-          </p>
-          <p className="text-ink/70 mt-1">
-            {formatTime(settings.wedding.date, lang)}
-          </p>
-        </div>
+      {/* Date */}
+      <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm mt-10 text-center">
+        <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
+          {tr.wedding.whenLabel}
+        </p>
+        <p className="font-serif text-2xl text-ink capitalize">
+          {formatDate(settings.wedding.date, lang)}
+        </p>
+      </div>
 
+      {/* Ceremony + Reception */}
+      <div className="grid md:grid-cols-2 gap-8 mt-8">
         <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
           <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
-            {tr.wedding.whereLabel}
+            {tr.wedding.ceremonyLabel} · {ceremony.time}
           </p>
-          <p className="font-serif text-2xl text-ink">
-            {settings.wedding.venueName}
-          </p>
-          {settings.wedding.venueAddress && (
-            <p className="text-ink/70 mt-1">{settings.wedding.venueAddress}</p>
+          <p className="font-serif text-2xl text-ink">{ceremony.venueName}</p>
+          {ceremony.venueAddress && (
+            <p className="text-ink/70 mt-1 text-sm">{ceremony.venueAddress}</p>
           )}
-          <p className="text-ink/70 mt-1">
-            {settings.wedding.city}, {settings.wedding.country[lang]}
-          </p>
-          {settings.wedding.googleMapsUrl && (
+          {ceremony.googleMapsUrl && (
             <a
-              href={settings.wedding.googleMapsUrl}
+              href={ceremony.googleMapsUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4 text-sageDark hover:underline text-sm"
@@ -58,6 +53,30 @@ export default function Wedding({ params }: { params: { lang: string } }) {
           )}
         </div>
 
+        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
+          <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
+            {tr.wedding.receptionLabel} · {reception.time}
+          </p>
+          <p className="font-serif text-2xl text-ink">{reception.venueName}</p>
+          {reception.venueAddress && (
+            <p className="text-ink/70 mt-1 text-sm">{reception.venueAddress}</p>
+          )}
+          <p className="text-ink/80 mt-3 text-sm leading-relaxed">
+            {tr.wedding.receptionBody}
+          </p>
+          {reception.googleMapsUrl && (
+            <a
+              href={reception.googleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4 text-sageDark hover:underline text-sm"
+            >
+              {tr.wedding.mapButton} →
+            </a>
+          )}
+        </div>
+
+        {/* Dress code */}
         <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm md:col-span-2">
           <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
             {tr.wedding.dressCodeLabel}
@@ -66,18 +85,30 @@ export default function Wedding({ params }: { params: { lang: string } }) {
             {settings.wedding.dressCode[lang]}
           </p>
         </div>
-
-        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm md:col-span-2">
-          <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
-            ☀ {tr.wedding.weatherLabel}
-          </p>
-          <p className="text-ink/80 leading-relaxed">
-            {tr.wedding.weatherBody}
-          </p>
-        </div>
       </div>
 
-      <section className="mt-16">
+      {/* Tower illustration */}
+      {settings.photos.tower && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={settings.photos.tower}
+          alt=""
+          className="block w-full max-w-sm mx-auto mt-16 h-auto"
+        />
+      )}
+
+      {/* About Valencia + Mediterranean */}
+      <section className="mt-12 max-w-2xl mx-auto text-center">
+        <h2 className="font-serif text-3xl text-sageDark">
+          {tr.wedding.weatherLabel}
+        </h2>
+        <p className="mt-6 text-ink/80 leading-relaxed font-serif text-lg">
+          {tr.wedding.weatherBody}
+        </p>
+      </section>
+
+      {/* FAQ */}
+      <section className="mt-20">
         <h2 className="section-title">{tr.wedding.faqTitle}</h2>
         <div className="mt-8 space-y-6">
           {tr.wedding.faq.map((item, i) => (

@@ -27,12 +27,15 @@ export const translations = {
       title: "O casamento",
       subtitle: "Tudo o que você precisa saber",
       whenLabel: "Quando",
-      whereLabel: "Onde",
+      ceremonyLabel: "Cerimônia",
+      receptionLabel: "Recepção",
       dressCodeLabel: "Traje",
       mapButton: "Ver no mapa",
-      weatherLabel: "Junho à beira do Mediterrâneo",
+      receptionBody:
+        "A recepção será na Cartuja Ara Christi, um antigo mosteiro cartuxo do século XVII em El Puig, a uns 20 minutos do centro de Valência. Entre olivais centenários, fontes de pedra e arcos, vamos almoçar, brindar e dançar até o sol se pôr.",
+      weatherLabel: "Sobre Valência e o Mediterrâneo",
       weatherBody:
-        "Em junho, Valência se entrega ao Mediterrâneo: dias longos e ensolarados, brisas mornas vindas do mar, e um céu quase sempre azul. As temperaturas passeiam entre 20°C ao amanhecer e 28°C à tarde, e o sol se demora no horizonte até umas 21h30. Tragam tecidos leves — algodão, linho — e sapatos confortáveis para celebrar conosco até a noite cair.",
+        "Valência fica na costa leste da Espanha, banhada pelo mar Mediterrâneo. Em junho, as temperaturas costumam variar entre 20°C e 28°C, com céu ensolarado e brisa suave do mar. O sol se põe por volta das 21h30, então a celebração se estende com calma sob o longo céu de verão. Recomendamos tecidos leves — algodão, linho — e sapatos confortáveis, sobretudo porque os jardins da Cartuja têm caminhos de pedra.",
       faqTitle: "Perguntas frequentes",
       faq: [
         {
@@ -171,12 +174,15 @@ export const translations = {
       title: "La boda",
       subtitle: "Todo lo que necesitas saber",
       whenLabel: "Cuándo",
-      whereLabel: "Dónde",
+      ceremonyLabel: "Ceremonia",
+      receptionLabel: "Recepción",
       dressCodeLabel: "Vestimenta",
       mapButton: "Ver en el mapa",
-      weatherLabel: "Junio a la orilla del Mediterráneo",
+      receptionBody:
+        "La recepción será en la Cartuja Ara Christi, un antiguo monasterio cartujo del siglo XVII en El Puig, a unos 20 minutos del centro de Valencia. Entre olivos centenarios, fuentes de piedra y arcos, vamos a almorzar, brindar y bailar hasta que se ponga el sol.",
+      weatherLabel: "Sobre Valencia y el Mediterráneo",
       weatherBody:
-        "En junio, Valencia se entrega al Mediterráneo: días largos y soleados, brisas templadas que llegan del mar, y un cielo casi siempre azul. Las temperaturas pasean entre los 20°C del amanecer y los 28°C de la tarde, y el sol se queda en el horizonte hasta las 21:30. Traed tejidos ligeros — algodón, lino — y zapatos cómodos para celebrar con nosotros hasta que caiga la noche.",
+        "Valencia está en la costa este de España, bañada por el mar Mediterráneo. En junio, las temperaturas suelen oscilar entre los 20°C y los 28°C, con cielos soleados y una suave brisa del mar. El sol se pone hacia las 21:30, así que la celebración se alarga con calma bajo el largo cielo de verano. Recomendamos tejidos ligeros — algodón, lino — y calzado cómodo, sobre todo porque los jardines de la Cartuja tienen caminos de piedra.",
       faqTitle: "Preguntas frecuentes",
       faq: [
         {
@@ -315,12 +321,15 @@ export const translations = {
       title: "The wedding",
       subtitle: "Everything you need to know",
       whenLabel: "When",
-      whereLabel: "Where",
+      ceremonyLabel: "Ceremony",
+      receptionLabel: "Reception",
       dressCodeLabel: "Dress code",
       mapButton: "Open in maps",
-      weatherLabel: "June by the Mediterranean",
+      receptionBody:
+        "The reception will be at Cartuja Ara Christi, a 17th-century former Carthusian monastery in El Puig, about 20 minutes from central Valencia. Among centuries-old olive trees, stone fountains, and cloister arches, we'll lunch, toast, and dance until sundown.",
+      weatherLabel: "About Valencia and the Mediterranean",
       weatherBody:
-        "In June, Valencia gives itself over to the Mediterranean: long sun-soaked days, warm sea breezes, and a sky almost always blue. Temperatures wander from 20°C at dawn to 28°C in the afternoon (68–82°F), and the sun lingers on the horizon until around 9:30 pm. Bring light fabrics — cotton, linen — and comfortable shoes to celebrate with us until the evening sets in.",
+        "Valencia sits on Spain's east coast, on the Mediterranean. In June, temperatures usually range from 20°C to 28°C (68–82°F), with sunny skies and a gentle sea breeze. Sunset comes around 9:30 pm, so the celebration unfolds at a leisurely pace under the long summer sky. We suggest light fabrics — cotton, linen — and comfortable shoes, especially since the gardens at la Cartuja have stone paths.",
       faqTitle: "Frequently asked",
       faq: [
         {
