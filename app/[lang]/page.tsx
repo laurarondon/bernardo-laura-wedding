@@ -44,7 +44,7 @@ export default function Home({ params }: { params: { lang: string } }) {
           src={settings.photos.olives}
           alt=""
           aria-hidden
-          className="block w-60 sm:w-72 md:w-80 mx-auto -mt-10 md:-mt-16 relative z-10 h-auto"
+          className="block w-60 sm:w-72 md:w-80 mx-auto mt-12 h-auto"
         />
       )}
 

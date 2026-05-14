@@ -8,40 +8,46 @@ export default function Wedding({ params }: { params: { lang: string } }) {
   const { ceremony, reception } = settings.wedding;
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-16">
+    <div className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="section-title">{tr.wedding.title}</h1>
       <p className="section-subtitle">{tr.wedding.subtitle}</p>
 
-      {settings.photos.church && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={settings.photos.church}
-          alt={ceremony.venueName}
-          className="block w-full max-w-3xl mx-auto mt-8 h-auto"
-        />
-      )}
-
-      {/* Date */}
-      <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm mt-10 text-center">
-        <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
+      {/* Date — quiet centered headline, no card */}
+      <div className="text-center mt-14">
+        <p className="uppercase tracking-[0.3em] text-xs text-sageDark mb-3">
           {tr.wedding.whenLabel}
         </p>
-        <p className="font-serif text-2xl text-ink capitalize">
+        <p className="font-serif text-3xl md:text-4xl text-ink capitalize">
           {formatDate(settings.wedding.date, lang)}
         </p>
       </div>
 
-      {/* Ceremony + Reception */}
-      <div className="grid md:grid-cols-2 gap-8 mt-8">
-        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
-          <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
-            {tr.wedding.ceremonyLabel} · {ceremony.time}
+      {/* Ceremony — image left, text right (alternates on desktop) */}
+      <section className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mt-24">
+        {settings.photos.church && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={settings.photos.church}
+            alt={ceremony.venueName}
+            className="block w-full max-w-md mx-auto md:max-w-none h-auto"
+          />
+        )}
+        <div className="text-center md:text-left">
+          <p className="font-serif text-6xl md:text-7xl text-sageDark leading-none">
+            {ceremony.time}
           </p>
-          <p className="font-serif text-2xl text-ink">{ceremony.venueName}</p>
+          <p className="uppercase tracking-[0.3em] text-xs text-sageDark mt-4">
+            {tr.wedding.ceremonyLabel}
+          </p>
+          <h3 className="font-serif text-3xl md:text-4xl text-ink mt-6">
+            {ceremony.venueName}
+          </h3>
           {ceremony.venueAddress && (
-            <p className="text-ink/70 mt-1 text-sm">{ceremony.venueAddress}</p>
+            <p className="italic text-ink/60 mt-2 text-sm">
+              {ceremony.venueAddress}
+            </p>
           )}
-          <p className="text-ink/80 mt-3 text-sm leading-relaxed">
+          <p className="mt-6 text-ink/80 leading-relaxed">
             {tr.wedding.ceremonyBody}
           </p>
           {ceremony.googleMapsUrl && (
@@ -49,22 +55,43 @@ export default function Wedding({ params }: { params: { lang: string } }) {
               href={ceremony.googleMapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 text-sageDark hover:underline text-sm"
+              className="inline-block mt-6 text-sageDark hover:underline text-sm"
             >
               {tr.wedding.mapButton} →
             </a>
           )}
         </div>
+      </section>
 
-        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm">
-          <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
-            {tr.wedding.receptionLabel} · {reception.time}
+      {/* Olive divider */}
+      {settings.photos.olives && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={settings.photos.olives}
+          alt=""
+          aria-hidden
+          className="block w-24 sm:w-28 h-auto mx-auto my-16 opacity-80"
+        />
+      )}
+
+      {/* Reception — image right, text left */}
+      <section className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mt-8">
+        <div className="md:order-1 text-center md:text-left">
+          <p className="font-serif text-6xl md:text-7xl text-sageDark leading-none">
+            {reception.time}
           </p>
-          <p className="font-serif text-2xl text-ink">{reception.venueName}</p>
+          <p className="uppercase tracking-[0.3em] text-xs text-sageDark mt-4">
+            {tr.wedding.receptionLabel}
+          </p>
+          <h3 className="font-serif text-3xl md:text-4xl text-ink mt-6">
+            {reception.venueName}
+          </h3>
           {reception.venueAddress && (
-            <p className="text-ink/70 mt-1 text-sm">{reception.venueAddress}</p>
+            <p className="italic text-ink/60 mt-2 text-sm">
+              {reception.venueAddress}
+            </p>
           )}
-          <p className="text-ink/80 mt-3 text-sm leading-relaxed">
+          <p className="mt-6 text-ink/80 leading-relaxed">
             {tr.wedding.receptionBody}
           </p>
           {reception.googleMapsUrl && (
@@ -72,38 +99,45 @@ export default function Wedding({ params }: { params: { lang: string } }) {
               href={reception.googleMapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 text-sageDark hover:underline text-sm"
+              className="inline-block mt-6 text-sageDark hover:underline text-sm"
             >
               {tr.wedding.mapButton} →
             </a>
           )}
         </div>
+        {settings.photos.olives && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={settings.photos.olives}
+            alt=""
+            aria-hidden
+            className="md:order-2 block w-full max-w-md mx-auto h-auto"
+          />
+        )}
+      </section>
 
-        {/* Dress code */}
-        <div className="bg-white border border-sage/30 rounded-lg p-6 shadow-sm md:col-span-2">
-          <p className="uppercase tracking-widest text-xs text-sageDark mb-2">
-            {tr.wedding.dressCodeLabel}
-          </p>
-          <p className="font-serif text-2xl text-ink">
-            {settings.wedding.dressCode[lang]}
-          </p>
-        </div>
+      {/* Dress code — quiet, centered */}
+      <div className="text-center mt-24">
+        <p className="uppercase tracking-[0.3em] text-xs text-sageDark mb-3">
+          {tr.wedding.dressCodeLabel}
+        </p>
+        <p className="font-serif text-2xl md:text-3xl text-ink">
+          {settings.wedding.dressCode[lang]}
+        </p>
       </div>
 
-      {/* Tower illustration */}
-      {settings.photos.tower && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={settings.photos.tower}
-          alt=""
-          aria-hidden
-          className="block w-full max-w-md mx-auto mt-16 h-auto"
-        />
-      )}
-
-      {/* About Valencia in June */}
-      <section className="mt-12 max-w-2xl mx-auto text-center">
-        <h2 className="font-serif text-3xl text-sageDark">
+      {/* About Valencia in June — with tower as visual */}
+      <section className="mt-24 max-w-2xl mx-auto text-center">
+        {settings.photos.tower && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={settings.photos.tower}
+            alt=""
+            aria-hidden
+            className="block w-40 sm:w-48 h-auto mx-auto mb-8"
+          />
+        )}
+        <h2 className="font-serif text-3xl md:text-4xl text-sageDark">
           {tr.wedding.weatherLabel}
         </h2>
         <p className="mt-6 text-ink/80 leading-relaxed font-serif text-lg">
@@ -111,19 +145,8 @@ export default function Wedding({ params }: { params: { lang: string } }) {
         </p>
       </section>
 
-      {/* Olive divider before FAQ */}
-      {settings.photos.olives && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={settings.photos.olives}
-          alt=""
-          aria-hidden
-          className="block w-32 sm:w-40 h-auto mx-auto mt-20 opacity-90"
-        />
-      )}
-
       {/* FAQ */}
-      <section className="mt-8">
+      <section className="mt-24 max-w-2xl mx-auto">
         <h2 className="section-title">{tr.wedding.faqTitle}</h2>
         <div className="mt-8 space-y-6">
           {tr.wedding.faq.map((item, i) => (
