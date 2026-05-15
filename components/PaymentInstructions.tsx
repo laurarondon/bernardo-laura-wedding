@@ -169,6 +169,7 @@ function Reminder({ lang, giftLabel }: { lang: Lang; giftLabel: string }) {
     pt: `Não esqueça de escrever "${giftLabel}" na mensagem do pagamento.`,
     es: `No olvides escribir "${giftLabel}" en el concepto del pago.`,
     en: `Don't forget to write "${giftLabel}" in the payment message.`,
+    de: `Bitte vergiss nicht, "${giftLabel}" in den Verwendungszweck zu schreiben.`,
   };
   return <p className="mt-3 text-xs text-ink/60 italic">{messages[lang]}</p>;
 }

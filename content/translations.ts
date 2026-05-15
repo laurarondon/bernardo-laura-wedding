@@ -1,4 +1,4 @@
-export type Lang = "pt" | "es" | "en";
+export type Lang = "pt" | "es" | "en" | "de";
 
 export const translations = {
   pt: {
@@ -533,6 +533,187 @@ export const translations = {
     },
     footer: {
       madeWith: "With love,",
+    },
+  },
+  de: {
+    nav: {
+      home: "Start",
+      wedding: "Die Hochzeit",
+      gifts: "Geschenkliste",
+      travel: "Reise",
+      rsvp: "Zusagen",
+    },
+    home: {
+      saveTheDate: "Save the Date",
+      addToCalendar: "Im Kalender speichern",
+      tagline: "Wir heiraten!",
+      countdown: {
+        days: "Tage",
+        hours: "Std",
+        minutes: "Min",
+        seconds: "Sek",
+      },
+      ourStory: "Unsere kleine Familie",
+      ourStoryBody:
+        "Vor ein paar Jahren haben wir uns irgendwo zwischen Brasilien und Spanien getroffen, und seitdem bauen wir ganz in Ruhe eine kleine Familie auf. Bei uns wohnen Grilo, der frechste Hund der Nachbarschaft, und Formiga, die Nymphensittich-Dame, die lauter pfeift als sie sollte. Wir freuen uns riesig, dieses neue Kapitel im Kreis der Menschen zu beginnen, die wir lieben.",
+      seeDetails: "Hochzeitsdetails",
+      seeGifts: "Geschenkliste",
+    },
+    wedding: {
+      title: "Die Hochzeit",
+      subtitle: "Alles Wichtige auf einen Blick",
+      whenLabel: "Wann",
+      ceremonyLabel: "Trauung",
+      receptionLabel: "Empfang",
+      dressCodeLabel: "Dresscode",
+      mapButton: "Auf Karte öffnen",
+      ceremonyBody:
+        "Die Kirche San Juan del Hospital wurde im 13. Jahrhundert von den Johanniterrittern gegründet und ist eine der ältesten Kirchen Valencias. Ihre alten Steine, gotischen Bögen und der stille Innenhof bewahren Jahrhunderte an Geschichte — für uns der perfekte Ort, um unser gemeinsames Leben zu beginnen.",
+      receptionBody:
+        "Die Jardines de la Cartuja sind die historischen Gärten des ehemaligen Kartäuserklosters Ara Christi in El Puig — etwa 20 Minuten vom Stadtzentrum Valencias entfernt. Erbaut im 17. Jahrhundert, beherbergt der Ort jahrhundertealte Olivenbäume, alte Steinbrunnen und weiße Bögen, wo wir essen, anstoßen und bis zum Sonnenuntergang tanzen werden.",
+      weatherLabel: "Valencia im Juni",
+      weatherBody:
+        "Valencia liegt an der spanischen Mittelmeerküste. Im Juni bewegen sich die Temperaturen meist zwischen 20°C und 28°C, mit Sonnenschein und einer sanften Meeresbrise. Die Sonne geht erst gegen 21:30 Uhr unter, sodass das Fest sich entspannt unter dem langen Sommerhimmel hinzieht. Wir empfehlen leichte Stoffe — Baumwolle, Leinen — und bequeme Schuhe, vor allem weil die Gärten der Cartuja Steinwege haben.",
+      transportLabel: "Wie wir hinkommen",
+      transportBody:
+        "Wir organisieren Busse, damit niemand sich um die Fahrt kümmern muss. Von der Kirche zu den Jardines de la Cartuja, und auf dem Rückweg zu mehreren Zeiten von der Cartuja zurück ins Zentrum Valencias — damit jeder das Fest in seinem Tempo genießen kann.",
+      transportRouteFrom: "Abfahrt",
+      transportRouteTo: "Ankunft",
+      faqTitle: "Häufige Fragen",
+      faq: [
+        {
+          q: "Darf ich jemanden mitbringen?",
+          a: "Bitte bestätige es mit uns — die Einladung gibt an, wie viele Plätze für dich reserviert sind.",
+        },
+        {
+          q: "Sind Kinder willkommen?",
+          a: "Ja, sag uns aber bitte rechtzeitig Bescheid, damit wir alles vorbereiten können.",
+        },
+        {
+          q: "Wird es Transport geben?",
+          a: "Wir organisieren das gerade und werden diese Seite bald aktualisieren.",
+        },
+      ],
+    },
+    gifts: {
+      title: "Geschenkliste",
+      subtitle:
+        "Eure Anwesenheit ist schon das schönste Geschenk. Wenn ihr trotzdem etwas beitragen möchtet, haben wir ein paar Ideen zusammengestellt.",
+      comingSoonTitle: "Bald da",
+      comingSoonBody:
+        "Wir stellen die Geschenkliste gerade liebevoll zusammen. Schaut bald wieder vorbei!",
+      contributeButton: "Beitragen",
+      currency: "€",
+      suggestedAmount: "Vorgeschlagener Betrag",
+      anyAmount: "Beliebiger Betrag",
+      currencyToggleLabel: "In welcher Währung möchtest du beitragen?",
+      eurFull: "Euro (Spanien · Europa)",
+      brlFull: "Brasilianische Real",
+      paymentTitle: "Wie ihr beitragen könnt",
+      paymentSubtitle:
+        "Wählt eine der Optionen unten. Alles läuft sicher — wir fragen niemals direkt nach euren Kartendaten.",
+      stripe: {
+        title: "Apple Pay · Google Pay · Karte",
+        instructions:
+          "Schnelle und sichere Zahlung über Stripe. Funktioniert von überall auf der Welt.",
+        button: "Mit Apple Pay oder Karte zahlen",
+        recommended: "Am schnellsten",
+      },
+      pix: {
+        title: "PIX (Brasilien)",
+        instructions:
+          "Öffne deine brasilianische Banking-App, scanne den QR-Code unten, oder kopiere und füge den PIX-Code ein. Der Betrag und die Geschenkbeschreibung sind bereits ausgefüllt.",
+        qrTitle: "Mit deiner Bank-App scannen",
+        copyPasteTitle: "Oder kopiere und füge den PIX-Code ein",
+        copyPasteCopy: "Code kopieren",
+        copyPasteCopied: "Kopiert!",
+        manualTitle: "Oder zahle manuell mit dem PIX-Schlüssel",
+        keyLabel: "PIX-Schlüssel",
+        keyTypeLabel: "Typ",
+        recipientLabel: "Empfänger",
+        bankLabel: "Bank",
+        copyButton: "Schlüssel kopieren",
+        copiedButton: "Kopiert!",
+        unconfigured:
+          "Der PIX-Schlüssel ist noch nicht konfiguriert. Bitte wendet euch an das Paar.",
+      },
+      bizum: {
+        title: "Bizum (Spanien)",
+        instructions:
+          "Öffne deine Banking-App, wähle Bizum und sende an die unten stehende Nummer. Schreibe in den Verwendungszweck den Namen des Geschenks.",
+        phoneLabel: "Telefon",
+        recipientLabel: "Empfänger",
+        copyButton: "Telefon kopieren",
+        copiedButton: "Kopiert!",
+      },
+      bankTransfer: {
+        title: "Banküberweisung",
+        instructions:
+          "Für andere Länder: macht eine internationale Überweisung an die IBAN unten. Bitte fügt den Geschenknamen in den Verwendungszweck ein.",
+        ibanLabel: "IBAN",
+        bicLabel: "BIC/SWIFT",
+        bankLabel: "Bank",
+        recipientLabel: "Empfänger",
+        copyButton: "IBAN kopieren",
+        copiedButton: "Kopiert!",
+      },
+      thanksTitle: "Danke!",
+      thanksBody:
+        "Nachdem ihr gesendet habt, schreibt uns kurz, damit wir den Empfang bestätigen können. Jeder Beitrag wird mit ganz viel Liebe gefeiert.",
+      back: "← Zurück zur Liste",
+    },
+    travel: {
+      title: "Für unsere Reisenden",
+      subtitle:
+        "Ein paar Tipps, damit ihr euch entspannt einlebt und Valencia stressfrei entdeckt.",
+      gettingThereTitle: "Anreise",
+      gettingThereBody:
+        "Der Flughafen Valencia (VLC) ist von vielen europäischen Städten direkt erreichbar. Vom Flughafen bringen euch die Metrolinien 3 und 5 in etwa 25 Minuten ins Zentrum. Wer in Madrid landet, kann den Hochgeschwindigkeitszug AVE Madrid–Valencia nehmen — Fahrzeit etwa 1h40.",
+      hotelsTitle: "Hotelempfehlungen",
+      hotelsBody:
+        "Ein paar gut gelegene Optionen. Die Preise sind ungefähre Anhaltspunkte und schwanken je nach Saison.",
+      apartmentsTitle: "Apartments",
+      apartmentsBody:
+        "Für alle, die mehr Platz, eine Küche oder Gruppenreisen bevorzugen.",
+      priceFromLabel: "Ab",
+      bookButton: "Bei Booking ansehen",
+      tipsTitle: "Tipps für Valencia",
+      tipsBody:
+        "Ein paar Lieblingsdinge aus unserer Stadt: echte Paella draußen in der Albufera, eiskalte Horchata im Sommer, ein langer Spaziergang durch den Jardín del Turia (ein altes Flussbett, das zum Park wurde) und ein frühabendlicher Vermouth im Stadtviertel Ruzafa.",
+    },
+    rsvp: {
+      title: "Zusagen",
+      subtitle: "Wir können es kaum erwarten, mit euch zu feiern.",
+      deadlinePrefix: "Bitte antwortet bis zum",
+      nameLabel: "Vollständiger Name",
+      namePlaceholder: "So wie ihr auf der Gästeliste erscheinen möchtet",
+      emailLabel: "E-Mail",
+      emailPlaceholder: "Damit wir euch Updates schicken können (optional)",
+      attendingLabel: "Könnt ihr kommen?",
+      attendingYes: "Ja, ich freue mich riesig 💕",
+      attendingNo: "Leider kann ich nicht teilnehmen",
+      partySizeLabel:
+        "Wie viele Personen insgesamt (euch eingeschlossen)?",
+      dietaryLabel: "Lebensmittelunverträglichkeiten oder Allergien?",
+      dietaryPlaceholder:
+        "Vegetarisch, glutenfrei, Schalentier-Allergie…",
+      messageLabel: "Eine Nachricht für das Brautpaar",
+      messagePlaceholder: "Ein paar liebe Worte (optional)",
+      submitButton: "Zusage senden",
+      submitting: "Senden…",
+      successTitle: "Zusage erhalten 💕",
+      successBody:
+        "Vielen Dank! Wir haben eure Antwort. Falls ihr später etwas ändern möchtet, sagt uns einfach Bescheid.",
+      errorTitle: "Etwas ist schiefgelaufen",
+      errorBody:
+        "Wir konnten eure Zusage nicht senden. Versucht es bitte gleich noch einmal oder schreibt uns direkt.",
+      requiredHint: "*Pflichtfelder",
+      notConfiguredTitle: "Bald verfügbar",
+      notConfiguredBody:
+        "Das Zusage-Formular ist noch nicht bereit. Schaut bald wieder vorbei!",
+    },
+    footer: {
+      madeWith: "Mit Liebe,",
     },
   },
 } as const;

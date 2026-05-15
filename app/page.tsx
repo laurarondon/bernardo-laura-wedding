@@ -7,8 +7,10 @@ export default function Root() {
     ? "es"
     : accept.startsWith("pt")
       ? "pt"
-      : accept.startsWith("en")
-        ? "en"
-        : "pt";
+      : accept.startsWith("de")
+        ? "de"
+        : accept.startsWith("en")
+          ? "en"
+          : "pt";
   redirect(`/${lang}`);
 }

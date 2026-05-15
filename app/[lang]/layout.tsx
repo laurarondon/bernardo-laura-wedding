@@ -22,5 +22,5 @@ export default function LangLayout({
 }
 
 export function generateStaticParams() {
-  return [{ lang: "pt" }, { lang: "es" }, { lang: "en" }];
+  return [{ lang: "pt" }, { lang: "es" }, { lang: "en" }, { lang: "de" }];
 }

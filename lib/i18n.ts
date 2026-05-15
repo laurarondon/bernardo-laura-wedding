@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Lang } from "@/content/translations";
 
-export const SUPPORTED_LANGS = ["pt", "es", "en"] as const;
+export const SUPPORTED_LANGS = ["pt", "es", "en", "de"] as const;
 
 export function assertLang(value: string): Lang {
   if (!SUPPORTED_LANGS.includes(value as Lang)) notFound();
@@ -12,6 +12,7 @@ const LOCALES: Record<Lang, string> = {
   pt: "pt-BR",
   es: "es-ES",
   en: "en-GB",
+  de: "de-DE",
 };
 
 export function formatDate(iso: string, lang: Lang) {

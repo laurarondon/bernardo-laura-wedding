@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 // The order reflects the couple's languages and their international guests.
 const GREETINGS = ["Bem-vindos", "Bienvenidos", "Welcome", "Willkommen"] as const;
 
-const ROTATION_MS = 2800;
-const FADE_MS = 350;
+const ROTATION_MS = 2000;
+const FADE_MS = 300;
 
 export function WelcomeRotation() {
   const [index, setIndex] = useState(0);

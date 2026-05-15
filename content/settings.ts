@@ -21,6 +21,7 @@ export const settings = {
       pt: "Espanha",
       es: "España",
       en: "Spain",
+      de: "Spanien",
     },
     // The ceremony — church
     ceremony: {
@@ -43,6 +44,7 @@ export const settings = {
       pt: "Traje esporte fino",
       es: "Cóctel / Semi-formal",
       en: "Cocktail / Semi-formal",
+      de: "Cocktail / Halbformell",
     },
   },
 
@@ -59,12 +61,11 @@ export const settings = {
     tower: "/images/tower.png", // illustration shown in the wedding details page
   },
 
-  // The little family — pets shown in the "Our little family" section.
-  // To add another animal: copy a line and change the name + image path.
-  pets: [
-    { name: "Grilo", image: "/images/dog.png" },
-    { name: "Formiga", image: "/images/cockatiel.png" },
-  ],
+  // The little family — illustration of the pets shown on the home page.
+  pets: {
+    image: "/images/both.png",
+    caption: "Grilo & Formiga",
+  },
 
   // ─────────── TRANSPORT ───────────
   // Buses we organise for guests. Edit times/routes once confirmed.
@@ -73,28 +74,28 @@ export const settings = {
     routes: [
       {
         time: "11:00",
-        from: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre" },
-        to: { pt: "Iglesia San Juan del Hospital", es: "Iglesia San Juan del Hospital", en: "Iglesia San Juan del Hospital" },
+        from: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
+        to: { pt: "Iglesia San Juan del Hospital", es: "Iglesia San Juan del Hospital", en: "Iglesia San Juan del Hospital", de: "Iglesia San Juan del Hospital" },
       },
       {
         time: "13:30",
-        from: { pt: "Iglesia San Juan del Hospital", es: "Iglesia San Juan del Hospital", en: "Iglesia San Juan del Hospital" },
-        to: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja" },
+        from: { pt: "Iglesia San Juan del Hospital", es: "Iglesia San Juan del Hospital", en: "Iglesia San Juan del Hospital", de: "Iglesia San Juan del Hospital" },
+        to: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
       },
       {
         time: "20:00",
-        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja" },
-        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre" },
+        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
+        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
       },
       {
         time: "23:00",
-        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja" },
-        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre" },
+        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
+        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
       },
       {
         time: "01:30",
-        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja" },
-        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre" },
+        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
+        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
       },
     ],
   },
@@ -112,6 +113,7 @@ export const settings = {
           pt: "Hotel boutique 5★ em um palácio do século XIX, no centro histórico.",
           es: "Hotel boutique 5★ en un palacio del siglo XIX, en el centro histórico.",
           en: "5★ boutique hotel in a 19th-century palace, in the historic centre.",
+          de: "5★ Boutique-Hotel in einem Palast aus dem 19. Jahrhundert, in der Altstadt.",
         },
         priceFrom: "€220",
         bookingUrl:
@@ -123,6 +125,7 @@ export const settings = {
           pt: "Hotel 4★ a poucos passos do Mercado Central e da catedral.",
           es: "Hotel 4★ a pocos pasos del Mercado Central y la catedral.",
           en: "4★ hotel a few steps from the Mercado Central and the cathedral.",
+          de: "4★ Hotel nur wenige Schritte vom Mercado Central und der Kathedrale entfernt.",
         },
         priceFrom: "€120",
         bookingUrl:
@@ -134,6 +137,7 @@ export const settings = {
           pt: "Hotel 3★ central e econômico, em frente à Plaza del Ayuntamiento.",
           es: "Hotel 3★ céntrico y económico, frente a la Plaza del Ayuntamiento.",
           en: "Central, budget-friendly 3★ hotel facing Plaza del Ayuntamiento.",
+          de: "Zentrales, günstiges 3★ Hotel direkt gegenüber der Plaza del Ayuntamiento.",
         },
         priceFrom: "€85",
         bookingUrl:
@@ -147,6 +151,7 @@ export const settings = {
           pt: "Apartamentos com cara de Valência antiga, ótimos para grupos e estadias mais longas.",
           es: "Apartamentos con encanto del Valencia antiguo, ideales para grupos y estancias largas.",
           en: "Old-Valencia-feel apartments, great for groups and longer stays.",
+          de: "Apartments im Stil der Altstadt Valencias, ideal für Gruppen und längere Aufenthalte.",
         },
         priceFrom: "€90",
         bookingUrl:
@@ -158,6 +163,7 @@ export const settings = {
           pt: "Bairro descolado e moderno, com bons cafés e bares; bem conectado por metrô.",
           es: "Barrio moderno y con onda, con buenas cafeterías y bares; bien conectado por metro.",
           en: "Hip, modern neighbourhood with great cafés and bars; well connected by metro.",
+          de: "Hippes, modernes Viertel mit tollen Cafés und Bars; gute Metro-Anbindung.",
         },
         priceFrom: "€75",
         bookingUrl:

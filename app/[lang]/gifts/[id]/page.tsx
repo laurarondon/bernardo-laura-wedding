@@ -93,7 +93,7 @@ export default function GiftDetail({
 }
 
 export function generateStaticParams() {
-  const langs = ["pt", "es", "en"] as const;
+  const langs = ["pt", "es", "en", "de"] as const;
   return langs.flatMap((lang) =>
     gifts.map((g) => ({ lang, id: g.id })),
   );
