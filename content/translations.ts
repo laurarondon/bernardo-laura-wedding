@@ -6,10 +6,12 @@ export const translations = {
       home: "Início",
       wedding: "O casamento",
       gifts: "Lista de presentes",
+      travel: "Viajar",
       rsvp: "Confirmar presença",
     },
     home: {
       saveTheDate: "Save the Date",
+      addToCalendar: "Adicionar à agenda",
       tagline: "Vamos casar!",
       countdown: {
         days: "dias",
@@ -38,6 +40,11 @@ export const translations = {
       weatherLabel: "Sobre Valência em junho",
       weatherBody:
         "Valência fica na costa leste da Espanha, banhada pelo mar Mediterrâneo. Em junho, as temperaturas costumam variar entre 20°C e 28°C, com céu ensolarado e brisa suave do mar. O sol se põe por volta das 21h30, então a celebração se estende com calma sob o longo céu de verão. Recomendamos tecidos leves — algodão, linho — e sapatos confortáveis, sobretudo porque os jardins da Cartuja têm caminhos de pedra.",
+      transportLabel: "Como vamos chegar",
+      transportBody:
+        "Vamos organizar ônibus para que ninguém precise se preocupar em dirigir. Da igreja até os jardins da Cartuja e, na volta, da Cartuja até o centro de Valência em vários horários, para que cada um curte a festa no seu ritmo.",
+      transportRouteFrom: "Saída de",
+      transportRouteTo: "Chegada em",
       faqTitle: "Perguntas frequentes",
       faq: [
         {
@@ -120,6 +127,25 @@ export const translations = {
         "Após enviar, mande-nos uma mensagem para confirmarmos o recebimento. Cada contribuição será celebrada com muito carinho.",
       back: "← Voltar à lista",
     },
+    travel: {
+      title: "Para os nossos viajantes",
+      subtitle:
+        "Algumas ideias para vocês descansarem e descobrirem Valência sem stress.",
+      gettingThereTitle: "Como chegar",
+      gettingThereBody:
+        "O aeroporto de Valência (VLC) recebe voos diretos de várias cidades da Europa. Do aeroporto, o metrô (linhas 3 e 5) leva ao centro em uns 25 minutos. Quem vem do Brasil costuma fazer escala em Madri ou Lisboa — daí pode pegar um voo curto ou o trem de alta velocidade (AVE Madrid-Valência, ~1h40).",
+      hotelsTitle: "Hotéis recomendados",
+      hotelsBody:
+        "Selecionamos algumas opções com boa localização. Os preços são uma referência e variam pela época.",
+      apartmentsTitle: "Apartamentos",
+      apartmentsBody:
+        "Para quem prefere mais espaço, cozinha, ou viaja em grupo.",
+      priceFromLabel: "A partir de",
+      bookButton: "Ver no Booking",
+      tipsTitle: "Dicas de Valência",
+      tipsBody:
+        "Algumas coisas que adoramos na nossa cidade: paella autêntica na Albufera, horchata fresca no verão, passear pelo Jardín del Turia (um antigo rio convertido em parque), e tomar um vermouth na hora do aperitivo no bairro de Ruzafa.",
+    },
     rsvp: {
       title: "Confirmar presença",
       subtitle: "Mal podemos esperar para celebrar com você.",
@@ -158,10 +184,12 @@ export const translations = {
       home: "Inicio",
       wedding: "La boda",
       gifts: "Lista de regalos",
+      travel: "Viaje",
       rsvp: "Confirmar asistencia",
     },
     home: {
       saveTheDate: "Save the Date",
+      addToCalendar: "Añadir al calendario",
       tagline: "¡Nos casamos!",
       countdown: {
         days: "días",
@@ -190,6 +218,11 @@ export const translations = {
       weatherLabel: "Sobre Valencia en junio",
       weatherBody:
         "Valencia está en la costa este de España, bañada por el mar Mediterráneo. En junio, las temperaturas suelen oscilar entre los 20°C y los 28°C, con cielos soleados y una suave brisa del mar. El sol se pone hacia las 21:30, así que la celebración se alarga con calma bajo el largo cielo de verano. Recomendamos tejidos ligeros — algodón, lino — y calzado cómodo, sobre todo porque los jardines de la Cartuja tienen caminos de piedra.",
+      transportLabel: "Cómo llegamos",
+      transportBody:
+        "Vamos a organizar autobuses para que nadie tenga que preocuparse por conducir. Desde la iglesia hasta los jardines de la Cartuja y, a la vuelta, desde la Cartuja al centro de Valencia en varios horarios, para que cada quien disfrute la fiesta a su ritmo.",
+      transportRouteFrom: "Salida desde",
+      transportRouteTo: "Llegada a",
       faqTitle: "Preguntas frecuentes",
       faq: [
         {
@@ -272,6 +305,25 @@ export const translations = {
         "Después de enviar, escríbenos para confirmar la recepción. Cada contribución la celebraremos con mucho cariño.",
       back: "← Volver a la lista",
     },
+    travel: {
+      title: "Para nuestros viajeros",
+      subtitle:
+        "Algunas ideas para que descanséis y descubráis Valencia sin estrés.",
+      gettingThereTitle: "Cómo llegar",
+      gettingThereBody:
+        "El aeropuerto de Valencia (VLC) recibe vuelos directos desde varias ciudades europeas. Desde el aeropuerto, el metro (líneas 3 y 5) llega al centro en unos 25 minutos. Si llegáis desde Madrid, el tren de alta velocidad (AVE Madrid-Valencia) tarda ~1h40.",
+      hotelsTitle: "Hoteles recomendados",
+      hotelsBody:
+        "Hemos seleccionado algunas opciones bien ubicadas. Los precios son orientativos y varían según la temporada.",
+      apartmentsTitle: "Apartamentos",
+      apartmentsBody:
+        "Para quienes prefieren más espacio, cocina, o viajan en grupo.",
+      priceFromLabel: "Desde",
+      bookButton: "Ver en Booking",
+      tipsTitle: "Tips de Valencia",
+      tipsBody:
+        "Algunas cosas que amamos de nuestra ciudad: paella auténtica en l'Albufera, horchata fresca en verano, pasear por el Jardín del Turia (un antiguo río convertido en parque), y tomarse un vermut a la hora del aperitivo en el barrio de Ruzafa.",
+    },
     rsvp: {
       title: "Confirmar asistencia",
       subtitle: "No vemos la hora de celebrar contigo.",
@@ -310,10 +362,12 @@ export const translations = {
       home: "Home",
       wedding: "The wedding",
       gifts: "Gift list",
+      travel: "Travel",
       rsvp: "RSVP",
     },
     home: {
       saveTheDate: "Save the Date",
+      addToCalendar: "Add to calendar",
       tagline: "We're getting married!",
       countdown: {
         days: "days",
@@ -342,6 +396,11 @@ export const translations = {
       weatherLabel: "About Valencia in June",
       weatherBody:
         "Valencia sits on Spain's east coast, on the Mediterranean. In June, temperatures usually range from 20°C to 28°C (68–82°F), with sunny skies and a gentle sea breeze. Sunset comes around 9:30 pm, so the celebration unfolds at a leisurely pace under the long summer sky. We suggest light fabrics — cotton, linen — and comfortable shoes, especially since the gardens at la Cartuja have stone paths.",
+      transportLabel: "How we'll get there",
+      transportBody:
+        "We're putting on coaches so no one has to worry about driving. From the church to the Jardines de la Cartuja, and back from the Cartuja to central Valencia at several times so everyone can enjoy the party at their own pace.",
+      transportRouteFrom: "Departing from",
+      transportRouteTo: "Arriving at",
       faqTitle: "Frequently asked",
       faq: [
         {
@@ -423,6 +482,25 @@ export const translations = {
       thanksBody:
         "After sending, please drop us a message so we can confirm receipt. Every contribution will be celebrated with so much love.",
       back: "← Back to the list",
+    },
+    travel: {
+      title: "For our travellers",
+      subtitle:
+        "A few ideas to help you settle in and explore Valencia, stress-free.",
+      gettingThereTitle: "Getting here",
+      gettingThereBody:
+        "Valencia airport (VLC) has direct flights from many European cities. From the airport, the metro (lines 3 and 5) reaches the centre in about 25 minutes. If you fly into Madrid, the high-speed train (AVE Madrid–Valencia) takes about 1h40.",
+      hotelsTitle: "Recommended hotels",
+      hotelsBody:
+        "A handful of well-located options. Prices are indicative and vary by season.",
+      apartmentsTitle: "Apartments",
+      apartmentsBody:
+        "For those who'd rather have more space, a kitchen, or are travelling in a group.",
+      priceFromLabel: "From",
+      bookButton: "View on Booking",
+      tipsTitle: "Valencia tips",
+      tipsBody:
+        "A few things we love about our city: real paella out in l'Albufera, cold horchata in summer, a long walk through the Jardín del Turia (an old riverbed turned park), and an early-evening vermouth in the Ruzafa neighbourhood.",
     },
     rsvp: {
       title: "RSVP",

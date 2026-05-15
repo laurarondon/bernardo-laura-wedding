@@ -40,6 +40,12 @@ export function Header({ lang }: { lang: Lang }) {
             {tr.nav.gifts}
           </Link>
           <Link
+            href={`/${lang}/travel`}
+            className="hover:text-sageDark text-ink/70 transition whitespace-nowrap"
+          >
+            {tr.nav.travel}
+          </Link>
+          <Link
             href={`/${lang}/rsvp`}
             className="hover:text-sageDark text-ink/70 transition whitespace-nowrap font-medium"
           >

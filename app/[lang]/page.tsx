@@ -2,6 +2,7 @@ import { assertLang } from "@/lib/i18n";
 import { t } from "@/content/translations";
 import { settings } from "@/content/settings";
 import { Countdown } from "@/components/Countdown";
+import { AddToCalendarButton } from "@/components/AddToCalendarButton";
 import { formatDate } from "@/lib/i18n";
 
 export default function Home({ params }: { params: { lang: string } }) {
@@ -70,6 +71,9 @@ export default function Home({ params }: { params: { lang: string } }) {
           {settings.wedding.city}, {settings.wedding.country[lang]}
         </p>
         <Countdown targetIso={settings.wedding.date} lang={lang} />
+        <div className="mt-4 flex justify-center">
+          <AddToCalendarButton label={tr.home.addToCalendar} />
+        </div>
       </section>
 
       {/* Our little family */}

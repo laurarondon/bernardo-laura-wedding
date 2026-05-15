@@ -1,6 +1,7 @@
 import { assertLang } from "@/lib/i18n";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { WelcomeRotation } from "@/components/WelcomeRotation";
 
 export default function LangLayout({
   children,
@@ -12,6 +13,7 @@ export default function LangLayout({
   const lang = assertLang(params.lang);
   return (
     <>
+      <WelcomeRotation />
       <Header lang={lang} />
       <main className="min-h-[70vh]">{children}</main>
       <Footer lang={lang} />

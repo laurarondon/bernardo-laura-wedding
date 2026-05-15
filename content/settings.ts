@@ -66,6 +66,106 @@ export const settings = {
     { name: "Formiga", image: "/images/cockatiel.png" },
   ],
 
+  // ─────────── TRANSPORT ───────────
+  // Buses we organise for guests. Edit times/routes once confirmed.
+  transport: {
+    enabled: true,
+    routes: [
+      {
+        time: "11:00",
+        from: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre" },
+        to: { pt: "Iglesia San Juan del Hospital", es: "Iglesia San Juan del Hospital", en: "Iglesia San Juan del Hospital" },
+      },
+      {
+        time: "13:30",
+        from: { pt: "Iglesia San Juan del Hospital", es: "Iglesia San Juan del Hospital", en: "Iglesia San Juan del Hospital" },
+        to: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja" },
+      },
+      {
+        time: "20:00",
+        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja" },
+        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre" },
+      },
+      {
+        time: "23:00",
+        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja" },
+        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre" },
+      },
+      {
+        time: "01:30",
+        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja" },
+        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre" },
+      },
+    ],
+  },
+
+  // ─────────── ACCOMMODATIONS ───────────
+  // Hotel and apartment recommendations shown on the travel page.
+  // Replace these placeholders with the ones you actually want to recommend.
+  // Each one needs: a name, a 1-sentence brief in PT/ES/EN, indicative
+  // starting price, and a Booking.com URL.
+  accommodations: {
+    hotels: [
+      {
+        name: "Hospes Palau de la Mar",
+        brief: {
+          pt: "Hotel boutique 5★ em um palácio do século XIX, no centro histórico.",
+          es: "Hotel boutique 5★ en un palacio del siglo XIX, en el centro histórico.",
+          en: "5★ boutique hotel in a 19th-century palace, in the historic centre.",
+        },
+        priceFrom: "€220",
+        bookingUrl:
+          "https://www.booking.com/searchresults.html?ss=Hospes+Palau+de+la+Mar+Valencia",
+      },
+      {
+        name: "Vincci Lys Valencia",
+        brief: {
+          pt: "Hotel 4★ a poucos passos do Mercado Central e da catedral.",
+          es: "Hotel 4★ a pocos pasos del Mercado Central y la catedral.",
+          en: "4★ hotel a few steps from the Mercado Central and the cathedral.",
+        },
+        priceFrom: "€120",
+        bookingUrl:
+          "https://www.booking.com/searchresults.html?ss=Vincci+Lys+Valencia",
+      },
+      {
+        name: "Hotel Venecia",
+        brief: {
+          pt: "Hotel 3★ central e econômico, em frente à Plaza del Ayuntamiento.",
+          es: "Hotel 3★ céntrico y económico, frente a la Plaza del Ayuntamiento.",
+          en: "Central, budget-friendly 3★ hotel facing Plaza del Ayuntamiento.",
+        },
+        priceFrom: "€85",
+        bookingUrl:
+          "https://www.booking.com/searchresults.html?ss=Hotel+Venecia+Valencia",
+      },
+    ],
+    apartments: [
+      {
+        name: "Apartamentos no Barrio del Carmen",
+        brief: {
+          pt: "Apartamentos com cara de Valência antiga, ótimos para grupos e estadias mais longas.",
+          es: "Apartamentos con encanto del Valencia antiguo, ideales para grupos y estancias largas.",
+          en: "Old-Valencia-feel apartments, great for groups and longer stays.",
+        },
+        priceFrom: "€90",
+        bookingUrl:
+          "https://www.booking.com/searchresults.html?ss=Barrio+del+Carmen+Valencia&group_adults=2",
+      },
+      {
+        name: "Apartamentos Ruzafa",
+        brief: {
+          pt: "Bairro descolado e moderno, com bons cafés e bares; bem conectado por metrô.",
+          es: "Barrio moderno y con onda, con buenas cafeterías y bares; bien conectado por metro.",
+          en: "Hip, modern neighbourhood with great cafés and bars; well connected by metro.",
+        },
+        priceFrom: "€75",
+        bookingUrl:
+          "https://www.booking.com/searchresults.html?ss=Ruzafa+Valencia",
+      },
+    ],
+  },
+
   // ─────────── GIFT LIST ───────────
   gifts: {
     // When true, the /gifts page shows a "Coming soon" placeholder instead of
