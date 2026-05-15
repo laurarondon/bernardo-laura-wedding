@@ -1,5 +1,5 @@
 import { assertLang } from "@/lib/i18n";
-import { t } from "@/content/translations";
+import { t, type Lang } from "@/content/translations";
 import { settings } from "@/content/settings";
 
 export default function Travel({ params }: { params: { lang: string } }) {
@@ -77,7 +77,7 @@ export default function Travel({ params }: { params: { lang: string } }) {
 
 type CardItem = {
   name: string;
-  brief: { pt: string; es: string; en: string };
+  brief: { pt: string; es: string; en: string; de: string };
   priceFrom: string;
   bookingUrl: string;
 };
@@ -88,7 +88,7 @@ function Card({
   tr,
 }: {
   item: CardItem;
-  lang: "pt" | "es" | "en";
+  lang: Lang;
   tr: { priceFromLabel: string; bookButton: string };
 }) {
   return (
