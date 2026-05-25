@@ -8,6 +8,10 @@ type Status = "idle" | "submitting" | "success" | "error";
 
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 
+// TEMPORARY: show raw Web3Forms response on the page so we can diagnose without
+// browser dev tools. Remove this once RSVPs are working reliably.
+const DEBUG_PANEL = true;
+
 export function RsvpForm({
   lang,
   accessKey,
@@ -18,6 +22,7 @@ export function RsvpForm({
   const tr = t(lang).rsvp;
   const [status, setStatus] = useState<Status>("idle");
   const [attending, setAttending] = useState<"yes" | "no" | "">("");
+  const [debugInfo, setDebugInfo] = useState<string>("");
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -72,29 +77,42 @@ export function RsvpForm({
         },
         body: JSON.stringify(payload),
       });
-      const data: { success?: boolean; message?: string } = await res
-        .json()
-        .catch(() => ({}));
-      // Strict success — only treat as accepted if Web3Forms says so explicitly.
+      const rawText = await res.text();
+      let data: { success?: boolean; message?: string } = {};
+      try {
+        data = JSON.parse(rawText);
+      } catch {
+        // not JSON
+      }
+      setDebugInfo(
+        `HTTP ${res.status}\nOrigin: ${window.location.origin}\nKey ends: …${accessKey.slice(-6)}\nResponse:\n${rawText.slice(0, 500)}`,
+      );
       if (!res.ok || data.success !== true) {
-        // Surface the actual message in the browser console for easier debugging.
-        // eslint-disable-next-line no-console
-        console.error("[RSVP] Web3Forms rejected:", res.status, data);
         throw new Error(data.message || `HTTP ${res.status}`);
       }
       setStatus("success");
     } catch (err) {
-      // eslint-disable-next-line no-console
-      console.error("[RSVP] submission failed:", err);
+      setDebugInfo(
+        (d) =>
+          d ||
+          `Fetch threw: ${err instanceof Error ? err.message : String(err)}\nOrigin: ${window.location.origin}`,
+      );
       setStatus("error");
     }
   }
 
   if (status === "success") {
     return (
-      <div className="bg-sage/10 border border-sage/40 rounded-lg p-8 text-center">
-        <p className="font-serif text-2xl text-sageDark">{tr.successTitle}</p>
-        <p className="mt-3 text-ink/70">{tr.successBody}</p>
+      <div>
+        <div className="bg-sage/10 border border-sage/40 rounded-lg p-8 text-center">
+          <p className="font-serif text-2xl text-sageDark">{tr.successTitle}</p>
+          <p className="mt-3 text-ink/70">{tr.successBody}</p>
+        </div>
+        {DEBUG_PANEL && debugInfo && (
+          <pre className="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded text-xs whitespace-pre-wrap break-all text-ink/70">
+            {debugInfo}
+          </pre>
+        )}
       </div>
     );
   }
@@ -197,6 +215,12 @@ export function RsvpForm({
           <p className="font-medium">{tr.errorTitle}</p>
           <p className="text-sm mt-1">{tr.errorBody}</p>
         </div>
+      )}
+
+      {DEBUG_PANEL && debugInfo && (
+        <pre className="mt-2 p-4 bg-yellow-50 border border-yellow-200 rounded text-xs whitespace-pre-wrap break-all text-ink/70">
+          {debugInfo}
+        </pre>
       )}
 
       <div className="flex items-center justify-between gap-4 pt-2">
