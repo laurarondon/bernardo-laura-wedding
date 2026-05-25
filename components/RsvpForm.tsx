@@ -75,11 +75,17 @@ export function RsvpForm({
       const data: { success?: boolean; message?: string } = await res
         .json()
         .catch(() => ({}));
-      if (!res.ok || data.success === false) {
+      // Strict success — only treat as accepted if Web3Forms says so explicitly.
+      if (!res.ok || data.success !== true) {
+        // Surface the actual message in the browser console for easier debugging.
+        // eslint-disable-next-line no-console
+        console.error("[RSVP] Web3Forms rejected:", res.status, data);
         throw new Error(data.message || `HTTP ${res.status}`);
       }
       setStatus("success");
-    } catch {
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error("[RSVP] submission failed:", err);
       setStatus("error");
     }
   }
