@@ -176,6 +176,7 @@ export const translations = {
       notConfiguredTitle: "Em breve",
       notConfiguredBody:
         "O formulário de confirmação ainda não está pronto. Volte em breve!",
+      openFormFallback: "Não consegue ver o formulário? Abra numa nova aba →",
     },
     footer: {
       madeWith: "Com amor,",
@@ -356,6 +357,7 @@ export const translations = {
       notConfiguredTitle: "Muy pronto",
       notConfiguredBody:
         "El formulario de confirmación aún no está listo. ¡Vuelve pronto!",
+      openFormFallback: "¿No ves el formulario? Ábrelo en una pestaña nueva →",
     },
     footer: {
       madeWith: "Con amor,",
@@ -536,6 +538,7 @@ export const translations = {
       notConfiguredTitle: "Coming soon",
       notConfiguredBody:
         "The RSVP form isn't ready yet. Please check back soon!",
+      openFormFallback: "Can't see the form? Open it in a new tab →",
     },
     footer: {
       madeWith: "With love,",
@@ -719,6 +722,7 @@ export const translations = {
       notConfiguredTitle: "Bald verfügbar",
       notConfiguredBody:
         "Das Zusage-Formular ist noch nicht bereit. Schaut bald wieder vorbei!",
+      openFormFallback: "Siehst du das Formular nicht? Öffne es in einem neuen Tab →",
     },
     footer: {
       madeWith: "Mit Liebe,",
