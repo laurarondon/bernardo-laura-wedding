@@ -222,9 +222,10 @@ export const settings = {
   // paste it here. Until set, the RSVP page shows a "Coming soon" placeholder.
   // Each submission becomes an email in the inbox you registered with Formsubmit.
   rsvp: {
-    // Formsubmit endpoint. Direct email (URL-encoded "+" → "%2B").
-    // First submission triggers a one-time activation email — see chat for details.
-    endpoint: "https://formsubmit.co/ajax/casamento%2Blaura301196@gmail.com",
+    // Web3Forms access key. Each submission becomes an email to the
+    // inbox you registered at https://web3forms.com.
+    // Leave empty ("") to hide the form and show a "Coming soon" placeholder.
+    accessKey: "583af127-e76c-4cd3-b879-737da194f31b",
     // ISO date — guests see "please RSVP by …". Leave empty to hide the deadline.
     deadline: "2027-04-15",
   },

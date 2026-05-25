@@ -6,12 +6,14 @@ import { t } from "@/content/translations";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
+const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
+
 export function RsvpForm({
   lang,
-  endpoint,
+  accessKey,
 }: {
   lang: Lang;
-  endpoint: string;
+  accessKey: string;
 }) {
   const tr = t(lang).rsvp;
   const [status, setStatus] = useState<Status>("idle");
@@ -33,14 +35,25 @@ export function RsvpForm({
       .value;
     const message = (form.elements.namedItem("message") as HTMLTextAreaElement)
       .value;
+    const botcheck = (form.elements.namedItem("botcheck") as HTMLInputElement)
+      ?.value;
+
+    // Honeypot: if the hidden field has a value, silently "succeed" — it was a bot.
+    if (botcheck) {
+      setStatus("success");
+      return;
+    }
 
     const subject =
       attendingValue === "yes"
         ? `RSVP – ${name} – Yes (${partySize})`
         : `RSVP – ${name} – No`;
 
-    // Formsubmit AJAX endpoint expects JSON; "_" prefixed fields are special.
-    const payload: Record<string, string> = {
+    const payload = {
+      access_key: accessKey,
+      subject,
+      from_name: "Bernardo & Laura — Wedding RSVP",
+      // Fields below appear in the email body, in this order:
       Name: name,
       Email: email || "(not provided)",
       Attending: attendingValue === "yes" ? "Yes" : "No",
@@ -48,14 +61,10 @@ export function RsvpForm({
       "Dietary / allergies": dietary || "—",
       Message: message || "—",
       Language: lang.toUpperCase(),
-      _subject: subject,
-      _template: "table",
-      _captcha: "false",
     };
-    if (email) payload._replyto = email;
 
     try {
-      const res = await fetch(endpoint, {
+      const res = await fetch(WEB3FORMS_ENDPOINT, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -63,7 +72,12 @@ export function RsvpForm({
         },
         body: JSON.stringify(payload),
       });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data: { success?: boolean; message?: string } = await res
+        .json()
+        .catch(() => ({}));
+      if (!res.ok || data.success === false) {
+        throw new Error(data.message || `HTTP ${res.status}`);
+      }
       setStatus("success");
     } catch {
       setStatus("error");
@@ -81,6 +95,16 @@ export function RsvpForm({
 
   return (
     <form onSubmit={onSubmit} className="space-y-6">
+      {/* Honeypot — hidden from real users, attractive to bots */}
+      <input
+        type="checkbox"
+        name="botcheck"
+        tabIndex={-1}
+        autoComplete="off"
+        className="hidden"
+        aria-hidden
+      />
+
       <Field label={`${tr.nameLabel} *`}>
         <input
           name="name"

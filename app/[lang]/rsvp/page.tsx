@@ -6,7 +6,7 @@ import { RsvpForm } from "@/components/RsvpForm";
 export default function Rsvp({ params }: { params: { lang: string } }) {
   const lang = assertLang(params.lang);
   const tr = t(lang).rsvp;
-  const endpoint = settings.rsvp.endpoint;
+  const accessKey = settings.rsvp.accessKey;
 
   return (
     <div className="max-w-xl mx-auto px-4 py-16">
@@ -21,8 +21,8 @@ export default function Rsvp({ params }: { params: { lang: string } }) {
       )}
 
       <div className="mt-10">
-        {endpoint ? (
-          <RsvpForm lang={lang} endpoint={endpoint} />
+        {accessKey ? (
+          <RsvpForm lang={lang} accessKey={accessKey} />
         ) : (
           <div className="bg-sage/10 border border-sage/40 rounded-lg p-8 text-center">
             <p className="font-serif text-2xl text-sageDark">
