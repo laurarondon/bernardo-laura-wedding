@@ -225,7 +225,7 @@ export const settings = {
     // Web3Forms access key. Each submission becomes an email to the
     // inbox you registered at https://web3forms.com.
     // Leave empty ("") to hide the form and show a "Coming soon" placeholder.
-    accessKey: "583af127-e76c-4cd3-b879-737da194f31b",
+    accessKey: "2e19698f-2363-4ad0-9d79-bf821738d4f9",
     // ISO date — guests see "please RSVP by …". Leave empty to hide the deadline.
     deadline: "2027-04-15",
   },
