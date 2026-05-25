@@ -20,8 +20,13 @@ export const translations = {
         seconds: "seg",
       },
       ourStory: "A nossa pequena família",
-      ourStoryBody:
-        "Há alguns anos nos encontramos entre o Brasil e a Espanha, e desde então fomos construindo uma pequena família. Com a gente moram Grilo, o cachorro mais bagunceiro do bairro, e Formiga, a calopsita que assobia mais alto do que devia. Mal podemos esperar para começar este próximo capítulo cercados das pessoas que amamos.",
+      ourStoryIntro:
+        "Bernardo cresceu em Valência, Laura no Campo Grande. Culturas, famílias, países — tudo diferente. Mas a vida nos cruzou aqui, em Valência, e desde o primeiro momento descobrimos quantas coisas temos em comum: os sonhos, os objetivos, a vontade de construir uma família, o gosto pela música e pelos filmes, o jeito de rir das mesmas bobagens.",
+      ourStoryFamily:
+        "Tivemos a sorte de crescer vendo nossos pais juntos a vida inteira, e é esse o exemplo que queremos seguir. Pelo caminho foram chegando o Grilo, o cachorro mais campestre do bairro, e a Formiga, a calopsita atrevida que canta mais alto do que devia. Já somos quatro — falta só vocês.",
+      ourStoryQuote:
+        "Os outros conheci por acaso. Você, tive que vir encontrar.",
+      ourStoryQuoteAttribution: "— Laura para Bernardo",
       seeDetails: "Ver detalhes do casamento",
       seeGifts: "Ver lista de presentes",
     },
@@ -133,7 +138,7 @@ export const translations = {
         "Algumas ideias para vocês descansarem e descobrirem Valência sem stress.",
       gettingThereTitle: "Como chegar",
       gettingThereBody:
-        "O aeroporto de Valência (VLC) recebe voos diretos de várias cidades da Europa. Do aeroporto, o metrô (linhas 3 e 5) leva ao centro em uns 25 minutos. Quem vem do Brasil costuma fazer escala em Madri ou Lisboa — daí pode pegar um voo curto ou o trem de alta velocidade (AVE Madrid-Valência, ~1h40).",
+        "Do Brasil, os voos costumam fazer escala em Madri, Lisboa ou Barcelona — daí dá para pegar um voo curto até Valência ou o trem de alta velocidade (AVE Madri-Valência, ~1h40). O aeroporto de Valência (VLC) também recebe voos diretos de várias cidades da Europa. Do aeroporto, o metrô (linhas 3 e 5) leva ao centro em uns 25 minutos.",
       hotelsTitle: "Hotéis recomendados",
       hotelsBody:
         "Selecionamos algumas opções com boa localização. Os preços são uma referência e variam pela época.",
@@ -198,8 +203,13 @@ export const translations = {
         seconds: "seg",
       },
       ourStory: "Nuestra pequeña familia",
-      ourStoryBody:
-        "Hace unos años nos encontramos entre Brasil y España, y desde entonces hemos ido construyendo una pequeña familia. Con nosotros viven Grilo, el perro más travieso del barrio, y Formiga, la ninfa que silba más alto de lo que debería. Estamos felices de comenzar este próximo capítulo rodeados de las personas que queremos.",
+      ourStoryIntro:
+        "Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países — todo distinto. Pero la vida nos cruzó aquí, en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: los sueños, los objetivos, las ganas de formar una familia, el gusto por la música y por las películas, la forma de reírnos de las mismas tonterías.",
+      ourStoryFamily:
+        "Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que queremos seguir. Por el camino fueron llegando Grilo, el perro más campestre del barrio, y Formiga, la ninfa atrevida que canta más fuerte de lo que debería. Ya somos cuatro — sólo faltáis vosotros.",
+      ourStoryQuote:
+        "A los demás los conocí por casualidad. A ti, tuve que venir a encontrarte.",
+      ourStoryQuoteAttribution: "— Laura a Bernardo",
       seeDetails: "Ver detalles de la boda",
       seeGifts: "Ver lista de regalos",
     },
@@ -311,7 +321,7 @@ export const translations = {
         "Algunas ideas para que descanséis y descubráis Valencia sin estrés.",
       gettingThereTitle: "Cómo llegar",
       gettingThereBody:
-        "El aeropuerto de Valencia (VLC) recibe vuelos directos desde varias ciudades europeas. Desde el aeropuerto, el metro (líneas 3 y 5) llega al centro en unos 25 minutos. Si llegáis desde Madrid, el tren de alta velocidad (AVE Madrid-Valencia) tarda ~1h40.",
+        "Desde Brasil, los vuelos suelen hacer escala en Madrid, Lisboa o Barcelona — desde ahí se puede coger un vuelo corto hasta Valencia o el tren de alta velocidad (AVE Madrid-Valencia, ~1h40). El aeropuerto de Valencia (VLC) también recibe vuelos directos desde varias ciudades europeas. Desde el aeropuerto, el metro (líneas 3 y 5) llega al centro en unos 25 minutos.",
       hotelsTitle: "Hoteles recomendados",
       hotelsBody:
         "Hemos seleccionado algunas opciones bien ubicadas. Los precios son orientativos y varían según la temporada.",
@@ -376,8 +386,13 @@ export const translations = {
         seconds: "sec",
       },
       ourStory: "Our little family",
-      ourStoryBody:
-        "A few years ago we met somewhere between Brazil and Spain, and we've been quietly building a little family ever since. Living with us are Grilo, the most mischievous dog on the block, and Formiga, the cockatiel who whistles louder than she should. We can't wait to begin this next chapter surrounded by the people we love.",
+      ourStoryIntro:
+        "Bernardo grew up in Valencia, Laura in Campo Grande. Different cultures, families, countries. But life crossed our paths here in Valencia, and from the very first moment we discovered how much we had in common: the dreams, the goals, the wish to build a family, the taste in music and films, the way of laughing at the same silly things.",
+      ourStoryFamily:
+        "We were lucky to grow up watching our parents stay together a lifetime, and that's the example we want to follow. Along the way came Grilo, the most countryside-loving dog in the neighbourhood, and Formiga, the cheeky cockatiel who sings louder than she should. We're already four — just waiting for you.",
+      ourStoryQuote:
+        "The others I met by chance. You, I had to come and find.",
+      ourStoryQuoteAttribution: "— Laura to Bernardo",
       seeDetails: "Wedding details",
       seeGifts: "Gift list",
     },
@@ -489,7 +504,7 @@ export const translations = {
         "A few ideas to help you settle in and explore Valencia, stress-free.",
       gettingThereTitle: "Getting here",
       gettingThereBody:
-        "Valencia airport (VLC) has direct flights from many European cities. From the airport, the metro (lines 3 and 5) reaches the centre in about 25 minutes. If you fly into Madrid, the high-speed train (AVE Madrid–Valencia) takes about 1h40.",
+        "From Brazil, flights usually connect through Madrid, Lisbon or Barcelona — from there you can take a short flight to Valencia or the high-speed train (AVE Madrid–Valencia, ~1h40). Valencia airport (VLC) also has direct flights from many European cities. From the airport, the metro (lines 3 and 5) reaches the centre in about 25 minutes.",
       hotelsTitle: "Recommended hotels",
       hotelsBody:
         "A handful of well-located options. Prices are indicative and vary by season.",
@@ -554,8 +569,13 @@ export const translations = {
         seconds: "Sek",
       },
       ourStory: "Unsere kleine Familie",
-      ourStoryBody:
-        "Vor ein paar Jahren haben wir uns irgendwo zwischen Brasilien und Spanien getroffen, und seitdem bauen wir ganz in Ruhe eine kleine Familie auf. Bei uns wohnen Grilo, der frechste Hund der Nachbarschaft, und Formiga, die Nymphensittich-Dame, die lauter pfeift als sie sollte. Wir freuen uns riesig, dieses neue Kapitel im Kreis der Menschen zu beginnen, die wir lieben.",
+      ourStoryIntro:
+        "Bernardo wuchs in Valencia auf, Laura in Campo Grande. Andere Kulturen, andere Familien, andere Länder. Aber das Leben kreuzte unsere Wege hier in Valencia, und vom ersten Moment an entdeckten wir, wie viel wir gemeinsam haben: die Träume, die Ziele, den Wunsch, eine Familie zu gründen, den Musik- und Filmgeschmack, die Art, über dieselben Albernheiten zu lachen.",
+      ourStoryFamily:
+        "Wir hatten das Glück, mit Eltern aufzuwachsen, die ein ganzes Leben zusammen geblieben sind, und genau diesem Vorbild wollen wir folgen. Unterwegs kamen Grilo, der ländlichste Hund der Nachbarschaft, und Formiga, die freche Nymphensittich-Dame, die lauter pfeift als sie sollte. Wir sind schon zu viert — es fehlt nur ihr.",
+      ourStoryQuote:
+        "Die anderen habe ich zufällig kennengelernt. Dich musste ich suchen kommen.",
+      ourStoryQuoteAttribution: "— Laura an Bernardo",
       seeDetails: "Hochzeitsdetails",
       seeGifts: "Geschenkliste",
     },
@@ -668,7 +688,7 @@ export const translations = {
         "Ein paar Tipps, damit ihr euch entspannt einlebt und Valencia stressfrei entdeckt.",
       gettingThereTitle: "Anreise",
       gettingThereBody:
-        "Der Flughafen Valencia (VLC) ist von vielen europäischen Städten direkt erreichbar. Vom Flughafen bringen euch die Metrolinien 3 und 5 in etwa 25 Minuten ins Zentrum. Wer in Madrid landet, kann den Hochgeschwindigkeitszug AVE Madrid–Valencia nehmen — Fahrzeit etwa 1h40.",
+        "Aus Brasilien führen die Flüge meist über Madrid, Lissabon oder Barcelona — von dort lässt sich ein Kurzflug nach Valencia oder der Hochgeschwindigkeitszug (AVE Madrid–Valencia, ~1h40) nehmen. Der Flughafen Valencia (VLC) ist auch von vielen europäischen Städten direkt erreichbar. Vom Flughafen bringen euch die Metrolinien 3 und 5 in etwa 25 Minuten ins Zentrum.",
       hotelsTitle: "Hotelempfehlungen",
       hotelsBody:
         "Ein paar gut gelegene Optionen. Die Preise sind ungefähre Anhaltspunkte und schwanken je nach Saison.",

@@ -164,18 +164,6 @@ export default function Wedding({ params }: { params: { lang: string } }) {
         </p>
       </section>
 
-      {/* FAQ */}
-      <section className="mt-24 max-w-2xl mx-auto">
-        <h2 className="section-title">{tr.wedding.faqTitle}</h2>
-        <div className="mt-8 space-y-6">
-          {tr.wedding.faq.map((item, i) => (
-            <div key={i} className="border-l-2 border-sage pl-4">
-              <p className="font-serif text-lg text-sageDark">{item.q}</p>
-              <p className="text-ink/70 mt-1">{item.a}</p>
-            </div>
-          ))}
-        </div>
-      </section>
     </div>
   );
 }

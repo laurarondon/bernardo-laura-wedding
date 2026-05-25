@@ -76,55 +76,54 @@ export default function Home({ params }: { params: { lang: string } }) {
         </div>
       </section>
 
-      {/* Our little family */}
+      {/* Our little family — alternating editorial spreads */}
       <section className="max-w-5xl mx-auto px-4 py-20">
-        <div
-          className={`grid gap-10 md:gap-16 items-center ${
-            settings.photos.portrait ? "md:grid-cols-2" : ""
-          }`}
-        >
+        <h2 className="section-title text-center">{tr.home.ourStory}</h2>
+
+        {/* Spread 1 · portrait left, intro right */}
+        <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mt-12">
           {settings.photos.portrait && (
-            <div>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={settings.photos.portrait}
-                alt={names}
-                className="w-full max-w-md mx-auto rounded-sm shadow-md"
-              />
-            </div>
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={settings.photos.portrait}
+              alt={names}
+              className="w-full max-w-md mx-auto rounded-sm shadow-md"
+            />
           )}
-          <div className={settings.photos.portrait ? "" : "max-w-2xl mx-auto text-center"}>
-            <h2
-              className={`section-title ${
-                settings.photos.portrait ? "md:text-left" : ""
-              }`}
-            >
-              {tr.home.ourStory}
-            </h2>
-            <p
-              className={`mt-6 text-ink/80 leading-relaxed font-serif text-lg ${
-                settings.photos.portrait ? "" : "text-center"
-              }`}
-            >
-              {tr.home.ourStoryBody}
-            </p>
-          </div>
+          <p className="font-serif text-lg leading-relaxed text-ink/80">
+            {tr.home.ourStoryIntro}
+          </p>
         </div>
 
-        {/* Pets — combined family portrait */}
-        {settings.pets.image && (
-          <div className="mt-16 text-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={settings.pets.image}
-              alt={settings.pets.caption}
-              className="block w-52 sm:w-64 md:w-72 h-auto mx-auto"
-            />
-            <p className="font-serif italic text-xl text-sageDark mt-4">
-              {settings.pets.caption}
-            </p>
-          </div>
-        )}
+        {/* Spread 2 · family text left, pets right */}
+        <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mt-16">
+          <p className="md:order-1 font-serif text-lg leading-relaxed text-ink/80">
+            {tr.home.ourStoryFamily}
+          </p>
+          {settings.pets.image && (
+            <div className="md:order-2 text-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={settings.pets.image}
+                alt={settings.pets.caption}
+                className="block w-52 sm:w-60 md:w-72 h-auto mx-auto"
+              />
+              <p className="font-serif italic text-xl text-sageDark mt-3">
+                {settings.pets.caption}
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* Pull quote */}
+        <blockquote className="mt-20 max-w-2xl mx-auto text-center">
+          <p className="font-serif italic text-2xl md:text-3xl text-sageDark leading-snug">
+            &ldquo;{tr.home.ourStoryQuote}&rdquo;
+          </p>
+          <footer className="mt-4 text-xs text-ink/60 tracking-[0.3em] uppercase">
+            {tr.home.ourStoryQuoteAttribution}
+          </footer>
+        </blockquote>
       </section>
     </div>
   );

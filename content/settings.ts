@@ -176,7 +176,7 @@ export const settings = {
   gifts: {
     // When true, the /gifts page shows a "Coming soon" placeholder instead of
     // the gift list. Switch to false when you're ready to share the gift list.
-    comingSoon: true,
+    comingSoon: false,
   },
 
   // ─────────── PAYMENT METHODS ───────────
@@ -222,7 +222,9 @@ export const settings = {
   // paste it here. Until set, the RSVP page shows a "Coming soon" placeholder.
   // Each submission becomes an email in the inbox you registered with Formsubmit.
   rsvp: {
-    endpoint: "", // e.g. "https://formsubmit.co/abc123def456..."
+    // Formsubmit endpoint. Direct email (URL-encoded "+" → "%2B").
+    // First submission triggers a one-time activation email — see chat for details.
+    endpoint: "https://formsubmit.co/casamento%2Blaura301196@gmail.com",
     // ISO date — guests see "please RSVP by …". Leave empty to hide the deadline.
     deadline: "2027-04-15",
   },
