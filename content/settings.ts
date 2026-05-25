@@ -225,8 +225,12 @@ export const settings = {
     // Google Forms embed URL. To get a new one: open your form in Google Forms,
     // click Send → <> embed tab → copy the URL inside src="...".
     // Leave empty ("") to hide the form and show a "Coming soon" placeholder.
+    // We use the NON-embedded URL because Google has started blocking the
+    // ?embedded=true variant in iframes (returns 401 + X-Frame-Options: DENY).
+    // The non-embedded form loads inside the iframe with a thin Google chrome,
+    // but functions perfectly.
     formUrl:
-      "https://docs.google.com/forms/d/e/1FAIpQLSeCtxQ6CudTDZ7we8FZy4Nn1nG_-k966xGbnZnMO3OgeElNfQ/viewform?embedded=true",
+      "https://docs.google.com/forms/d/e/1FAIpQLSeCtxQ6CudTDZ7we8FZy4Nn1nG_-k966xGbnZnMO3OgeElNfQ/viewform",
     // ISO date — guests see "please RSVP by …". Leave empty to hide the deadline.
     deadline: "2027-04-15",
   },
