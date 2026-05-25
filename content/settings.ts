@@ -222,10 +222,11 @@ export const settings = {
   // paste it here. Until set, the RSVP page shows a "Coming soon" placeholder.
   // Each submission becomes an email in the inbox you registered with Formsubmit.
   rsvp: {
-    // Web3Forms access key. Each submission becomes an email to the
-    // inbox you registered at https://web3forms.com.
+    // Google Forms embed URL. To get a new one: open your form in Google Forms,
+    // click Send → <> embed tab → copy the URL inside src="...".
     // Leave empty ("") to hide the form and show a "Coming soon" placeholder.
-    accessKey: "2e19698f-2363-4ad0-9d79-bf821738d4f9",
+    formUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeCtxQ6CudTDZ7we8FZy4Nn1nG_-k966xGbnZnMO3OgeElNfQ/viewform?embedded=true",
     // ISO date — guests see "please RSVP by …". Leave empty to hide the deadline.
     deadline: "2027-04-15",
   },

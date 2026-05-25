@@ -166,7 +166,7 @@ export const translations = {
       messagePlaceholder: "Algumas palavras com carinho (opcional)",
       submitButton: "Enviar confirmação",
       submitting: "Enviando…",
-      successTitle: "[v2] Confirmação recebida 💕",
+      successTitle: "Confirmação recebida 💕",
       successBody:
         "Obrigada! Recebemos a sua resposta. Se precisar mudar algo depois, é só nos avisar.",
       errorTitle: "Algo deu errado",
@@ -346,7 +346,7 @@ export const translations = {
       messagePlaceholder: "Unas palabras con cariño (opcional)",
       submitButton: "Enviar confirmación",
       submitting: "Enviando…",
-      successTitle: "[v2] ¡Confirmación recibida! 💕",
+      successTitle: "¡Confirmación recibida! 💕",
       successBody:
         "¡Gracias! Hemos recibido tu respuesta. Si necesitas cambiar algo después, sólo avísanos.",
       errorTitle: "Algo ha ido mal",
@@ -526,7 +526,7 @@ export const translations = {
       messagePlaceholder: "A few words from the heart (optional)",
       submitButton: "Send RSVP",
       submitting: "Sending…",
-      successTitle: "[v2] RSVP received 💕",
+      successTitle: "RSVP received 💕",
       successBody:
         "Thank you! We've got your reply. If you need to change anything later, just let us know.",
       errorTitle: "Something went wrong",
@@ -709,7 +709,7 @@ export const translations = {
       messagePlaceholder: "Ein paar liebe Worte (optional)",
       submitButton: "Zusage senden",
       submitting: "Senden…",
-      successTitle: "[v2] Zusage erhalten 💕",
+      successTitle: "Zusage erhalten 💕",
       successBody:
         "Vielen Dank! Wir haben eure Antwort. Falls ihr später etwas ändern möchtet, sagt uns einfach Bescheid.",
       errorTitle: "Etwas ist schiefgelaufen",

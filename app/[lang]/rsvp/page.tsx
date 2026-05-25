@@ -1,15 +1,14 @@
 import { assertLang, formatDate } from "@/lib/i18n";
 import { t } from "@/content/translations";
 import { settings } from "@/content/settings";
-import { RsvpForm } from "@/components/RsvpForm";
 
 export default function Rsvp({ params }: { params: { lang: string } }) {
   const lang = assertLang(params.lang);
   const tr = t(lang).rsvp;
-  const accessKey = settings.rsvp.accessKey;
+  const formUrl = settings.rsvp.formUrl;
 
   return (
-    <div className="max-w-xl mx-auto px-4 py-16">
+    <div className="max-w-3xl mx-auto px-4 py-16">
       <h1 className="section-title">{tr.title}</h1>
       <p className="section-subtitle">{tr.subtitle}</p>
 
@@ -21,8 +20,16 @@ export default function Rsvp({ params }: { params: { lang: string } }) {
       )}
 
       <div className="mt-10">
-        {accessKey ? (
-          <RsvpForm lang={lang} accessKey={accessKey} />
+        {formUrl ? (
+          <iframe
+            src={formUrl}
+            title={tr.title}
+            className="block w-full border-0 bg-ivory rounded"
+            style={{ minHeight: "1500px" }}
+            loading="lazy"
+          >
+            {tr.notConfiguredBody}
+          </iframe>
         ) : (
           <div className="bg-sage/10 border border-sage/40 rounded-lg p-8 text-center">
             <p className="font-serif text-2xl text-sageDark">
