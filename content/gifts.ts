@@ -48,7 +48,8 @@ export const gifts: Gift[] = [
     eurAmount: 100,
     brlAmount: 550,
     currencies: ["eur", "brl"],
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
   {
@@ -68,7 +69,8 @@ export const gifts: Gift[] = [
     eurAmount: 80,
     brlAmount: 440,
     currencies: ["eur", "brl"],
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
   {
@@ -88,7 +90,8 @@ export const gifts: Gift[] = [
     eurAmount: 50,
     brlAmount: 280,
     currencies: ["eur", "brl"],
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
   {
@@ -108,7 +111,8 @@ export const gifts: Gift[] = [
     eurAmount: 50,
     brlAmount: 280,
     currencies: ["eur", "brl"],
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
   {
@@ -128,7 +132,8 @@ export const gifts: Gift[] = [
     eurAmount: 60,
     brlAmount: 330,
     currencies: ["eur", "brl"],
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
   {
@@ -148,7 +153,8 @@ export const gifts: Gift[] = [
     eurAmount: 100,
     brlAmount: 550,
     currencies: ["eur", "brl"],
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
   {
@@ -168,7 +174,8 @@ export const gifts: Gift[] = [
     eurAmount: 40,
     brlAmount: 220,
     currencies: ["eur", "brl"],
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1547153760-18fc86324498?w=800&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
   {
@@ -188,7 +195,8 @@ export const gifts: Gift[] = [
     eurAmount: 0,
     brlAmount: 0,
     currencies: ["eur", "brl"],
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
 ];
