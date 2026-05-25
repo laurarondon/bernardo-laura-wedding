@@ -101,29 +101,14 @@ export default function Home({ params }: { params: { lang: string } }) {
             {tr.home.ourStoryFamily}
           </p>
           {settings.pets.image && (
-            <div className="md:order-2 text-center">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={settings.pets.image}
-                alt={settings.pets.caption}
-                className="block w-52 sm:w-60 md:w-72 h-auto mx-auto"
-              />
-              <p className="font-serif italic text-xl text-sageDark mt-3">
-                {settings.pets.caption}
-              </p>
-            </div>
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={settings.pets.image}
+              alt="Formiga & Grilo"
+              className="md:order-2 block w-52 sm:w-60 md:w-72 h-auto mx-auto"
+            />
           )}
         </div>
-
-        {/* Pull quote */}
-        <blockquote className="mt-20 max-w-2xl mx-auto text-center">
-          <p className="font-serif italic text-2xl md:text-3xl text-sageDark leading-snug">
-            &ldquo;{tr.home.ourStoryQuote}&rdquo;
-          </p>
-          <footer className="mt-4 text-xs text-ink/60 tracking-[0.3em] uppercase">
-            {tr.home.ourStoryQuoteAttribution}
-          </footer>
-        </blockquote>
       </section>
     </div>
   );

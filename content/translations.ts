@@ -21,12 +21,9 @@ export const translations = {
       },
       ourStory: "A nossa pequena família",
       ourStoryIntro:
-        "Bernardo cresceu em Valência, Laura no Campo Grande. Culturas, famílias, países — tudo diferente. Mas a vida nos cruzou aqui, em Valência, e desde o primeiro momento descobrimos quantas coisas temos em comum: os sonhos, os objetivos, a vontade de construir uma família, o gosto pela música e pelos filmes, o jeito de rir das mesmas bobagens.",
+        "Bernardo cresceu em Valência, Laura no Campo Grande. Culturas, famílias, países diferentes. Mas a vida cruzou os nossos caminhos aqui em Valência, e desde o primeiro instante descobrimos quanta coisa temos em comum: desde o mais banal — o gosto pela música e pelos filmes, o jeito de rir das mesmas bobagens — até o que mais importa: os sonhos e a vontade de formar uma família.",
       ourStoryFamily:
-        "Tivemos a sorte de crescer vendo nossos pais juntos a vida inteira, e é esse o exemplo que queremos seguir. Pelo caminho foram chegando o Grilo, o cachorro mais campestre do bairro, e a Formiga, a calopsita atrevida que canta mais alto do que devia. Já somos quatro — falta só vocês.",
-      ourStoryQuote:
-        "Os outros conheci por acaso. Você, tive que vir encontrar.",
-      ourStoryQuoteAttribution: "— Laura para Bernardo",
+        "Tivemos a sorte de crescer vendo nossos pais juntos a vida inteira, e é esse o exemplo que queremos seguir. Pelo caminho chegaram a Formiga, a calopsita atrevida que canta o dia inteiro, e o Grilo, o cachorro mais campestre do bairro. A nossa família já começou — queremos vocês aqui para celebrar com a gente.",
       seeDetails: "Ver detalhes do casamento",
       seeGifts: "Ver lista de presentes",
     },
@@ -204,12 +201,9 @@ export const translations = {
       },
       ourStory: "Nuestra pequeña familia",
       ourStoryIntro:
-        "Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países — todo distinto. Pero la vida nos cruzó aquí, en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: los sueños, los objetivos, las ganas de formar una familia, el gusto por la música y por las películas, la forma de reírnos de las mismas tonterías.",
+        "Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países distintos. Pero la vida cruzó nuestros caminos aquí, en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: desde lo más cotidiano — el gusto por la música y por las películas, la forma de reírnos de las mismas tonterías — hasta lo que más importa: los sueños y las ganas de formar una familia.",
       ourStoryFamily:
-        "Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que queremos seguir. Por el camino fueron llegando Grilo, el perro más campestre del barrio, y Formiga, la ninfa atrevida que canta más fuerte de lo que debería. Ya somos cuatro — sólo faltáis vosotros.",
-      ourStoryQuote:
-        "A los demás los conocí por casualidad. A ti, tuve que venir a encontrarte.",
-      ourStoryQuoteAttribution: "— Laura a Bernardo",
+        "Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que queremos seguir. Por el camino llegaron Formiga, la ninfa cantarina y atrevida, y Grilo, el perro más campestre del barrio. Nuestra familia ya ha empezado — queremos que vengáis a celebrarlo con nosotros.",
       seeDetails: "Ver detalles de la boda",
       seeGifts: "Ver lista de regalos",
     },
@@ -387,12 +381,9 @@ export const translations = {
       },
       ourStory: "Our little family",
       ourStoryIntro:
-        "Bernardo grew up in Valencia, Laura in Campo Grande. Different cultures, families, countries. But life crossed our paths here in Valencia, and from the very first moment we discovered how much we had in common: the dreams, the goals, the wish to build a family, the taste in music and films, the way of laughing at the same silly things.",
+        "Bernardo grew up in Valencia, Laura in Campo Grande. Different cultures, families, countries. But life crossed our paths here in Valencia, and from the very first moment we discovered how much we had in common: from mundane things like the taste in music and films, the way of laughing at the same silly humour, to the big ones — the dreams and the purpose of forming a family.",
       ourStoryFamily:
-        "We were lucky to grow up watching our parents stay together a lifetime, and that's the example we want to follow. Along the way came Grilo, the most countryside-loving dog in the neighbourhood, and Formiga, the cheeky cockatiel who sings louder than she should. We're already four — just waiting for you.",
-      ourStoryQuote:
-        "The others I met by chance. You, I had to come and find.",
-      ourStoryQuoteAttribution: "— Laura to Bernardo",
+        "We were lucky to grow up watching our parents stay together a lifetime, and that's the example we want to follow. Along the way came Formiga, the cheeky singing cockatiel, and Grilo, the most countryside-loving dog in the neighbourhood. Our family is starting — we want you to come celebrate with us.",
       seeDetails: "Wedding details",
       seeGifts: "Gift list",
     },
@@ -570,12 +561,9 @@ export const translations = {
       },
       ourStory: "Unsere kleine Familie",
       ourStoryIntro:
-        "Bernardo wuchs in Valencia auf, Laura in Campo Grande. Andere Kulturen, andere Familien, andere Länder. Aber das Leben kreuzte unsere Wege hier in Valencia, und vom ersten Moment an entdeckten wir, wie viel wir gemeinsam haben: die Träume, die Ziele, den Wunsch, eine Familie zu gründen, den Musik- und Filmgeschmack, die Art, über dieselben Albernheiten zu lachen.",
+        "Bernardo wuchs in Valencia auf, Laura in Campo Grande. Andere Kulturen, andere Familien, andere Länder. Aber das Leben kreuzte unsere Wege hier in Valencia, und vom ersten Moment an entdeckten wir, wie viel wir gemeinsam haben: vom Alltäglichen — dem Geschmack für Musik und Filme, der Art, über dieselben Albernheiten zu lachen — bis zum Wesentlichen: den Träumen und dem Wunsch, eine Familie zu gründen.",
       ourStoryFamily:
-        "Wir hatten das Glück, mit Eltern aufzuwachsen, die ein ganzes Leben zusammen geblieben sind, und genau diesem Vorbild wollen wir folgen. Unterwegs kamen Grilo, der ländlichste Hund der Nachbarschaft, und Formiga, die freche Nymphensittich-Dame, die lauter pfeift als sie sollte. Wir sind schon zu viert — es fehlt nur ihr.",
-      ourStoryQuote:
-        "Die anderen habe ich zufällig kennengelernt. Dich musste ich suchen kommen.",
-      ourStoryQuoteAttribution: "— Laura an Bernardo",
+        "Wir hatten das Glück, mit Eltern aufzuwachsen, die ein ganzes Leben zusammen geblieben sind, und genau diesem Vorbild wollen wir folgen. Unterwegs kamen Formiga, die freche, singende Nymphensittich-Dame, und Grilo, der ländlichste Hund der Nachbarschaft. Unsere Familie hat begonnen — wir möchten, dass ihr kommt, um mit uns zu feiern.",
       seeDetails: "Hochzeitsdetails",
       seeGifts: "Geschenkliste",
     },

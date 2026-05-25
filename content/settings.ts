@@ -224,7 +224,7 @@ export const settings = {
   rsvp: {
     // Formsubmit endpoint. Direct email (URL-encoded "+" → "%2B").
     // First submission triggers a one-time activation email — see chat for details.
-    endpoint: "https://formsubmit.co/casamento%2Blaura301196@gmail.com",
+    endpoint: "https://formsubmit.co/ajax/casamento%2Blaura301196@gmail.com",
     // ISO date — guests see "please RSVP by …". Leave empty to hide the deadline.
     deadline: "2027-04-15",
   },
