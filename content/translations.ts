@@ -572,7 +572,7 @@ export const translations = {
       ourStoryIntro:
         "Bernardo wuchs in Valencia auf, Laura in Campo Grande. Andere Kulturen, andere Familien, andere Länder. Aber das Leben kreuzte unsere Wege hier in Valencia, und vom ersten Moment an entdeckten wir, wie viel wir gemeinsam haben: vom Alltäglichen — dem Geschmack für Musik und Filme, der Art, über dieselben Albernheiten zu lachen — bis zum Wesentlichen: den Träumen und dem Wunsch, eine Familie zu gründen.",
       ourStoryFamily:
-        "Wir hatten das Glück, mit Eltern aufzuwachsen, die ein ganzes Leben zusammen geblieben sind, und genau diesem Vorbild wollen wir folgen. Unterwegs kamen Formiga, die freche, singende Nymphensittich-Dame, und Grilo, der ländlichste Hund der Nachbarschaft. Unsere Familie hat begonnen — wir möchten, dass ihr kommt, um mit uns zu feiern.",
+        "Wir hatten das Glück, mit Eltern aufzuwachsen, die ein ganzes Leben zusammen geblieben sind, und genau diesem Vorbild wollen wir folgen. Unterwegs kamen Formiga, die Nymphensittich-Dame mit den besten Remixes, und Grilo, der wildeste Hund Europas. Unsere Familie hat begonnen, wir möchten, dass ihr kommt, um mit uns zu feiern.",
       seeDetails: "Hochzeitsdetails",
       seeGifts: "Geschenkliste",
     },
