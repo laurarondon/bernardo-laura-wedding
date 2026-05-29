@@ -12,7 +12,7 @@ export const translations = {
     home: {
       saveTheDate: "Save the Date",
       addToCalendar: "Adicionar à agenda",
-      tagline: "Vamos casar!",
+      tagline: "Vamos nos casar!",
       countdown: {
         days: "dias",
         hours: "horas",
