@@ -73,27 +73,22 @@ export const settings = {
     enabled: true,
     routes: [
       {
-        time: "11:00",
-        from: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
-        to: { pt: "Iglesia San Juan del Hospital", es: "Iglesia San Juan del Hospital", en: "Iglesia San Juan del Hospital", de: "Iglesia San Juan del Hospital" },
-      },
-      {
         time: "13:30",
         from: { pt: "Iglesia San Juan del Hospital", es: "Iglesia San Juan del Hospital", en: "Iglesia San Juan del Hospital", de: "Iglesia San Juan del Hospital" },
         to: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
       },
       {
-        time: "20:00",
+        time: "18:00",
         from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
         to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
       },
       {
-        time: "23:00",
+        time: "21:00",
         from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
         to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
       },
       {
-        time: "01:30",
+        time: "01:00",
         from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
         to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
       },
