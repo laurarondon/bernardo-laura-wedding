@@ -124,7 +124,7 @@ export const gifts: Gift[] = [
       de: "Tierbetreuung für Grilo und Formiga",
     },
     description: {
-      pt: "Enquanto estivermos em lua de mel, alguém precisa cuidar do nosso cãozinho e da nossa calopsita. Ajude com a guarderia!",
+      pt: "Enquanto estivermos em lua de mel, alguém precisa cuidar do nosso cãozinho e da nossa calopsita. Ajude com a creche!",
       es: "Mientras estemos de luna de miel, alguien tiene que cuidar de nuestro perrito y de nuestra ninfa. ¡Ayuda con la guardería!",
       en: "While we're on our honeymoon, someone needs to look after our little dog and our cockatiel. Help with the pet sitting!",
       de: "Während unserer Flitterwochen muss jemand auf unseren kleinen Hund und unsere Nymphensittich-Dame aufpassen. Hilf bei der Tierbetreuung!",

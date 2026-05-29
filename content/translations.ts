@@ -21,9 +21,9 @@ export const translations = {
       },
       ourStory: "A nossa pequena família",
       ourStoryIntro:
-        "Bernardo cresceu em Valência, Laura no Campo Grande. Culturas, famílias, países diferentes. Mas a vida cruzou os nossos caminhos aqui em Valência, e desde o primeiro instante descobrimos quanta coisa temos em comum: desde o mais banal — o gosto pela música e pelos filmes, o jeito de rir das mesmas bobagens — até o que mais importa: os sonhos e a vontade de formar uma família.",
+        "Bernardo cresceu em Valência, Laura em Campo Grande. Culturas, famílias, países diferentes. Mas a vida cruzou os nossos caminhos aqui em Valência, e desde o primeiro instante descobrimos quanta coisa temos em comum: desde o mais banal, como o gosto pela música e pelos filmes, o jeito de rir das mesmas bobagens, até o que mais importa: os sonhos e a vontade de formar uma família.",
       ourStoryFamily:
-        "Tivemos a sorte de crescer vendo nossos pais juntos a vida inteira, e é esse o exemplo que queremos seguir. Pelo caminho chegaram a Formiga, a calopsita atrevida que canta o dia inteiro, e o Grilo, o cachorro mais campestre do bairro. A nossa família já começou — queremos vocês aqui para celebrar com a gente.",
+        "Tivemos a sorte de crescer vendo nossos pais juntos a vida inteira, e é esse o exemplo que queremos seguir. Pelo caminho chegaram a Formiga, a calopsita com os melhores remixes, e o Grilo, o cachorro mais campestre da Europa. A nossa família já começou, queremos vocês aqui para celebrar com a gente.",
       seeDetails: "Ver detalhes do casamento",
       seeGifts: "Ver lista de presentes",
     },
@@ -36,12 +36,12 @@ export const translations = {
       dressCodeLabel: "Traje",
       mapButton: "Ver no mapa",
       ceremonyBody:
-        "A Igreja de San Juan del Hospital, fundada no século XIII pelos Cavaleiros do Hospital de São João, é um dos templos mais antigos de Valência. Suas pedras antigas, arcos góticos e pátio silencioso guardam séculos de história — parece-nos o lugar perfeito para começar a nossa vida juntos.",
+        "A Igreja de San Juan del Hospital, fundada no século XIII pelos Cavaleiros do Hospital de São João, é um dos templos mais antigos de Valência. Suas pedras antigas, arcos góticos e pátio silencioso guardam séculos de história, inclusive de diversos casamentos da família do Bernardo. Nos parece o lugar perfeito para começar nossa vida juntos.",
       receptionBody:
-        "Os Jardines de la Cartuja são os jardins históricos do antigo mosteiro cartuxo Ara Christi, em El Puig — a uns 20 minutos do centro de Valência. Construído no século XVII, o lugar guarda olivais centenários, fontes em pedra antiga e arcos brancos, onde vamos almoçar, brindar e dançar até o sol se pôr.",
+        "Os Jardines de la Cartuja são os jardins históricos do antigo mosteiro cartuxo Ara Christi, em El Puig, a uns 20 minutos do centro de Valência. Construído no século XVII, o lugar guarda olivais centenários, fontes em pedra antiga e arcos brancos, onde vamos almoçar, brindar e celebrar.",
       weatherLabel: "Sobre Valência em junho",
       weatherBody:
-        "Valência fica na costa leste da Espanha, banhada pelo mar Mediterrâneo. Em junho, as temperaturas costumam variar entre 20°C e 28°C, com céu ensolarado e brisa suave do mar. O sol se põe por volta das 21h30, então a celebração se estende com calma sob o longo céu de verão. Recomendamos tecidos leves — algodão, linho — e sapatos confortáveis, sobretudo porque os jardins da Cartuja têm caminhos de pedra.",
+        "Valência fica na costa leste da Espanha, banhada pelo mar Mediterrâneo. Em junho, as temperaturas costumam variar entre 20°C e 28°C, com céu ensolarado e brisa suave do mar. O sol se põe por volta das 21h30, então a celebração se estende com calma sob o longo céu de verão. Recomendamos tecidos leves como algodão e linho, e sapatos confortáveis, sobretudo porque os jardins da Cartuja têm caminhos de pedra.",
       transportLabel: "Como vamos chegar",
       transportBody:
         "Vamos organizar ônibus para que ninguém precise se preocupar em dirigir. Da igreja até os jardins da Cartuja e, na volta, da Cartuja até o centro de Valência em vários horários, para que cada um curte a festa no seu ritmo.",
@@ -66,7 +66,7 @@ export const translations = {
     gifts: {
       title: "Lista de presentes",
       subtitle:
-        "A vossa presença já é o melhor presente. Mas se quiserem contribuir com algo a mais, deixamos algumas ideias abaixo.",
+        "A sua presença já é o melhor presente. Mas se quiserem contribuir com algo a mais, deixamos algumas ideias abaixo.",
       comingSoonTitle: "Em breve",
       comingSoonBody:
         "Estamos preparando a lista de presentes com muito carinho. Volte em breve!",
@@ -177,6 +177,8 @@ export const translations = {
       notConfiguredBody:
         "O formulário de confirmação ainda não está pronto. Volte em breve!",
       openFormFallback: "Não consegue ver o formulário? Abra numa nova aba →",
+      contactNote:
+        "Algum problema com o formulário? Fale diretamente com a noiva ou o noivo:",
     },
     footer: {
       madeWith: "Com amor,",
@@ -202,9 +204,9 @@ export const translations = {
       },
       ourStory: "Nuestra pequeña familia",
       ourStoryIntro:
-        "Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países distintos. Pero la vida cruzó nuestros caminos aquí, en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: desde lo más cotidiano — el gusto por la música y por las películas, la forma de reírnos de las mismas tonterías — hasta lo que más importa: los sueños y las ganas de formar una familia.",
+        "Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países distintos. Pero la vida cruzó nuestros caminos aquí, en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: desde lo más cotidiano, como el gusto por la música y por las películas, la forma de reírnos de las mismas tonterías, hasta lo que más importa: los sueños y las ganas de formar una familia.",
       ourStoryFamily:
-        "Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que queremos seguir. Por el camino llegaron Formiga, la ninfa cantarina y atrevida, y Grilo, el perro más campestre del barrio. Nuestra familia ya ha empezado — queremos que vengáis a celebrarlo con nosotros.",
+        "Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que queremos seguir. Por el camino llegaron Formiga, la ninfa con los mejores remixes, y Grilo, el perro más campestre de Europa. Nuestra familia ya ha empezado, queremos que vengáis a celebrarlo con nosotros.",
       seeDetails: "Ver detalles de la boda",
       seeGifts: "Ver lista de regalos",
     },
@@ -217,12 +219,12 @@ export const translations = {
       dressCodeLabel: "Vestimenta",
       mapButton: "Ver en el mapa",
       ceremonyBody:
-        "La iglesia de San Juan del Hospital, fundada en el siglo XIII por los Caballeros Hospitalarios de San Juan, es uno de los templos más antiguos de Valencia. Sus piedras viejas, arcos góticos y patio silencioso guardan siglos de historia — nos parece el lugar perfecto para comenzar nuestra vida juntos.",
+        "La iglesia de San Juan del Hospital, fundada en el siglo XIII por los Caballeros Hospitalarios de San Juan, es uno de los templos más antiguos de Valencia. Sus piedras viejas, arcos góticos y patio silencioso guardan siglos de historia, incluyendo varias bodas de la familia de Bernardo. Nos parece el lugar perfecto para comenzar nuestra vida juntos.",
       receptionBody:
-        "Los Jardines de la Cartuja son los jardines históricos del antiguo monasterio cartujo Ara Christi, en El Puig — a unos 20 minutos del centro de Valencia. Construido en el siglo XVII, el lugar guarda olivos centenarios, fuentes de piedra antigua y arcos blancos, donde vamos a almorzar, brindar y bailar hasta que se ponga el sol.",
+        "Los Jardines de la Cartuja son los jardines históricos del antiguo monasterio cartujo Ara Christi, en El Puig — a unos 20 minutos del centro de Valencia. Construido en el siglo XVII, el lugar guarda olivos centenarios, fuentes de piedra antigua y arcos blancos, donde vamos a almorzar, brindar y celebrar.",
       weatherLabel: "Sobre Valencia en junio",
       weatherBody:
-        "Valencia está en la costa este de España, bañada por el mar Mediterráneo. En junio, las temperaturas suelen oscilar entre los 20°C y los 28°C, con cielos soleados y una suave brisa del mar. El sol se pone hacia las 21:30, así que la celebración se alarga con calma bajo el largo cielo de verano. Recomendamos tejidos ligeros — algodón, lino — y calzado cómodo, sobre todo porque los jardines de la Cartuja tienen caminos de piedra.",
+        "Valencia está en la costa este de España, bañada por el mar Mediterráneo. En junio, las temperaturas suelen oscilar entre los 20°C y los 28°C, con cielos soleados y una suave brisa del mar. El sol se pone hacia las 21:30, así que la celebración se alarga con calma bajo el largo cielo de verano. Recomendamos tejidos ligeros como algodón y lino, y calzado cómodo, sobre todo porque los jardines de la Cartuja tienen caminos de piedra.",
       transportLabel: "Cómo llegamos",
       transportBody:
         "Vamos a organizar autobuses para que nadie tenga que preocuparse por conducir. Desde la iglesia hasta los jardines de la Cartuja y, a la vuelta, desde la Cartuja al centro de Valencia en varios horarios, para que cada quien disfrute la fiesta a su ritmo.",
@@ -358,6 +360,8 @@ export const translations = {
       notConfiguredBody:
         "El formulario de confirmación aún no está listo. ¡Vuelve pronto!",
       openFormFallback: "¿No ves el formulario? Ábrelo en una pestaña nueva →",
+      contactNote:
+        "¿Algún problema con el formulario? Habla directamente con la novia o el novio:",
     },
     footer: {
       madeWith: "Con amor,",
@@ -385,7 +389,7 @@ export const translations = {
       ourStoryIntro:
         "Bernardo grew up in Valencia, Laura in Campo Grande. Different cultures, families, countries. But life crossed our paths here in Valencia, and from the very first moment we discovered how much we had in common: from mundane things like the taste in music and films, the way of laughing at the same silly humour, to the big ones — the dreams and the purpose of forming a family.",
       ourStoryFamily:
-        "We were lucky to grow up watching our parents stay together a lifetime, and that's the example we want to follow. Along the way came Formiga, the cheeky singing cockatiel, and Grilo, the most countryside-loving dog in the neighbourhood. Our family is starting — we want you to come celebrate with us.",
+        "We were lucky to grow up watching our parents stay together a lifetime, and that's the example we want to follow. Along the way came Formiga, the cockatiel with the best remixes, and Grilo, the wildest dog in Europe. Our family is starting, we want you to come celebrate with us.",
       seeDetails: "Wedding details",
       seeGifts: "Gift list",
     },
@@ -398,12 +402,12 @@ export const translations = {
       dressCodeLabel: "Dress code",
       mapButton: "Open in maps",
       ceremonyBody:
-        "The Church of San Juan del Hospital, founded in the 13th century by the Knights Hospitaller of Saint John, is one of the oldest churches in Valencia. Its old stones, Gothic arches, and quiet inner courtyard hold centuries of history — and feel like the perfect place to begin our life together.",
+        "The Church of San Juan del Hospital, founded in the 13th century by the Knights Hospitaller of Saint John, is one of the oldest churches in Valencia. Its old stones, Gothic arches, and quiet inner courtyard hold centuries of history, including several weddings in Bernardo's family. It feels like the perfect place to begin our life together.",
       receptionBody:
-        "The Jardines de la Cartuja are the historic gardens of the former Ara Christi Carthusian monastery in El Puig — about 20 minutes from central Valencia. Built in the 17th century, the grounds hold centuries-old olive trees, old stone fountains, and white arches, where we'll lunch, toast, and dance until sundown.",
+        "The Jardines de la Cartuja are the historic gardens of the former Ara Christi Carthusian monastery in El Puig — about 20 minutes from central Valencia. Built in the 17th century, the grounds hold centuries-old olive trees, old stone fountains, and white arches, where we'll lunch, toast, and celebrate.",
       weatherLabel: "About Valencia in June",
       weatherBody:
-        "Valencia sits on Spain's east coast, on the Mediterranean. In June, temperatures usually range from 20°C to 28°C (68–82°F), with sunny skies and a gentle sea breeze. Sunset comes around 9:30 pm, so the celebration unfolds at a leisurely pace under the long summer sky. We suggest light fabrics — cotton, linen — and comfortable shoes, especially since the gardens at la Cartuja have stone paths.",
+        "Valencia sits on Spain's east coast, on the Mediterranean. In June, temperatures usually range from 20°C to 28°C (68–82°F), with sunny skies and a gentle sea breeze. Sunset comes around 9:30 pm, so the celebration unfolds at a leisurely pace under the long summer sky. We suggest light fabrics like cotton and linen, and comfortable shoes, especially since the gardens at la Cartuja have stone paths.",
       transportLabel: "How we'll get there",
       transportBody:
         "We're putting on coaches so no one has to worry about driving. From the church to the Jardines de la Cartuja, and back from the Cartuja to central Valencia at several times so everyone can enjoy the party at their own pace.",
@@ -539,6 +543,8 @@ export const translations = {
       notConfiguredBody:
         "The RSVP form isn't ready yet. Please check back soon!",
       openFormFallback: "Can't see the form? Open it in a new tab →",
+      contactNote:
+        "Any trouble with the form? Feel free to contact the bride or groom directly:",
     },
     footer: {
       madeWith: "With love,",
@@ -579,12 +585,12 @@ export const translations = {
       dressCodeLabel: "Dresscode",
       mapButton: "Auf Karte öffnen",
       ceremonyBody:
-        "Die Kirche San Juan del Hospital wurde im 13. Jahrhundert von den Johanniterrittern gegründet und ist eine der ältesten Kirchen Valencias. Ihre alten Steine, gotischen Bögen und der stille Innenhof bewahren Jahrhunderte an Geschichte — für uns der perfekte Ort, um unser gemeinsames Leben zu beginnen.",
+        "Die Kirche San Juan del Hospital wurde im 13. Jahrhundert von den Johanniterrittern gegründet und ist eine der ältesten Kirchen Valencias. Ihre alten Steine, gotischen Bögen und der stille Innenhof bewahren Jahrhunderte an Geschichte, einschließlich mehrerer Hochzeiten in Bernardos Familie. Für uns der perfekte Ort, um unser gemeinsames Leben zu beginnen.",
       receptionBody:
-        "Die Jardines de la Cartuja sind die historischen Gärten des ehemaligen Kartäuserklosters Ara Christi in El Puig — etwa 20 Minuten vom Stadtzentrum Valencias entfernt. Erbaut im 17. Jahrhundert, beherbergt der Ort jahrhundertealte Olivenbäume, alte Steinbrunnen und weiße Bögen, wo wir essen, anstoßen und bis zum Sonnenuntergang tanzen werden.",
+        "Die Jardines de la Cartuja sind die historischen Gärten des ehemaligen Kartäuserklosters Ara Christi in El Puig — etwa 20 Minuten vom Stadtzentrum Valencias entfernt. Erbaut im 17. Jahrhundert, beherbergt der Ort jahrhundertealte Olivenbäume, alte Steinbrunnen und weiße Bögen, wo wir essen, anstoßen und feiern werden.",
       weatherLabel: "Valencia im Juni",
       weatherBody:
-        "Valencia liegt an der spanischen Mittelmeerküste. Im Juni bewegen sich die Temperaturen meist zwischen 20°C und 28°C, mit Sonnenschein und einer sanften Meeresbrise. Die Sonne geht erst gegen 21:30 Uhr unter, sodass das Fest sich entspannt unter dem langen Sommerhimmel hinzieht. Wir empfehlen leichte Stoffe — Baumwolle, Leinen — und bequeme Schuhe, vor allem weil die Gärten der Cartuja Steinwege haben.",
+        "Valencia liegt an der spanischen Mittelmeerküste. Im Juni bewegen sich die Temperaturen meist zwischen 20°C und 28°C, mit Sonnenschein und einer sanften Meeresbrise. Die Sonne geht erst gegen 21:30 Uhr unter, sodass das Fest sich entspannt unter dem langen Sommerhimmel hinzieht. Wir empfehlen leichte Stoffe wie Baumwolle und Leinen, und bequeme Schuhe, vor allem weil die Gärten der Cartuja Steinwege haben.",
       transportLabel: "Wie wir hinkommen",
       transportBody:
         "Wir organisieren Busse, damit niemand sich um die Fahrt kümmern muss. Von der Kirche zu den Jardines de la Cartuja, und auf dem Rückweg zu mehreren Zeiten von der Cartuja zurück ins Zentrum Valencias — damit jeder das Fest in seinem Tempo genießen kann.",
@@ -723,6 +729,8 @@ export const translations = {
       notConfiguredBody:
         "Das Zusage-Formular ist noch nicht bereit. Schaut bald wieder vorbei!",
       openFormFallback: "Siehst du das Formular nicht? Öffne es in einem neuen Tab →",
+      contactNote:
+        "Probleme mit dem Formular? Schreibt direkt der Braut oder dem Bräutigam:",
     },
     footer: {
       madeWith: "Mit Liebe,",

@@ -46,6 +46,25 @@ export default function Rsvp({ params }: { params: { lang: string } }) {
               {tr.notConfiguredBody}
             </iframe>
           </div>
+
+          {/* Contact-the-couple fallback (always visible below the form) */}
+          <div className="mt-12 text-center">
+            <p className="text-ink/70 text-sm">{tr.contactNote}</p>
+            <div className="mt-4 flex flex-col sm:flex-row justify-center gap-4 sm:gap-10 font-serif text-lg">
+              <a
+                href="tel:+34687639346"
+                className="text-sageDark hover:underline"
+              >
+                Laura · +34 687 63 93 46
+              </a>
+              <a
+                href="tel:+34646584743"
+                className="text-sageDark hover:underline"
+              >
+                Bernardo · +34 646 58 47 43
+              </a>
+            </div>
+          </div>
         </>
       ) : (
         <div className="mt-10 bg-sage/10 border border-sage/40 rounded-lg p-8 text-center">

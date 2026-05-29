@@ -86,7 +86,6 @@ export default function GiftDetail({
         <p className="font-serif text-xl text-sageDark">
           {tr.gifts.thanksTitle}
         </p>
-        <p className="text-ink/70 mt-2 text-sm">{tr.gifts.thanksBody}</p>
       </div>
     </div>
   );

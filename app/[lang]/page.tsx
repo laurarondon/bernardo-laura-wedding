@@ -61,10 +61,13 @@ export default function Home({ params }: { params: { lang: string } }) {
           </>
         )}
         <p
-          className={`font-serif text-2xl md:text-3xl text-ink capitalize ${
+          className={`font-serif italic text-2xl md:text-3xl text-sageDark ${
             settings.photos.banner ? "" : "mt-8"
           }`}
         >
+          {tr.home.tagline}
+        </p>
+        <p className="font-serif text-2xl md:text-3xl text-ink capitalize mt-3">
           {formatDate(settings.wedding.date, lang)}
         </p>
         <p className="font-serif text-lg md:text-xl text-ink/70 mt-1">

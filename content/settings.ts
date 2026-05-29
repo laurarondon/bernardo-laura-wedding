@@ -200,7 +200,7 @@ export const settings = {
   bizum: {
     enabled: true,
     // Bernardo's Bizum phone number with country code, e.g. "+34 600 000 000"
-    phone: "+34 REPLACE_WITH_BERNARDO_PHONE",
+    phone: "+34 646 58 47 43",
     recipientName: "Bernardo",
   },
 
