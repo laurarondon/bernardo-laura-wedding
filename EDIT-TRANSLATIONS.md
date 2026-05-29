@@ -27,14 +27,14 @@ ES: Nuestra pequeña familia
 EN: Our little family
 
 ## Our story · paragraph 1 (next to portrait photo)
-PT: Bernardo cresceu em Valência, Laura no Campo Grande. Culturas, famílias, países diferentes. Mas a vida cruzou os nossos caminhos aqui em Valência, e desde o primeiro instante descobrimos quanta coisa temos em comum: desde o mais banal — o gosto pela música e pelos filmes, o jeito de rir das mesmas bobagens — até o que mais importa: os sonhos e a vontade de formar uma família.
-ES: Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países distintos. Pero la vida cruzó nuestros caminos aquí, en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: desde lo más cotidiano — el gusto por la música y por las películas, la forma de reírnos de las mismas tonterías — hasta lo que más importa: los sueños y las ganas de formar una familia.
-EN: Bernardo grew up in Valencia, Laura in Campo Grande. Different cultures, families, countries. But life crossed our paths here in Valencia, and from the very first moment we discovered how much we had in common: from mundane things like the taste in music and films, the way of laughing at the same silly humour, to the big ones — the dreams and the purpose of forming a family.
+PT: Bernardo cresceu em Valência, Laura em Campo Grande. Culturas, famílias, países diferentes. Mas a vida cruzou os nossos caminhos aqui em Valência, e desde o primeiro instante descobrimos quanta coisa temos em comum: desde o mais banal, como o gosto pela música e pelos filmes, o jeito de rir das mesmas bobagens, até o que mais importa: os sonhos e a vontade de formar uma família.
+ES: Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países distintos. Pero la vida cruzó nuestros caminos aquí, en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: desde lo más cotidiano, como el gusto por la música y por las películas, la forma de reírnos de las mismas tonterías, hasta lo que más importa: los sueños y las ganas de formar una familia.
+EN: Bernardo grew up in Valencia, Laura in Campo Grande. Different cultures, families, countries. But life crossed our paths here in Valencia, and from the very first moment we discovered how much we had in common: from mundane things like the taste in music and films, the way of laughing at the same silly humour, to the big ones, the dreams and the purpose of forming a family.
 
 ## Our story · paragraph 2 (next to pets illustration)
-PT: Tivemos a sorte de crescer vendo nossos pais juntos a vida inteira, e é esse o exemplo que queremos seguir. Pelo caminho chegaram a Formiga, a calopsita atrevida que canta o dia inteiro, e o Grilo, o cachorro mais campestre do bairro. A nossa família já começou — queremos vocês aqui para celebrar com a gente.
-ES: Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que queremos seguir. Por el camino llegaron Formiga, la ninfa cantarina y atrevida, y Grilo, el perro más campestre del barrio. Nuestra familia ya ha empezado — queremos que vengáis a celebrarlo con nosotros.
-EN: We were lucky to grow up watching our parents stay together a lifetime, and that's the example we want to follow. Along the way came Formiga, the cheeky singing cockatiel, and Grilo, the most countryside-loving dog in the neighbourhood. Our family is starting — we want you to come celebrate with us.
+PT: Tivemos a sorte de crescer vendo nossos pais juntos a vida inteira, e é esse o exemplo que queremos seguir. Pelo caminho chegaram Formiga, a com os melhores remixes, e o Grilo, o cachorro mais campestre da Europa. A nossa família já começou, queremos vocês aqui para celebrar com a gente.
+ES: Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que queremos seguir. Por el camino llegaron Formiga, la ninfa con los mejores remixes, y Grilo, el perro más campestre de Europa Nuestra familia ya ha empezado, queremos que vengáis a celebrarlo con nosotros.
+EN: We were lucky to grow up watching our parents stay together a lifetime, and that's the example we want to follow. Along the way came Formiga, the cockatiel with the best remixes, and Grilo, the wildest dog in Europe. Our family is starting, we want you to come celebrate with us.
 
 ## Add-to-calendar button
 PT: Adicionar à agenda
@@ -66,9 +66,9 @@ ES: Ceremonia
 EN: Ceremony
 
 ## Ceremony — body
-PT: A Igreja de San Juan del Hospital, fundada no século XIII pelos Cavaleiros do Hospital de São João, é um dos templos mais antigos de Valência. Suas pedras antigas, arcos góticos e pátio silencioso guardam séculos de história — parece-nos o lugar perfeito para começar a nossa vida juntos.
-ES: La iglesia de San Juan del Hospital, fundada en el siglo XIII por los Caballeros Hospitalarios de San Juan, es uno de los templos más antiguos de Valencia. Sus piedras viejas, arcos góticos y patio silencioso guardan siglos de historia — nos parece el lugar perfecto para comenzar nuestra vida juntos.
-EN: The Church of San Juan del Hospital, founded in the 13th century by the Knights Hospitaller of Saint John, is one of the oldest churches in Valencia. Its old stones, Gothic arches, and quiet inner courtyard hold centuries of history — and feel like the perfect place to begin our life together.
+PT: A Igreja de San Juan del Hospital, fundada no século XIII pelos Cavaleiros do Hospital de São João, é um dos templos mais antigos de Valência. Suas pedras antigas, arcos góticos e pátio silencioso guardam séculos de história, inclusive de diversos casamentos da família do Bernardo. Nos parece o lugar perfeito para começar nossa vida juntos.
+ES: La iglesia de San Juan del Hospital, fundada en el siglo XIII por los Caballeros Hospitalarios de San Juan, es uno de los templos más antiguos de Valencia. Sus piedras viejas, arcos góticos y patio silencioso guardan siglos de historia, incluyendo varias bodas de la familia de Bernardo. Nos parece el lugar perfecto para comenzar nuestra vida juntos.
+EN: The Church of San Juan del Hospital, founded in the 13th century by the Knights Hospitaller of Saint John, is one of the oldest churches in Valencia. Its old stones, Gothic arches, and quiet inner courtyard hold centuries of history, including several weddings in Bernardo's family. It feels like the perfect place to begin our life together.
 
 ## Reception — label
 PT: Recepção
@@ -76,9 +76,9 @@ ES: Recepción
 EN: Reception
 
 ## Reception — body
-PT: Os Jardines de la Cartuja são os jardins históricos do antigo mosteiro cartuxo Ara Christi, em El Puig — a uns 20 minutos do centro de Valência. Construído no século XVII, o lugar guarda olivais centenários, fontes em pedra antiga e arcos brancos, onde vamos almoçar, brindar e dançar até o sol se pôr.
-ES: Los Jardines de la Cartuja son los jardines históricos del antiguo monasterio cartujo Ara Christi, en El Puig — a unos 20 minutos del centro de Valencia. Construido en el siglo XVII, el lugar guarda olivos centenarios, fuentes de piedra antigua y arcos blancos, donde vamos a almorzar, brindar y bailar hasta que se ponga el sol.
-EN: The Jardines de la Cartuja are the historic gardens of the former Ara Christi Carthusian monastery in El Puig — about 20 minutes from central Valencia. Built in the 17th century, the grounds hold centuries-old olive trees, old stone fountains, and white arches, where we'll lunch, toast, and dance until sundown.
+PT: Os Jardines de la Cartuja são os jardins históricos do antigo mosteiro cartuxo Ara Christi, em El Puig, a uns 20 minutos do centro de Valência. Construído no século XVII, o lugar guarda olivais centenários, fontes em pedra antiga e arcos brancos, onde vamos almoçar, brindar e celebrar.
+ES: Los Jardines de la Cartuja son los jardines históricos del antiguo monasterio cartujo Ara Christi, en El Puig — a unos 20 minutos del centro de Valencia. Construido en el siglo XVII, el lugar guarda olivos centenarios, fuentes de piedra antigua y arcos blancos, donde vamos a almorzar, brindar y celebrar.
+EN: The Jardines de la Cartuja are the historic gardens of the former Ara Christi Carthusian monastery in El Puig — about 20 minutes from central Valencia. Built in the 17th century, the grounds hold centuries-old olive trees, old stone fountains, and white arches, where we'll lunch, toast, and celebrate.
 
 ## Dress code label
 PT: Traje
@@ -111,9 +111,9 @@ ES: Sobre Valencia en junio
 EN: About Valencia in June
 
 ## About Valencia — body
-PT: Valência fica na costa leste da Espanha, banhada pelo mar Mediterrâneo. Em junho, as temperaturas costumam variar entre 20°C e 28°C, com céu ensolarado e brisa suave do mar. O sol se põe por volta das 21h30, então a celebração se estende com calma sob o longo céu de verão. Recomendamos tecidos leves — algodão, linho — e sapatos confortáveis, sobretudo porque os jardins da Cartuja têm caminhos de pedra.
-ES: Valencia está en la costa este de España, bañada por el mar Mediterráneo. En junio, las temperaturas suelen oscilar entre los 20°C y los 28°C, con cielos soleados y una suave brisa del mar. El sol se pone hacia las 21:30, así que la celebración se alarga con calma bajo el largo cielo de verano. Recomendamos tejidos ligeros — algodón, lino — y calzado cómodo, sobre todo porque los jardines de la Cartuja tienen caminos de piedra.
-EN: Valencia sits on Spain's east coast, on the Mediterranean. In June, temperatures usually range from 20°C to 28°C (68–82°F), with sunny skies and a gentle sea breeze. Sunset comes around 9:30 pm, so the celebration unfolds at a leisurely pace under the long summer sky. We suggest light fabrics — cotton, linen — and comfortable shoes, especially since the gardens at la Cartuja have stone paths.
+PT: Valência fica na costa leste da Espanha, banhada pelo mar Mediterrâneo. Em junho, as temperaturas costumam variar entre 20°C e 28°C, com céu ensolarado e brisa suave do mar. O sol se põe por volta das 21h30, então a celebração se estende com calma sob o longo céu de verão. Recomendamos tecidos leves como algodão e linho - e sapatos confortáveis, sobretudo porque os jardins da Cartuja têm caminhos de pedra.
+ES: Valencia está en la costa este de España, bañada por el mar Mediterráneo. En junio, las temperaturas suelen oscilar entre los 20°C y los 28°C, con cielos soleados y una suave brisa del mar. El sol se pone hacia las 21:30, así que la celebración se alarga con calma bajo el largo cielo de verano. Recomendamos tejidos ligeros, como algodón y lino - y calzado cómodo, sobre todo porque los jardines de la Cartuja tienen caminos de piedra.
+EN: Valencia sits on Spain's east coast, on the Mediterranean. In June, temperatures usually range from 20°C to 28°C (68–82°F), with sunny skies and a gentle sea breeze. Sunset comes around 9:30 pm, so the celebration unfolds at a leisurely pace under the long summer sky. We suggest light fabrics like cotton and linen, and comfortable shoes, especially since the gardens at la Cartuja have stone paths.
 
 ---
 
@@ -125,7 +125,7 @@ ES: Lista de regalos
 EN: Gift list
 
 ## Subtitle (shown when gift list is live)
-PT: A vossa presença já é o melhor presente. Mas se quiserem contribuir com algo a mais, deixamos algumas ideias abaixo.
+PT: A sua presença já é o melhor presente. Mas se quiserem contribuir com algo a mais, deixamos algumas ideias abaixo.
 ES: Vuestra presencia ya es el mejor regalo. Pero si queréis contribuir con algo más, aquí dejamos algunas ideas.
 EN: Your presence is already the greatest gift. But if you'd like to contribute, here are some ideas.
 
@@ -244,7 +244,7 @@ ES: Cuidados para Grilo y Formiga
 EN: Pet care for Grilo and Formiga
 
 ## Gift 5 — Pet care — description
-PT: Enquanto estivermos em lua de mel, alguém precisa cuidar do nosso cãozinho e da nossa calopsita. Ajude com a guarderia!
+PT: Enquanto estivermos em lua de mel, alguém precisa cuidar do nosso cãozinho e da nossa calopsita. Ajude com a creche!
 ES: Mientras estemos de luna de miel, alguien tiene que cuidar de nuestro perrito y de nuestra ninfa. ¡Ayuda con la guardería!
 EN: While we're on our honeymoon, someone needs to look after our little dog and our cockatiel. Help with the pet sitting!
 
