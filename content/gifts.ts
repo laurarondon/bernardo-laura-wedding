@@ -32,6 +32,27 @@ export type Gift = {
 
 export const gifts: Gift[] = [
   {
+    id: "presente-livre",
+    title: {
+      pt: "Presente com o coração",
+      es: "Regalo con el corazón",
+      en: "A gift from the heart",
+      de: "Ein Geschenk vom Herzen",
+    },
+    description: {
+      pt: "Um presente do coração, no valor que vocês escolherem. Nós usaremos com carinho.",
+      es: "Un regalo desde el corazón, con la cantidad que prefiráis. La usaremos con cariño.",
+      en: "A gift straight from the heart — any amount you'd like. We'll put it to lovely use.",
+      de: "Ein Geschenk vom Herzen — in dem Betrag, den ihr wählt. Wir werden ihn mit viel Liebe einsetzen.",
+    },
+    eurAmount: 0,
+    brlAmount: 0,
+    currencies: ["eur", "brl"],
+    image:
+      "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&h=600&q=75&auto=format&fit=crop",
+    stripePaymentLink: "",
+  },
+  {
     id: "lua-de-mel",
     title: {
       pt: "Lua de mel",
@@ -196,27 +217,6 @@ export const gifts: Gift[] = [
     currencies: ["eur", "brl"],
     image:
       "https://images.unsplash.com/photo-1533537124921-db3248c9fa93?w=800&h=600&q=75&auto=format&fit=crop&crop=entropy",
-    stripePaymentLink: "",
-  },
-  {
-    id: "presente-livre",
-    title: {
-      pt: "Presente com o coração",
-      es: "Regalo con el corazón",
-      en: "A gift from the heart",
-      de: "Ein Geschenk vom Herzen",
-    },
-    description: {
-      pt: "Não encontrou o que procurava? Contribua com o valor que quiser e nós usaremos com carinho.",
-      es: "¿No encontraste lo que buscabas? Contribuye con la cantidad que quieras y la usaremos con cariño.",
-      en: "Didn't find what you were looking for? Contribute any amount you'd like — we'll put it to lovely use.",
-      de: "Hast du nicht das Richtige gefunden? Trag einen beliebigen Betrag bei — wir werden ihn mit viel Liebe einsetzen.",
-    },
-    eurAmount: 0,
-    brlAmount: 0,
-    currencies: ["eur", "brl"],
-    image:
-      "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&h=600&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
 ];
