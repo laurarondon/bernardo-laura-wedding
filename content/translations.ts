@@ -399,9 +399,15 @@ export const translations = {
       },
       ourStory: "Our little family",
       ourStoryIntro:
-        "Bernardo grew up in Valencia, Laura in Campo Grande. Different cultures, families, countries. But life crossed our paths here in Valencia, and from the very first moment we discovered how much we had in common: from mundane things like the taste in music and films, the way of laughing at the same silly humour, to the big ones — the dreams and the purpose of forming a family.",
-      ourStoryFamily:
-        "We were lucky to grow up watching our parents stay together a lifetime, and that's the example we want to follow. Along the way came Formiga, the cockatiel with the best remixes, and Grilo, the wildest dog in Europe. Our family is starting, we want you to come celebrate with us.",
+        "Bernardo grew up in Valencia, Laura in Campo Grande. Different cultures, families, countries. But life crossed our paths here in Valencia, and from the very first moment we discovered how much we had in common: from mundane things like our taste in music and films, laughing at the same silly jokes, and wanting to raise chickens to the big things, our dreams, our values, and our shared wish to build a family.",
+      ourStoryParents:
+        "We were both lucky enough to grow up watching our parents stay together for a lifetime, and that's the example we hope to follow. We discovered that we share a love for the simple things: being outdoors, listening to the birds, spotting insects and animals in nature, travelling together, and trying (with varying degrees of success) to tame our wildly overgrown garden in our beloved Sierra Perenchiza.",
+      ourStoryLife:
+        "Over the years, we've built a life that belongs to both of us. Bernardo learned Portuguese for Laura. Laura arrived speaking no Spanish at all, and now calls Spain home too. We were welcomed with open arms by each other's families and found a second home in one another's worlds. Along the way came Formiga, the cockatiel with the best song remixes, and Grilo, the wildest dog in Europe.",
+      ourStoryFun:
+        "The most important thing of all, we've never stopped having fun together. We can spend an entire evening talking, laughing, playing, dancing around the house, or throwing our own little party for two. Our inner children became best friends long before we decided to spend our lives together.",
+      ourStoryInvite:
+        "Our family is just beginning, and we dream of watching it grow in the years ahead. We would love for you to join us as we celebrate the start of this next chapter.",
       seeDetails: "Wedding details",
       seeGifts: "Gift list",
     },
