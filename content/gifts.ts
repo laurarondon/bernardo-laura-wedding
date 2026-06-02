@@ -91,7 +91,7 @@ export const gifts: Gift[] = [
     brlAmount: 280,
     currencies: ["eur", "brl"],
     image:
-      "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&h=600&q=75&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1495837174058-628aafc7d610?w=800&h=600&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
   {
