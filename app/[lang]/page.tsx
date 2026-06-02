@@ -89,11 +89,11 @@ export default function Home({ params }: { params: { lang: string } }) {
         />
       )}
 
-      {/* Our little family — alternating editorial spreads */}
+      {/* Our little family — five paragraphs, two photos woven through */}
       <section className="max-w-5xl mx-auto px-4 py-12 md:py-16">
         <h2 className="section-title text-center">{tr.home.ourStory}</h2>
 
-        {/* Spread 1 · portrait left, intro right */}
+        {/* Spread 1 · portrait left, paragraph 1 right */}
         <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mt-12">
           {settings.photos.portrait && (
             // eslint-disable-next-line @next/next/no-img-element
@@ -108,10 +108,15 @@ export default function Home({ params }: { params: { lang: string } }) {
           </p>
         </div>
 
-        {/* Spread 2 · family text left, pets right */}
+        {/* Paragraph 2 — centered, full text width */}
+        <p className="font-serif text-lg leading-relaxed text-ink/80 max-w-2xl mx-auto mt-16">
+          {tr.home.ourStoryParents}
+        </p>
+
+        {/* Spread 2 · paragraph 3 left, pets right (introduces Formiga + Grilo) */}
         <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mt-16">
           <p className="md:order-1 font-serif text-lg leading-relaxed text-ink/80">
-            {tr.home.ourStoryFamily}
+            {tr.home.ourStoryLife}
           </p>
           {settings.pets.image && (
             // eslint-disable-next-line @next/next/no-img-element
@@ -122,6 +127,16 @@ export default function Home({ params }: { params: { lang: string } }) {
             />
           )}
         </div>
+
+        {/* Paragraph 4 — centered */}
+        <p className="font-serif text-lg leading-relaxed text-ink/80 max-w-2xl mx-auto mt-16">
+          {tr.home.ourStoryFun}
+        </p>
+
+        {/* Paragraph 5 — invitation, centered, slightly emphasised */}
+        <p className="font-serif text-lg md:text-xl leading-relaxed text-sageDark max-w-2xl mx-auto mt-12 text-center italic">
+          {tr.home.ourStoryInvite}
+        </p>
       </section>
     </div>
   );

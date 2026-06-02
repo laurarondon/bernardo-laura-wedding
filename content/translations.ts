@@ -21,9 +21,15 @@ export const translations = {
       },
       ourStory: "A nossa pequena família",
       ourStoryIntro:
-        "Bernardo cresceu em Valência, Laura em Campo Grande. Culturas, famílias, países diferentes. Mas a vida cruzou os nossos caminhos aqui em Valência, e desde o primeiro instante descobrimos quanta coisa temos em comum: desde o mais banal, como o gosto pela música e pelos filmes, o jeito de rir das mesmas bobagens, até o que mais importa: os sonhos e a vontade de formar uma família.",
-      ourStoryFamily:
-        "Tivemos a sorte de crescer vendo nossos pais juntos a vida inteira, e é esse o exemplo que queremos seguir. Pelo caminho chegaram a Formiga, a calopsita com os melhores remixes, e o Grilo, o cachorro mais campestre da Europa. A nossa família já começou, queremos vocês aqui para celebrar com a gente.",
+        "Bernardo cresceu em Valência, Laura em Campo Grande. Culturas, famílias, países diferentes. Mas a vida cruzou os nossos caminhos aqui em Valência, e desde o primeiro instante descobrimos quanta coisa temos em comum: desde o mais banal, como o gosto pela música e pelos filmes, rir das mesmas bobagens e querer criar galinhas, até o que mais importa: os nossos sonhos, os nossos valores e a vontade compartilhada de formar uma família.",
+      ourStoryParents:
+        "Tivemos a sorte de crescer vendo nossos pais juntos a vida inteira, e é esse o exemplo que esperamos seguir. Descobrimos que compartilhamos o amor pelas coisas simples: estar ao ar livre, ouvir os pássaros, observar insetos e animais na natureza, viajar juntos e tentar (com graus variados de sucesso) domar o nosso jardim selvagem na amada Sierra Perenchiza.",
+      ourStoryLife:
+        "Ao longo dos anos, construímos uma vida que pertence aos dois. O Bernardo aprendeu português pela Laura. A Laura chegou sem falar uma palavra de espanhol e hoje também chama a Espanha de lar. Fomos recebidos de braços abertos pelas famílias um do outro e encontramos um segundo lar nos mundos um do outro. Pelo caminho chegaram a Formiga, a calopsita com os melhores remixes, e o Grilo, o cachorro mais campestre da Europa.",
+      ourStoryFun:
+        "O mais importante de tudo: nunca paramos de nos divertir juntos. Podemos passar uma noite inteira conversando, rindo, brincando, dançando pela casa ou fazendo a nossa própria festinha de dois. As nossas crianças interiores viraram melhores amigas muito antes de decidirmos passar a vida juntos.",
+      ourStoryInvite:
+        "A nossa família está apenas começando, e sonhamos em vê-la crescer nos próximos anos. Queremos que você faça parte dessa celebração do nosso próximo capítulo.",
       seeDetails: "Ver detalhes do casamento",
       seeGifts: "Ver lista de presentes",
     },
@@ -204,9 +210,15 @@ export const translations = {
       },
       ourStory: "Nuestra pequeña familia",
       ourStoryIntro:
-        "Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países distintos. Pero la vida cruzó nuestros caminos aquí, en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: desde lo más cotidiano, como el gusto por la música y por las películas, la forma de reírnos de las mismas tonterías, hasta lo que más importa: los sueños y las ganas de formar una familia.",
-      ourStoryFamily:
-        "Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que queremos seguir. Por el camino llegaron Formiga, la ninfa con los mejores remixes, y Grilo, el perro más campestre de Europa. Nuestra familia ya ha empezado, queremos que vengáis a celebrarlo con nosotros.",
+        "Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países distintos. Pero la vida cruzó nuestros caminos aquí en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: desde lo más cotidiano, como el gusto por la música y por las películas, reírnos de las mismas tonterías y querer criar gallinas, hasta lo que más importa: nuestros sueños, nuestros valores y las ganas compartidas de formar una familia.",
+      ourStoryParents:
+        "Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que esperamos seguir. Descubrimos que compartimos el amor por las cosas simples: estar al aire libre, escuchar a los pájaros, observar insectos y animales en la naturaleza, viajar juntos e intentar (con grados variables de éxito) domar nuestro jardín salvaje en la querida Sierra Perenchiza.",
+      ourStoryLife:
+        "Con los años hemos construido una vida que nos pertenece a los dos. Bernardo aprendió portugués por Laura. Laura llegó sin hablar nada de español y hoy también llama a España su hogar. Nos recibieron con los brazos abiertos las familias del otro y encontramos un segundo hogar en los mundos del otro. Por el camino llegaron Formiga, la ninfa con los mejores remixes, y Grilo, el perro más campestre de Europa.",
+      ourStoryFun:
+        "Lo más importante de todo: nunca hemos dejado de divertirnos juntos. Podemos pasar una noche entera hablando, riendo, jugando, bailando por la casa o montando nuestra propia fiestecita para dos. Nuestros niños interiores se hicieron mejores amigos mucho antes de que decidiéramos pasar la vida juntos.",
+      ourStoryInvite:
+        "Nuestra familia apenas está empezando, y soñamos con verla crecer en los próximos años. Nos encantaría que nos acompañéis mientras celebramos el comienzo de este nuevo capítulo.",
       seeDetails: "Ver detalles de la boda",
       seeGifts: "Ver lista de regalos",
     },
@@ -570,9 +582,15 @@ export const translations = {
       },
       ourStory: "Unsere kleine Familie",
       ourStoryIntro:
-        "Bernardo wuchs in Valencia auf, Laura in Campo Grande. Andere Kulturen, andere Familien, andere Länder. Aber das Leben kreuzte unsere Wege hier in Valencia, und vom ersten Moment an entdeckten wir, wie viel wir gemeinsam haben: vom Alltäglichen — dem Geschmack für Musik und Filme, der Art, über dieselben Albernheiten zu lachen — bis zum Wesentlichen: den Träumen und dem Wunsch, eine Familie zu gründen.",
-      ourStoryFamily:
-        "Wir hatten das Glück, mit Eltern aufzuwachsen, die ein ganzes Leben zusammen geblieben sind, und genau diesem Vorbild wollen wir folgen. Unterwegs kamen Formiga, die Nymphensittich-Dame mit den besten Remixes, und Grilo, der wildeste Hund Europas. Unsere Familie hat begonnen, wir möchten, dass ihr kommt, um mit uns zu feiern.",
+        "Bernardo wuchs in Valencia auf, Laura in Campo Grande. Andere Kulturen, andere Familien, andere Länder. Aber das Leben kreuzte unsere Wege hier in Valencia, und vom ersten Moment an entdeckten wir, wie viel wir gemeinsam haben: vom Alltäglichen, wie unserem Geschmack für Musik und Filme, dem Lachen über dieselben Albernheiten und dem Wunsch, Hühner zu halten, bis zum Wesentlichen: unseren Träumen, unseren Werten und dem gemeinsamen Wunsch, eine Familie zu gründen.",
+      ourStoryParents:
+        "Wir hatten beide das Glück, mit Eltern aufzuwachsen, die ein ganzes Leben zusammen geblieben sind, und genau diesem Vorbild wollen wir folgen. Wir haben entdeckt, dass wir die Liebe zu den einfachen Dingen teilen: draußen sein, den Vögeln lauschen, Insekten und Tiere in der Natur entdecken, gemeinsam reisen und (mit unterschiedlichem Erfolg) versuchen, unseren wild wuchernden Garten in unserer geliebten Sierra Perenchiza zu zähmen.",
+      ourStoryLife:
+        "Im Laufe der Jahre haben wir uns ein Leben aufgebaut, das uns beiden gehört. Bernardo hat für Laura Portugiesisch gelernt. Laura kam ohne ein einziges Wort Spanisch an und nennt heute auch Spanien ihr Zuhause. Wir wurden von den Familien des anderen mit offenen Armen empfangen und haben in der Welt des anderen ein zweites Zuhause gefunden. Unterwegs kamen Formiga, die Nymphensittich-Dame mit den besten Remixes, und Grilo, der wildeste Hund Europas.",
+      ourStoryFun:
+        "Das Wichtigste von allem: Wir haben nie aufgehört, gemeinsam Spaß zu haben. Wir können einen ganzen Abend miteinander reden, lachen, spielen, durch das Haus tanzen oder unsere eigene kleine Zwei-Personen-Party feiern. Unsere inneren Kinder waren beste Freunde, lange bevor wir beschlossen, unser Leben gemeinsam zu verbringen.",
+      ourStoryInvite:
+        "Unsere Familie fängt gerade erst an, und wir träumen davon, sie in den kommenden Jahren wachsen zu sehen. Wir würden uns freuen, wenn ihr dabei seid, wenn wir den Beginn dieses neuen Kapitels feiern.",
       seeDetails: "Hochzeitsdetails",
       seeGifts: "Geschenkliste",
     },
