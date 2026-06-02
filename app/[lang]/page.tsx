@@ -85,7 +85,7 @@ export default function Home({ params }: { params: { lang: string } }) {
         <img
           src={settings.photos.monogram}
           alt={names}
-          className="block w-28 sm:w-32 md:w-36 mx-auto mt-16 h-auto"
+          className="block w-20 sm:w-24 md:w-28 mx-auto mt-16 h-auto"
         />
       )}
 

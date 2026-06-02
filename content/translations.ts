@@ -27,7 +27,7 @@ export const translations = {
       ourStoryLife:
         "Ao longo dos anos, construímos uma vida que pertence aos dois. O Bernardo aprendeu português pela Laura. A Laura chegou sem falar uma palavra de espanhol e hoje também chama a Espanha de lar. Fomos recebidos de braços abertos pelas famílias um do outro e encontramos um segundo lar nos mundos um do outro. Pelo caminho chegaram a Formiga, a calopsita com os melhores remixes, e o Grilo, o cachorro mais campestre da Europa.",
       ourStoryFun:
-        "O mais importante de tudo: nunca paramos de nos divertir juntos. Podemos passar uma noite inteira conversando, rindo, brincando, dançando pela casa ou fazendo a nossa própria festinha de dois. As nossas crianças interiores viraram melhores amigas muito antes de decidirmos passar a vida juntos.",
+        "O mais importante de tudo: nunca paramos de nos divertir juntos. Podemos passar uma noite inteira conversando, rindo, brincando, dançando pela casa. As nossas crianças interiores viraram melhores amigas muito antes de decidirmos passar a vida juntos.",
       ourStoryInvite:
         "A nossa família está apenas começando, e sonhamos em vê-la crescer nos próximos anos. Queremos que você faça parte dessa celebração do nosso próximo capítulo.",
       seeDetails: "Ver detalhes do casamento",
@@ -210,13 +210,13 @@ export const translations = {
       },
       ourStory: "Nuestra pequeña familia",
       ourStoryIntro:
-        "Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias, países distintos. Pero la vida cruzó nuestros caminos aquí en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común: desde lo más cotidiano, como el gusto por la música y por las películas, reírnos de las mismas tonterías y querer criar gallinas, hasta lo que más importa: nuestros sueños, nuestros valores y las ganas compartidas de formar una familia.",
+        "Bernardo creció en Valencia, Laura en Campo Grande. Culturas, familias y países distintos. Pero la vida hizo que nuestros caminos se cruzaran aquí en Valencia, y desde el primer momento descubrimos cuántas cosas teníamos en común. Desde lo más cotidiano, como el gusto por la música y por las películas, reírnos de las mismas tonterías y querer criar gallinas; hasta lo que más importa compartir, nuestros sueños, nuestros valores y las ganas de formar una familia.",
       ourStoryParents:
-        "Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que esperamos seguir. Descubrimos que compartimos el amor por las cosas simples: estar al aire libre, escuchar a los pájaros, observar insectos y animales en la naturaleza, viajar juntos e intentar (con grados variables de éxito) domar nuestro jardín salvaje en la querida Sierra Perenchiza.",
+        "Tuvimos la suerte de crecer viendo a nuestros padres juntos toda la vida, y ese es el ejemplo que esperamos seguir. Descubrimos que compartimos el amor por las cosas simples: estar al aire libre, escuchar a los pájaros, observar insectos y animales en la naturaleza, viajar juntos e intentar (con grados variables de éxito) domar nuestro jardín salvaje en nuestra querida Sierra Perenchiza.",
       ourStoryLife:
-        "Con los años hemos construido una vida que nos pertenece a los dos. Bernardo aprendió portugués por Laura. Laura llegó sin hablar nada de español y hoy también llama a España su hogar. Nos recibieron con los brazos abiertos las familias del otro y encontramos un segundo hogar en los mundos del otro. Por el camino llegaron Formiga, la ninfa con los mejores remixes, y Grilo, el perro más campestre de Europa.",
+        "Con los años hemos construido una vida que nos pertenece a los dos. Bernardo aprendió portugués por Laura. Laura llegó sin hablar nada de español y hoy considera España su hogar. Las dos familias recibieron nuestra unión con los brazos abiertos y de golpe encontramos un segundo hogar en los mundos del otro. Por el camino llegaron Formiga, la ninfa con los mejores remixes, y Grilo, el perro más gracioso y campestre.",
       ourStoryFun:
-        "Lo más importante de todo: nunca hemos dejado de divertirnos juntos. Podemos pasar una noche entera hablando, riendo, jugando, bailando por la casa o montando nuestra propia fiestecita para dos. Nuestros niños interiores se hicieron mejores amigos mucho antes de que decidiéramos pasar la vida juntos.",
+        "Lo más importante de todo: nunca hemos dejado de divertirnos juntos. Podemos pasar una noche entera hablando, riendo, jugando, bailando por la casa. Nuestros niños interiores se hicieron mejores amigos mucho antes de que decidiéramos pasar la vida juntos.",
       ourStoryInvite:
         "Nuestra familia apenas está empezando, y soñamos con verla crecer en los próximos años. Nos encantaría que nos acompañéis mientras celebramos el comienzo de este nuevo capítulo.",
       seeDetails: "Ver detalles de la boda",
@@ -405,7 +405,7 @@ export const translations = {
       ourStoryLife:
         "Over the years, we've built a life that belongs to both of us. Bernardo learned Portuguese for Laura. Laura arrived speaking no Spanish at all, and now calls Spain home too. We were welcomed with open arms by each other's families and found a second home in one another's worlds. Along the way came Formiga, the cockatiel with the best song remixes, and Grilo, the wildest dog in Europe.",
       ourStoryFun:
-        "The most important thing of all, we've never stopped having fun together. We can spend an entire evening talking, laughing, playing, dancing around the house, or throwing our own little party for two. Our inner children became best friends long before we decided to spend our lives together.",
+        "The most important thing of all, we've never stopped having fun together. We can spend an entire evening talking, laughing, playing, dancing around the house. Our inner children became best friends long before we decided to spend our lives together.",
       ourStoryInvite:
         "Our family is just beginning, and we dream of watching it grow in the years ahead. We would love for you to join us as we celebrate the start of this next chapter.",
       seeDetails: "Wedding details",
@@ -594,7 +594,7 @@ export const translations = {
       ourStoryLife:
         "Im Laufe der Jahre haben wir uns ein Leben aufgebaut, das uns beiden gehört. Bernardo hat für Laura Portugiesisch gelernt. Laura kam ohne ein einziges Wort Spanisch an und nennt heute auch Spanien ihr Zuhause. Wir wurden von den Familien des anderen mit offenen Armen empfangen und haben in der Welt des anderen ein zweites Zuhause gefunden. Unterwegs kamen Formiga, die Nymphensittich-Dame mit den besten Remixes, und Grilo, der wildeste Hund Europas.",
       ourStoryFun:
-        "Das Wichtigste von allem: Wir haben nie aufgehört, gemeinsam Spaß zu haben. Wir können einen ganzen Abend miteinander reden, lachen, spielen, durch das Haus tanzen oder unsere eigene kleine Zwei-Personen-Party feiern. Unsere inneren Kinder waren beste Freunde, lange bevor wir beschlossen, unser Leben gemeinsam zu verbringen.",
+        "Das Wichtigste von allem: Wir haben nie aufgehört, gemeinsam Spaß zu haben. Wir können einen ganzen Abend miteinander reden, lachen, spielen, durch das Haus tanzen. Unsere inneren Kinder waren beste Freunde, lange bevor wir beschlossen, unser Leben gemeinsam zu verbringen.",
       ourStoryInvite:
         "Unsere Familie fängt gerade erst an, und wir träumen davon, sie in den kommenden Jahren wachsen zu sehen. Wir würden uns freuen, wenn ihr dabei seid, wenn wir den Beginn dieses neuen Kapitels feiern.",
       seeDetails: "Hochzeitsdetails",
