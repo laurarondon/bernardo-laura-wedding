@@ -59,6 +59,7 @@ export const settings = {
     olives: "/images/olives.png", // olive trees — visual brand mark of the wedding
     church: "/images/church.png", // illustration of the ceremony church
     tower: "/images/tower.png", // illustration shown in the wedding details page
+    monogram: "/images/monogram.png", // L+B intertwined calligraphy — used as the couple's mark
   },
 
   // The little family — illustration of the pets shown on the home page.
@@ -71,28 +72,14 @@ export const settings = {
   // Buses we organise for guests. Edit times/routes once confirmed.
   transport: {
     enabled: true,
-    routes: [
-      {
-        time: "13:30",
-        from: { pt: "Iglesia San Juan del Hospital", es: "Iglesia San Juan del Hospital", en: "Iglesia San Juan del Hospital", de: "Iglesia San Juan del Hospital" },
-        to: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
-      },
-      {
-        time: "18:00",
-        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
-        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
-      },
-      {
-        time: "21:00",
-        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
-        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
-      },
-      {
-        time: "01:00",
-        from: { pt: "Jardines de la Cartuja", es: "Jardines de la Cartuja", en: "Jardines de la Cartuja", de: "Jardines de la Cartuja" },
-        to: { pt: "Centro de Valência", es: "Centro de Valencia", en: "Valencia city centre", de: "Stadtzentrum Valencia" },
-      },
-    ],
+    // Exact bus times will be confirmed closer to the event — list intentionally empty for now.
+    // To re-enable specific times, restore entries with the shape below:
+    //   { time: "18:00", from: { pt, es, en, de }, to: { pt, es, en, de } }
+    routes: [] as Array<{
+      time: string;
+      from: { pt: string; es: string; en: string; de: string };
+      to: { pt: string; es: string; en: string; de: string };
+    }>,
   },
 
   // ─────────── ACCOMMODATIONS ───────────

@@ -126,7 +126,7 @@ export default function Wedding({ params }: { params: { lang: string } }) {
       </div>
 
       {/* Transport / buses */}
-      {settings.transport.enabled && settings.transport.routes.length > 0 && (
+      {settings.transport.enabled && (
         <section className="mt-24 max-w-2xl mx-auto text-center">
           <h2 className="font-serif text-3xl md:text-4xl text-sageDark">
             {tr.wedding.transportLabel}
@@ -134,23 +134,25 @@ export default function Wedding({ params }: { params: { lang: string } }) {
           <p className="mt-6 text-ink/80 leading-relaxed font-serif text-lg">
             {tr.wedding.transportBody}
           </p>
-          <div className="mt-10 space-y-4 text-left">
-            {settings.transport.routes.map((r, i) => (
-              <div
-                key={i}
-                className="flex items-center gap-4 sm:gap-6 border-l-2 border-sage pl-4 sm:pl-5"
-              >
-                <span className="font-serif text-3xl text-sageDark leading-none w-20 shrink-0">
-                  {r.time}
-                </span>
-                <span className="text-ink/80 leading-snug">
-                  {r.from[lang]}{" "}
-                  <span className="text-sageDark mx-1">→</span>{" "}
-                  {r.to[lang]}
-                </span>
-              </div>
-            ))}
-          </div>
+          {settings.transport.routes.length > 0 && (
+            <div className="mt-10 space-y-4 text-left">
+              {settings.transport.routes.map((r, i) => (
+                <div
+                  key={i}
+                  className="flex items-center gap-4 sm:gap-6 border-l-2 border-sage pl-4 sm:pl-5"
+                >
+                  <span className="font-serif text-3xl text-sageDark leading-none w-20 shrink-0">
+                    {r.time}
+                  </span>
+                  <span className="text-ink/80 leading-snug">
+                    {r.from[lang]}{" "}
+                    <span className="text-sageDark mx-1">→</span>{" "}
+                    {r.to[lang]}
+                  </span>
+                </div>
+              ))}
+            </div>
+          )}
         </section>
       )}
 

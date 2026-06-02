@@ -79,8 +79,18 @@ export default function Home({ params }: { params: { lang: string } }) {
         </div>
       </section>
 
+      {/* Monogram — couple's mark, used as a signature divider */}
+      {settings.photos.monogram && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={settings.photos.monogram}
+          alt={names}
+          className="block w-20 sm:w-24 mx-auto mt-20 h-auto opacity-90"
+        />
+      )}
+
       {/* Our little family — alternating editorial spreads */}
-      <section className="max-w-5xl mx-auto px-4 py-20">
+      <section className="max-w-5xl mx-auto px-4 py-12 md:py-16">
         <h2 className="section-title text-center">{tr.home.ourStory}</h2>
 
         {/* Spread 1 · portrait left, intro right */}

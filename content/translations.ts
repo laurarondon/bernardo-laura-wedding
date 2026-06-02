@@ -44,7 +44,7 @@ export const translations = {
         "Valência fica na costa leste da Espanha, banhada pelo mar Mediterrâneo. Em junho, as temperaturas costumam variar entre 20°C e 28°C, com céu ensolarado e brisa suave do mar. O sol se põe por volta das 21h30, então a celebração se estende com calma sob o longo céu de verão. Recomendamos tecidos leves como algodão e linho, e sapatos confortáveis, sobretudo porque os jardins da Cartuja têm caminhos de pedra.",
       transportLabel: "Como vamos chegar",
       transportBody:
-        "A igreja fica no centro de Valência, então cada um chega por conta própria. Depois da cerimônia, organizaremos ônibus da igreja até os jardins da Cartuja e, na volta, da Cartuja até o centro em vários horários — assim, cada um curte a festa no seu ritmo.",
+        "A igreja fica no centro de Valência, então cada um chega por conta própria. Depois da cerimônia, organizaremos ônibus da igreja até a recepção e, na volta, dos Jardines de la Cartuja até o centro de Valência. Os horários serão confirmados mais perto do casamento.",
       transportRouteFrom: "Saída de",
       transportRouteTo: "Chegada em",
       faqTitle: "Perguntas frequentes",
@@ -227,7 +227,7 @@ export const translations = {
         "Valencia está en la costa este de España, bañada por el mar Mediterráneo. En junio, las temperaturas suelen oscilar entre los 20°C y los 28°C, con cielos soleados y una suave brisa del mar. El sol se pone hacia las 21:30, así que la celebración se alarga con calma bajo el largo cielo de verano. Recomendamos tejidos ligeros como algodón y lino, y calzado cómodo, sobre todo porque los jardines de la Cartuja tienen caminos de piedra.",
       transportLabel: "Cómo llegamos",
       transportBody:
-        "La iglesia está en el centro de Valencia, así que cada uno llega por su cuenta. Después de la ceremonia, organizaremos autobuses desde la iglesia hasta los jardines de la Cartuja y, a la vuelta, desde la Cartuja al centro en varios horarios — así cada quien disfruta la fiesta a su ritmo.",
+        "La iglesia está en el centro de Valencia, así que cada uno llega por su cuenta. Después de la ceremonia, organizaremos autobuses desde la iglesia hasta la recepción y, a la vuelta, desde los Jardines de la Cartuja al centro de Valencia. Los horarios se confirmarán más cerca de la boda.",
       transportRouteFrom: "Salida desde",
       transportRouteTo: "Llegada a",
       faqTitle: "Preguntas frecuentes",
@@ -410,7 +410,7 @@ export const translations = {
         "Valencia sits on Spain's east coast, on the Mediterranean. In June, temperatures usually range from 20°C to 28°C (68–82°F), with sunny skies and a gentle sea breeze. Sunset comes around 9:30 pm, so the celebration unfolds at a leisurely pace under the long summer sky. We suggest light fabrics like cotton and linen, and comfortable shoes, especially since the gardens at la Cartuja have stone paths.",
       transportLabel: "How we'll get there",
       transportBody:
-        "The church is in central Valencia, so everyone makes their own way there. After the ceremony, we'll run coaches from the church to the Jardines de la Cartuja, and back from the Cartuja to the city centre at several times — so everyone can enjoy the party at their own pace.",
+        "The church is in central Valencia, so everyone makes their own way there. After the ceremony, we'll provide coaches from the church to the reception, and from the Jardines de la Cartuja back to central Valencia. Times will be confirmed closer to the wedding.",
       transportRouteFrom: "Departing from",
       transportRouteTo: "Arriving at",
       faqTitle: "Frequently asked",
@@ -593,7 +593,7 @@ export const translations = {
         "Valencia liegt an der spanischen Mittelmeerküste. Im Juni bewegen sich die Temperaturen meist zwischen 20°C und 28°C, mit Sonnenschein und einer sanften Meeresbrise. Die Sonne geht erst gegen 21:30 Uhr unter, sodass das Fest sich entspannt unter dem langen Sommerhimmel hinzieht. Wir empfehlen leichte Stoffe wie Baumwolle und Leinen, und bequeme Schuhe, vor allem weil die Gärten der Cartuja Steinwege haben.",
       transportLabel: "Wie wir hinkommen",
       transportBody:
-        "Die Kirche liegt im Zentrum von Valencia, also kommt jeder auf eigene Faust dorthin. Nach der Trauung organisieren wir Busse von der Kirche zu den Jardines de la Cartuja, und auf dem Rückweg von der Cartuja zurück ins Zentrum zu mehreren Zeiten — damit jeder das Fest in seinem Tempo genießen kann.",
+        "Die Kirche liegt im Zentrum von Valencia, also kommt jeder auf eigene Faust dorthin. Nach der Trauung organisieren wir Busse von der Kirche zur Empfangslocation und von den Jardines de la Cartuja zurück ins Stadtzentrum. Die Zeiten werden näher am Hochzeitstermin bestätigt.",
       transportRouteFrom: "Abfahrt",
       transportRouteTo: "Ankunft",
       faqTitle: "Häufige Fragen",

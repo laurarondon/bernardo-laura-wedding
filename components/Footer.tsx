@@ -11,16 +11,27 @@ export function Footer({ lang }: { lang: Lang }) {
 
   return (
     <footer className="border-t border-sage/30 mt-20 py-12 text-center text-ink/60 text-sm">
-      {settings.photos.olives && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={settings.photos.olives}
-          alt=""
-          aria-hidden
-          className="block w-20 h-auto mx-auto mb-4 opacity-70"
-        />
-      )}
-      <p className="font-serif italic text-lg text-sageDark">
+      {/* Olives + monogram as paired brand marks */}
+      <div className="flex items-center justify-center gap-6">
+        {settings.photos.olives && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={settings.photos.olives}
+            alt=""
+            aria-hidden
+            className="block w-20 h-auto opacity-70"
+          />
+        )}
+        {settings.photos.monogram && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={settings.photos.monogram}
+            alt={names}
+            className="block w-12 h-auto opacity-80"
+          />
+        )}
+      </div>
+      <p className="mt-4 font-serif italic text-lg text-sageDark">
         {tr.footer.madeWith} {names}
       </p>
       <p className="mt-2">
