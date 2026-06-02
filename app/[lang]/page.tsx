@@ -89,11 +89,11 @@ export default function Home({ params }: { params: { lang: string } }) {
         />
       )}
 
-      {/* Our little family — five paragraphs, two photos woven through */}
+      {/* Our little family — Option C: two paired spreads at top, remaining text centered */}
       <section className="max-w-5xl mx-auto px-4 py-12 md:py-16">
         <h2 className="section-title text-center">{tr.home.ourStory}</h2>
 
-        {/* Spread 1 · portrait left, paragraph 1 right */}
+        {/* Spread 1 · portrait left, paragraphs 1 + 2 stacked right */}
         <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mt-12">
           {settings.photos.portrait && (
             // eslint-disable-next-line @next/next/no-img-element
@@ -103,18 +103,18 @@ export default function Home({ params }: { params: { lang: string } }) {
               className="w-full max-w-md mx-auto rounded-sm shadow-md"
             />
           )}
-          <p className="font-serif text-lg leading-relaxed text-ink/80">
-            {tr.home.ourStoryIntro}
-          </p>
+          <div className="space-y-6">
+            <p className="font-serif text-lg leading-relaxed text-ink/80">
+              {tr.home.ourStoryIntro}
+            </p>
+            <p className="font-serif text-lg leading-relaxed text-ink/80">
+              {tr.home.ourStoryParents}
+            </p>
+          </div>
         </div>
 
-        {/* Paragraph 2 — centered, full text width */}
-        <p className="font-serif text-lg leading-relaxed text-ink/80 max-w-2xl mx-auto mt-16">
-          {tr.home.ourStoryParents}
-        </p>
-
-        {/* Spread 2 · paragraph 3 left, pets right (introduces Formiga + Grilo) */}
-        <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mt-16">
+        {/* Spread 2 · paragraph 3 left, pets right */}
+        <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center mt-20">
           <p className="md:order-1 font-serif text-lg leading-relaxed text-ink/80">
             {tr.home.ourStoryLife}
           </p>
@@ -128,12 +128,12 @@ export default function Home({ params }: { params: { lang: string } }) {
           )}
         </div>
 
-        {/* Paragraph 4 — centered */}
-        <p className="font-serif text-lg leading-relaxed text-ink/80 max-w-2xl mx-auto mt-16">
+        {/* Paragraph 4 — centered text */}
+        <p className="font-serif text-lg leading-relaxed text-ink/80 max-w-2xl mx-auto mt-20">
           {tr.home.ourStoryFun}
         </p>
 
-        {/* Paragraph 5 — invitation, centered, slightly emphasised */}
+        {/* Paragraph 5 — invitation, italic sage emphasis */}
         <p className="font-serif text-lg md:text-xl leading-relaxed text-sageDark max-w-2xl mx-auto mt-12 text-center italic">
           {tr.home.ourStoryInvite}
         </p>
