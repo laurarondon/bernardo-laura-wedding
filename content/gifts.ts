@@ -179,6 +179,27 @@ export const gifts: Gift[] = [
     stripePaymentLink: "",
   },
   {
+    id: "passeio-mediterraneo",
+    title: {
+      pt: "Passeio de barco pelo Mediterrâneo",
+      es: "Paseo en barco por el Mediterráneo",
+      en: "Mediterranean boat trip",
+      de: "Bootsfahrt im Mittelmeer",
+    },
+    description: {
+      pt: "Um passeio ao pôr do sol pela costa valenciana, para celebrarmos com o mar como cenário.",
+      es: "Un paseo al atardecer por la costa valenciana, para celebrar con el mar como escenario.",
+      en: "A sunset trip along the Valencian coast, with the sea as our backdrop.",
+      de: "Eine Bootsfahrt bei Sonnenuntergang entlang der Küste Valencias, mit dem Meer als Kulisse.",
+    },
+    eurAmount: 70,
+    brlAmount: 390,
+    currencies: ["eur", "brl"],
+    image:
+      "https://images.unsplash.com/photo-1674915849034-9c0ae798eb89?w=800&h=600&q=75&auto=format&fit=crop",
+    stripePaymentLink: "",
+  },
+  {
     id: "presente-livre",
     title: {
       pt: "Presente com o coração",

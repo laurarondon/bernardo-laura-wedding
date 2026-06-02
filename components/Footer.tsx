@@ -27,7 +27,7 @@ export function Footer({ lang }: { lang: Lang }) {
           <img
             src={settings.photos.monogram}
             alt={names}
-            className="block w-12 h-auto opacity-80"
+            className="block w-16 h-auto opacity-90"
           />
         )}
       </div>

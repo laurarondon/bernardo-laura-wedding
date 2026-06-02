@@ -66,7 +66,7 @@ export const translations = {
     gifts: {
       title: "Lista de presentes",
       subtitle:
-        "A sua presença já é o melhor presente. Mas se quiserem contribuir com algo a mais, deixamos algumas ideias abaixo.",
+        "A sua presença é, de verdade, o mais importante para nós — o melhor presente que vocês poderiam nos dar. Mas se insistirem, aqui vão algumas ideias para facilitar.",
       comingSoonTitle: "Em breve",
       comingSoonBody:
         "Estamos preparando a lista de presentes com muito carinho. Volte em breve!",
@@ -249,7 +249,7 @@ export const translations = {
     gifts: {
       title: "Lista de regalos",
       subtitle:
-        "Vuestra presencia ya es el mejor regalo. Pero si queréis contribuir con algo más, aquí dejamos algunas ideas.",
+        "Vuestra presencia es, de verdad, lo más importante para nosotros — el mejor regalo que podríais hacernos. Pero si insistís, aquí van algunas ideas para facilitarlo.",
       comingSoonTitle: "Muy pronto",
       comingSoonBody:
         "Estamos preparando la lista de regalos con mucho cariño. ¡Vuelve pronto!",
@@ -432,7 +432,7 @@ export const translations = {
     gifts: {
       title: "Gift list",
       subtitle:
-        "Your presence is already the greatest gift. But if you'd like to contribute, here are some ideas.",
+        "Your presence really is the most important thing for us — truly the best gift you could give. But if you insist, here are a few ideas to make it easier.",
       comingSoonTitle: "Coming soon",
       comingSoonBody:
         "We're putting the gift list together with a lot of care. Please check back soon!",
@@ -615,7 +615,7 @@ export const translations = {
     gifts: {
       title: "Geschenkliste",
       subtitle:
-        "Eure Anwesenheit ist schon das schönste Geschenk. Wenn ihr trotzdem etwas beitragen möchtet, haben wir ein paar Ideen zusammengestellt.",
+        "Eure Anwesenheit ist für uns wirklich das Wichtigste — das schönste Geschenk, das ihr uns machen könntet. Aber wenn ihr unbedingt wollt, hier sind ein paar Ideen, um es leichter zu machen.",
       comingSoonTitle: "Bald da",
       comingSoonBody:
         "Wir stellen die Geschenkliste gerade liebevoll zusammen. Schaut bald wieder vorbei!",

@@ -24,7 +24,7 @@ export function Header({ lang }: { lang: Lang }) {
             <img
               src={settings.photos.monogram}
               alt={monogramAlt}
-              className="block h-10 sm:h-12 w-auto"
+              className="block h-14 sm:h-16 w-auto"
             />
           ) : (
             <span className="font-serif text-xl sm:text-2xl text-sageDark tracking-wide whitespace-nowrap">

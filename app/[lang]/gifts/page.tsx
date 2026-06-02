@@ -58,9 +58,11 @@ export default function Gifts({
   return (
     <div className="max-w-5xl mx-auto px-4 py-16">
       <h1 className="section-title">{tr.gifts.title}</h1>
-      <p className="section-subtitle max-w-2xl mx-auto">{tr.gifts.subtitle}</p>
+      <p className="mt-8 text-center max-w-3xl mx-auto font-serif text-xl md:text-2xl text-ink/80 leading-relaxed px-2">
+        {tr.gifts.subtitle}
+      </p>
 
-      <div className="mt-8 mb-12">
+      <div className="mt-12 mb-12">
         <CurrencyToggle current={currency} lang={lang} />
       </div>
 
