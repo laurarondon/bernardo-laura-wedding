@@ -66,8 +66,8 @@ export const gifts: Gift[] = [
       en: "Help us enjoy unforgettable days after the wedding. Any amount is welcome.",
       de: "Helft uns, nach der Hochzeit unvergessliche Tage zu erleben. Jeder Betrag ist willkommen.",
     },
-    eurAmount: 100,
-    brlAmount: 550,
+    eurAmount: 200,
+    brlAmount: 1100,
     currencies: ["eur", "brl"],
     image:
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&q=75&auto=format&fit=crop",
