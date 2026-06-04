@@ -41,7 +41,7 @@ export const settings = {
         "https://www.google.com/maps/search/?api=1&query=Jardines+de+la+Cartuja+El+Puig+Valencia",
     },
     dressCode: {
-      pt: "Traje esporte fino",
+      pt: "Passeio completo",
       es: "Cóctel / Semi-formal",
       en: "Cocktail / Semi-formal",
       de: "Cocktail / Halbformell",
