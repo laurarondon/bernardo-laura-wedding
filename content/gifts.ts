@@ -95,48 +95,6 @@ export const gifts: Gift[] = [
     stripePaymentLink: "",
   },
   {
-    id: "despedida-da-noiva",
-    title: {
-      pt: "Despedida de solteira da noiva",
-      es: "Despedida de soltera de la novia",
-      en: "Bride's bachelorette party",
-      de: "Junggesellinnenabschied der Braut",
-    },
-    description: {
-      pt: "Ajude a Laura a celebrar com as amigas antes do grande dia.",
-      es: "Ayuda a Laura a celebrar con sus amigas antes del gran día.",
-      en: "Help Laura celebrate with her friends before the big day.",
-      de: "Hilf Laura, mit ihren Freundinnen vor dem großen Tag zu feiern.",
-    },
-    eurAmount: 50,
-    brlAmount: 280,
-    currencies: ["eur", "brl"],
-    image:
-      "https://images.unsplash.com/photo-1495837174058-628aafc7d610?w=800&h=600&q=75&auto=format&fit=crop",
-    stripePaymentLink: "",
-  },
-  {
-    id: "despedida-do-noivo",
-    title: {
-      pt: "Despedida de solteiro do noivo",
-      es: "Despedida de soltero del novio",
-      en: "Groom's bachelor party",
-      de: "Junggesellenabschied des Bräutigams",
-    },
-    description: {
-      pt: "Ajude o Bernardo a celebrar com os amigos antes do grande dia.",
-      es: "Ayuda a Bernardo a celebrar con sus amigos antes del gran día.",
-      en: "Help Bernardo celebrate with his friends before the big day.",
-      de: "Hilf Bernardo, mit seinen Freunden vor dem großen Tag zu feiern.",
-    },
-    eurAmount: 50,
-    brlAmount: 280,
-    currencies: ["eur", "brl"],
-    image:
-      "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&h=600&q=75&auto=format&fit=crop",
-    stripePaymentLink: "",
-  },
-  {
     id: "cuidados-pets",
     title: {
       pt: "Cuidados para Grilo e Formiga",
@@ -154,27 +112,6 @@ export const gifts: Gift[] = [
     brlAmount: 330,
     currencies: ["eur", "brl"],
     image: "/images/spaanimals.jpg",
-    stripePaymentLink: "",
-  },
-  {
-    id: "spa-dos-noivos",
-    title: {
-      pt: "Spa para os noivos",
-      es: "Spa para los novios",
-      en: "Spa day for the newlyweds",
-      de: "Spa-Tag für das Brautpaar",
-    },
-    description: {
-      pt: "Um dia de spa antes ou depois do grande dia, para relaxarmos juntos.",
-      es: "Un día de spa antes o después del gran día, para relajarnos juntos.",
-      en: "A spa day before or after the big day, to relax together.",
-      de: "Ein Spa-Tag vor oder nach dem großen Tag, um gemeinsam zu entspannen.",
-    },
-    eurAmount: 100,
-    brlAmount: 550,
-    currencies: ["eur", "brl"],
-    image:
-      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&q=75&auto=format&fit=crop",
     stripePaymentLink: "",
   },
   {
