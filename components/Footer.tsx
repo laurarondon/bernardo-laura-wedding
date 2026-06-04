@@ -19,7 +19,7 @@ export function Footer({ lang }: { lang: Lang }) {
             src={settings.photos.olives}
             alt=""
             aria-hidden
-            className="block w-20 h-auto opacity-70"
+            className="block w-24 h-auto opacity-70"
           />
         )}
         {settings.photos.monogram && (
