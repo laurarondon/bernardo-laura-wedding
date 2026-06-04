@@ -67,10 +67,10 @@ export default function Home({ params }: { params: { lang: string } }) {
         >
           {tr.home.tagline}
         </p>
-        <p className="font-display-script text-4xl md:text-5xl text-ink mt-4 leading-tight">
+        <p className="font-display-script text-4xl md:text-5xl text-ink mt-4 leading-snug pb-2">
           {formatDate(settings.wedding.date, lang)}
         </p>
-        <p className="font-serif text-lg md:text-xl text-ink/70 mt-2">
+        <p className="font-serif text-lg md:text-xl text-ink/70 mt-6">
           {settings.wedding.city}, {settings.wedding.country[lang]}
         </p>
         <Countdown targetIso={settings.wedding.date} lang={lang} />
