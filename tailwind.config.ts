@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['"Cormorant Garamond"', "Georgia", "serif"],
+        // Story text & general prose — Georgia is the system serif Laura prefers.
+        serif: ["Georgia", '"Times New Roman"', "serif"],
         sans: ['"Inter"', "system-ui", "sans-serif"],
       },
       colors: {
