@@ -50,7 +50,7 @@ export default function Rsvp({ params }: { params: { lang: string } }) {
           {/* Contact-the-couple fallback (always visible below the form) */}
           <div className="mt-12 text-center">
             <p className="text-ink/70 text-sm">{tr.contactNote}</p>
-            <div className="mt-4 flex flex-col sm:flex-row justify-center gap-4 sm:gap-10 font-serif text-lg">
+            <div className="mt-4 flex flex-col sm:flex-row justify-center gap-4 sm:gap-10 font-sans text-base tracking-wide">
               <a
                 href="tel:+34687639346"
                 className="text-sageDark hover:underline"

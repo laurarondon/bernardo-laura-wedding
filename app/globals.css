@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Pinyon+Script&display=swap");
 
-.font-display-playfair {
-  font-family: "Playfair Display", Georgia, serif;
+/* Chic manuscript-style display font, used for the date on the home page. */
+.font-display-script {
+  font-family: "Pinyon Script", "Cormorant Garamond", Georgia, serif;
 }
 
 html,

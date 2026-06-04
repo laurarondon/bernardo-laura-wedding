@@ -24,7 +24,7 @@ export function Countdown({ targetIso, lang }: { targetIso: string; lang: Lang }
 
   const Box = ({ value, label }: { value: number; label: string }) => (
     <div className="flex flex-col items-center px-4">
-      <div className="font-serif text-4xl md:text-5xl text-sageDark tabular-nums">
+      <div className="font-sans font-light text-3xl md:text-4xl text-sageDark tabular-nums">
         {String(value).padStart(2, "0")}
       </div>
       <div className="text-xs uppercase tracking-widest text-ink/50 mt-1">{label}</div>

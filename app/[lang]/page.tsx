@@ -61,16 +61,16 @@ export default function Home({ params }: { params: { lang: string } }) {
           </>
         )}
         <p
-          className={`font-serif italic text-2xl md:text-3xl text-sageDark ${
+          className={`font-serif text-2xl md:text-3xl text-sageDark ${
             settings.photos.banner ? "" : "mt-8"
           }`}
         >
           {tr.home.tagline}
         </p>
-        <p className="font-serif text-2xl md:text-3xl text-ink capitalize mt-3">
+        <p className="font-display-script text-4xl md:text-5xl text-ink mt-4 leading-tight">
           {formatDate(settings.wedding.date, lang)}
         </p>
-        <p className="font-serif text-lg md:text-xl text-ink/70 mt-1">
+        <p className="font-serif text-lg md:text-xl text-ink/70 mt-2">
           {settings.wedding.city}, {settings.wedding.country[lang]}
         </p>
         <Countdown targetIso={settings.wedding.date} lang={lang} />
