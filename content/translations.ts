@@ -72,7 +72,7 @@ export const translations = {
     gifts: {
       title: "Lista de presentes",
       subtitle:
-        "A sua presença é, de verdade, o mais importante para nós — o melhor presente que vocês poderiam nos dar. Mas se insistirem, aqui vão algumas ideias para facilitar.",
+        "A sua presença é, de verdade, o mais importante para nós, o melhor presente que vocês poderiam nos dar. Mas se insistirem, aqui vão algumas ideias para facilitar.",
       comingSoonTitle: "Em breve",
       comingSoonBody:
         "Estamos preparando a lista de presentes com muito carinho. Volte em breve!",
@@ -84,7 +84,7 @@ export const translations = {
       brlFull: "Reais (Brasil)",
       paymentTitle: "Como contribuir",
       paymentSubtitle:
-        "Escolha uma das opções abaixo. Tudo é processado de forma segura — nunca pedimos os seus dados de cartão diretamente.",
+        "Escolha uma das opções abaixo. Tudo é processado de forma segura, nunca pedimos os seus dados de cartão diretamente.",
       stripe: {
         title: "Apple Pay · Google Pay · Cartão",
         instructions:
@@ -261,7 +261,7 @@ export const translations = {
     gifts: {
       title: "Lista de regalos",
       subtitle:
-        "Vuestra presencia es, de verdad, lo más importante para nosotros — el mejor regalo que podríais hacernos. Pero si insistís, aquí van algunas ideas para facilitarlo.",
+        "Vuestra presencia es, de verdad, lo más importante para nosotros, el mejor regalo que podríais hacernos. Pero si insistís, aquí van algunas ideas para facilitarlo.",
       comingSoonTitle: "Muy pronto",
       comingSoonBody:
         "Estamos preparando la lista de regalos con mucho cariño. ¡Vuelve pronto!",
@@ -273,7 +273,7 @@ export const translations = {
       brlFull: "Reales (Brasil)",
       paymentTitle: "Cómo contribuir",
       paymentSubtitle:
-        "Elige una de las opciones de abajo. Todo se procesa de forma segura — nunca pedimos tus datos de tarjeta directamente.",
+        "Elige una de las opciones de abajo. Todo se procesa de forma segura, nunca pedimos tus datos de tarjeta directamente.",
       stripe: {
         title: "Apple Pay · Google Pay · Tarjeta",
         instructions:
@@ -450,7 +450,7 @@ export const translations = {
     gifts: {
       title: "Gift list",
       subtitle:
-        "Your presence really is the most important thing for us — truly the best gift you could give. But if you insist, here are a few ideas to make it easier.",
+        "Your presence really is the most important thing for us, truly the best gift you could give. But if you insist, here are a few ideas to make it easier.",
       comingSoonTitle: "Coming soon",
       comingSoonBody:
         "We're putting the gift list together with a lot of care. Please check back soon!",
@@ -462,7 +462,7 @@ export const translations = {
       brlFull: "Brazilian reais",
       paymentTitle: "How to contribute",
       paymentSubtitle:
-        "Choose one of the options below. Everything is processed securely — we never ask for your card details directly.",
+        "Choose one of the options below. Everything is processed securely, we never ask for your card details directly.",
       stripe: {
         title: "Apple Pay · Google Pay · Card",
         instructions:
@@ -639,7 +639,7 @@ export const translations = {
     gifts: {
       title: "Geschenkliste",
       subtitle:
-        "Eure Anwesenheit ist für uns wirklich das Wichtigste — das schönste Geschenk, das ihr uns machen könntet. Aber wenn ihr unbedingt wollt, hier sind ein paar Ideen, um es leichter zu machen.",
+        "Eure Anwesenheit ist für uns wirklich das Wichtigste, das schönste Geschenk, das ihr uns machen könntet. Aber wenn ihr unbedingt wollt, hier sind ein paar Ideen, um es leichter zu machen.",
       comingSoonTitle: "Bald da",
       comingSoonBody:
         "Wir stellen die Geschenkliste gerade liebevoll zusammen. Schaut bald wieder vorbei!",
@@ -652,7 +652,7 @@ export const translations = {
       brlFull: "Brasilianische Real",
       paymentTitle: "Wie ihr beitragen könnt",
       paymentSubtitle:
-        "Wählt eine der Optionen unten. Alles läuft sicher — wir fragen niemals direkt nach euren Kartendaten.",
+        "Wählt eine der Optionen unten. Alles läuft sicher, wir fragen niemals direkt nach euren Kartendaten.",
       stripe: {
         title: "Apple Pay · Google Pay · Karte",
         instructions:

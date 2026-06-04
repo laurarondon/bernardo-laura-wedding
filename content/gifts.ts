@@ -42,8 +42,8 @@ export const gifts: Gift[] = [
     description: {
       pt: "Um presente do coração, no valor que vocês escolherem. Nós usaremos com carinho.",
       es: "Un regalo desde el corazón, con la cantidad que prefiráis. La usaremos con cariño.",
-      en: "A gift straight from the heart — any amount you'd like. We'll put it to lovely use.",
-      de: "Ein Geschenk vom Herzen — in dem Betrag, den ihr wählt. Wir werden ihn mit viel Liebe einsetzen.",
+      en: "A gift straight from the heart, any amount you'd like. We'll put it to lovely use.",
+      de: "Ein Geschenk vom Herzen, in dem Betrag, den ihr wählt. Wir werden ihn mit viel Liebe einsetzen.",
     },
     eurAmount: 0,
     brlAmount: 0,
