@@ -1,8 +1,9 @@
+/* Google Fonts must come BEFORE any other rule — CSS spec rejects @import otherwise. */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Great+Vibes&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Great+Vibes&display=swap");
 
 /* Warm calligraphic display font, used for the date on the home page.
    "Great Vibes" matches the warm-script / Halimum aesthetic. */
