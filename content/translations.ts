@@ -403,7 +403,7 @@ export const translations = {
       ourStoryParents:
         "We were both lucky enough to grow up watching our parents stay together for a lifetime, and that's the example we hope to follow. We discovered that we share a love for the simple things: being outdoors, listening to the birds, spotting insects and animals in nature, travelling together, and trying (with varying degrees of success) to tame our wildly overgrown garden in our beloved Sierra Perenchiza.",
       ourStoryLife:
-        "Over the years, we've built a life that belongs to both of us. Bernardo learned Portuguese for Laura. Laura arrived speaking no Spanish at all, and now calls Spain home too. We were welcomed with open arms by each other's families and found a second home in one another's worlds. Along the way came Formiga, the cockatiel with the best song remixes, and Grilo, the wildest dog in Europe.",
+        "Over the time, we've built a life that belongs to both of us. Bernardo learned Portuguese for Laura. Laura arrived speaking no Spanish at all, and now calls Spain home too. We were welcomed with open arms by each other's families and found a second home in one another's worlds. Along the way came Formiga, the cockatiel with the best song remixes, and Grilo, the wildest dog in Europe.",
       ourStoryFun:
         "The most important thing of all, we've never stopped having fun together. We can spend an entire evening talking, laughing, playing, dancing around the house. Our inner children became best friends long before we decided to spend our lives together.",
       ourStoryInvite:
