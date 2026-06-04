@@ -1,5 +1,5 @@
 /* Google Fonts must come BEFORE any other rule — CSS spec rejects @import otherwise. */
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Parisienne&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,7 +7,7 @@
 
 /* Warm calligraphic display font, used for the date on the home page. */
 .font-display-script {
-  font-family: "Parisienne", "Cormorant Garamond", Georgia, serif;
+  font-family: "Parisienne", Georgia, serif;
 }
 
 html,
