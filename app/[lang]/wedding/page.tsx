@@ -17,7 +17,7 @@ export default function Wedding({ params }: { params: { lang: string } }) {
         <p className="uppercase tracking-[0.3em] text-xs text-sageDark mb-3">
           {tr.wedding.whenLabel}
         </p>
-        <p className="font-serif text-3xl md:text-4xl text-ink capitalize">
+        <p className="font-display-script text-4xl md:text-5xl text-ink leading-tight">
           {formatDate(settings.wedding.date, lang)}
         </p>
       </div>
