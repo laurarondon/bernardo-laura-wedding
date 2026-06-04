@@ -16,12 +16,15 @@ const LOCALES: Record<Lang, string> = {
 };
 
 export function formatDate(iso: string, lang: Lang) {
-  return new Date(iso).toLocaleDateString(LOCALES[lang], {
+  const formatted = new Date(iso).toLocaleDateString(LOCALES[lang], {
     weekday: "long",
     day: "numeric",
     month: "long",
     year: "numeric",
   });
+  // PT/ES day names come back lowercase ("sábado") which loses the
+  // beautiful capital letter of the script font. Capitalise the first letter.
+  return formatted.charAt(0).toUpperCase() + formatted.slice(1);
 }
 
 export function formatTime(iso: string, lang: Lang) {
