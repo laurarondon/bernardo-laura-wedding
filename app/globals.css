@@ -1,5 +1,5 @@
 /* Google Fonts must come BEFORE any other rule — CSS spec rejects @import otherwise. */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Parisienne&family=Great+Vibes&family=Allura&family=Mr+Dafoe&family=Sacramento&family=Pinyon+Script&family=Italianno&family=Mrs+Saint+Delafield&display=swap");
 
 @tailwind base;
 @tailwind components;
