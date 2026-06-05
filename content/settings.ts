@@ -189,7 +189,7 @@ export const settings = {
   bankTransfer: {
     enabled: true,
     // International bank transfer for guests outside Brazil/Spain
-    iban: "ES00 0000 0000 0000 0000 0000",
+    iban: "ES63 2100 9158 9713 0025 2567",
     bic: "",
     bankName: "",
     recipientName: "Bernardo",
