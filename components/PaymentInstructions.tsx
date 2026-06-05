@@ -11,20 +11,17 @@ export function PaymentInstructions({
   giftId,
   giftLabel,
   brlAmount,
-  stripePaymentLink,
 }: {
   lang: Lang;
   currency: Currency;
   giftId: string;
   giftLabel: string;
   brlAmount: number;
-  stripePaymentLink?: string;
 }) {
   const tr = t(lang).gifts;
 
-  // BRL guests pay via PIX. EUR guests pay via Stripe / Bizum / IBAN.
+  // BRL guests pay via PIX. EUR guests pay via Bizum or IBAN bank transfer.
   const showPix = currency === "brl" && settings.pix.enabled;
-  const showStripe = currency === "eur" && Boolean(stripePaymentLink);
   const showBizum = currency === "eur" && settings.bizum.enabled;
   const showIban = currency === "eur" && settings.bankTransfer.enabled;
 
@@ -38,29 +35,6 @@ export function PaymentInstructions({
       </p>
 
       <div className="mt-8 space-y-6">
-        {showStripe && (
-          <div className="bg-white border-2 border-sageDark rounded-lg p-6 shadow-md relative">
-            <span className="absolute -top-3 left-6 bg-sageDark text-white text-xs uppercase tracking-widest px-3 py-1 rounded">
-              {tr.stripe.recommended}
-            </span>
-            <div className="flex items-baseline justify-between gap-4 flex-wrap">
-              <h3 className="font-serif text-xl text-ink">{tr.stripe.title}</h3>
-              <span className="text-xs uppercase tracking-widest text-sageDark">
-                🌍 Worldwide
-              </span>
-            </div>
-            <p className="text-ink/70 text-sm mt-2">{tr.stripe.instructions}</p>
-            <a
-              href={stripePaymentLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 inline-block w-full text-center bg-black text-white py-4 rounded-lg font-medium hover:bg-ink transition"
-            >
-              {tr.stripe.button}
-            </a>
-          </div>
-        )}
-
         {showPix && (
           <PixPayment
             lang={lang}

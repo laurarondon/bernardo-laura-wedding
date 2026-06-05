@@ -79,7 +79,6 @@ export default function GiftDetail({
         giftId={gift.id}
         giftLabel={gift.title[lang]}
         brlAmount={gift.brlAmount}
-        stripePaymentLink={gift.stripePaymentLink}
       />
 
       <div className="mt-12 bg-sage/10 border border-sage/30 rounded-lg p-6 text-center">

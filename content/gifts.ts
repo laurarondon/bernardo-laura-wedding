@@ -11,8 +11,6 @@
  *       to show in both. Use ["eur"] to hide it from Brazilian guests, or
  *       ["brl"] to hide it from European guests.
  *   - image: optional URL to a photo (leave "" for the default heart icon)
- *   - stripePaymentLink: Stripe Payment Link URL (EUR only, "" to hide)
- *       See README §3b for how Bernardo creates these.
  *
  * Tip: copy an existing entry and modify it to add a new gift.
  */
@@ -27,7 +25,6 @@ export type Gift = {
   brlAmount: number;
   currencies: Currency[];
   image: string;
-  stripePaymentLink: string;
 };
 
 export const gifts: Gift[] = [
@@ -50,7 +47,6 @@ export const gifts: Gift[] = [
     currencies: ["eur", "brl"],
     image:
       "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&h=600&q=75&auto=format&fit=crop",
-    stripePaymentLink: "",
   },
   {
     id: "lua-de-mel",
@@ -71,7 +67,6 @@ export const gifts: Gift[] = [
     currencies: ["eur", "brl"],
     image:
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&q=75&auto=format&fit=crop",
-    stripePaymentLink: "",
   },
   {
     id: "jantar-romantico",
@@ -92,7 +87,6 @@ export const gifts: Gift[] = [
     currencies: ["eur", "brl"],
     image:
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=600&q=75&auto=format&fit=crop",
-    stripePaymentLink: "",
   },
   {
     id: "cuidados-pets",
@@ -112,7 +106,6 @@ export const gifts: Gift[] = [
     brlAmount: 330,
     currencies: ["eur", "brl"],
     image: "/images/spaanimals.jpg",
-    stripePaymentLink: "",
   },
   {
     id: "aula-de-danca",
@@ -133,7 +126,6 @@ export const gifts: Gift[] = [
     currencies: ["eur", "brl"],
     image:
       "https://images.unsplash.com/photo-1566902249079-c97d67671278?w=800&h=600&q=75&auto=format&fit=crop",
-    stripePaymentLink: "",
   },
   {
     id: "passeio-mediterraneo",
@@ -154,7 +146,6 @@ export const gifts: Gift[] = [
     currencies: ["eur", "brl"],
     image:
       "https://images.unsplash.com/photo-1533537124921-db3248c9fa93?w=800&h=600&q=75&auto=format&fit=crop&crop=entropy",
-    stripePaymentLink: "",
   },
 ];
 

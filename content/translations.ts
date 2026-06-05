@@ -85,13 +85,6 @@ export const translations = {
       paymentTitle: "Como contribuir",
       paymentSubtitle:
         "Escolha uma das opções abaixo. Tudo é processado de forma segura, nunca pedimos os seus dados de cartão diretamente.",
-      stripe: {
-        title: "Apple Pay · Google Pay · Cartão",
-        instructions:
-          "Pagamento rápido e seguro processado pela Stripe. Funciona em qualquer país.",
-        button: "Pagar com Apple Pay ou cartão",
-        recommended: "Mais rápido",
-      },
       pix: {
         title: "PIX (Brasil)",
         instructions:
@@ -274,13 +267,6 @@ export const translations = {
       paymentTitle: "Cómo contribuir",
       paymentSubtitle:
         "Elige una de las opciones de abajo. Todo se procesa de forma segura, nunca pedimos tus datos de tarjeta directamente.",
-      stripe: {
-        title: "Apple Pay · Google Pay · Tarjeta",
-        instructions:
-          "Pago rápido y seguro procesado por Stripe. Funciona desde cualquier país.",
-        button: "Pagar con Apple Pay o tarjeta",
-        recommended: "Más rápido",
-      },
       pix: {
         title: "PIX (Brasil)",
         instructions:
@@ -463,13 +449,6 @@ export const translations = {
       paymentTitle: "How to contribute",
       paymentSubtitle:
         "Choose one of the options below. Everything is processed securely, we never ask for your card details directly.",
-      stripe: {
-        title: "Apple Pay · Google Pay · Card",
-        instructions:
-          "Quick and secure payment processed by Stripe. Works from anywhere in the world.",
-        button: "Pay with Apple Pay or card",
-        recommended: "Fastest",
-      },
       pix: {
         title: "PIX (Brazil)",
         instructions:
@@ -653,13 +632,6 @@ export const translations = {
       paymentTitle: "Wie ihr beitragen könnt",
       paymentSubtitle:
         "Wählt eine der Optionen unten. Alles läuft sicher, wir fragen niemals direkt nach euren Kartendaten.",
-      stripe: {
-        title: "Apple Pay · Google Pay · Karte",
-        instructions:
-          "Schnelle und sichere Zahlung über Stripe. Funktioniert von überall auf der Welt.",
-        button: "Mit Apple Pay oder Karte zahlen",
-        recommended: "Am schnellsten",
-      },
       pix: {
         title: "PIX (Brasilien)",
         instructions:
